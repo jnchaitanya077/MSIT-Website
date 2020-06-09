@@ -1,5 +1,5 @@
 import React from "react";
-import "../staff.css";
+import "../css/staff.css";
 import avatar from "../images/faculty/IT/images.png";
 import HeaderTitle from "../components/headerImage";
 

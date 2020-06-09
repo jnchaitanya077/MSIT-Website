@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderTitle from "../components/headerImage";
-import "../staff.css";
+import "../css/staff.css";
 import avatar from "../images/faculty/IT/images.png";
 
 // Can import images in two ways
