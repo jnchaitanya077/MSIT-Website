@@ -1,0 +1,22 @@
+.header-image {
+  background-color: #0a397a;
+  height: 200px;
+}
+
+.outer-spacing {
+  padding-top: 2.5%;
+}
+
+.header-title-outer {
+  background-color: #ffc107;
+  width: 20%;
+}
+
+.header-title {
+  font-weight: 900;
+  font-size: 2vw;
+  color: #0a397a;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+  text-align: center;
+}
