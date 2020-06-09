@@ -1,7 +1,7 @@
 import React from "react";
 
 import image1 from "../images/alumini/alumini-engage.jpg";
-import "../cards.css";
+import "../css/cards.css";
 
 function App() {
   return (

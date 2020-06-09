@@ -1,5 +1,5 @@
 import React from "react";
-import "../header.css";
+import "../css/header.css";
 import slider_1 from "../images/slider/slider_1.jpg";
 import slider_2 from "../images/slider/slider_2.jpg";
 import slider_3 from "../images/slider/slider_3.jpg";

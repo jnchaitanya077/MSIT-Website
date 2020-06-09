@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRss, faBullhorn } from "@fortawesome/free-solid-svg-icons";
 
-import "../latestNews.css";
+import "../css/latestNews.css";
 import image1 from "../images/events/slider_1.jpg";
 import image2 from "../images/events/slider_2.jpg";
 import image3 from "../images/events/slider_3.jpg";

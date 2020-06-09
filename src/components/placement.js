@@ -1,5 +1,5 @@
 import React from "react";
-import "../placement.css";
+import "../css/placement.css";
 
 function App() {
   return (
