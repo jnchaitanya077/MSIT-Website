@@ -1,5 +1,5 @@
 import React from "react";
-import "../headerImage.css";
+import "../css/headerImage.css";
 
 function App(props) {
   return (

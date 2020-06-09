@@ -7,7 +7,7 @@ import {
   faIndustry,
   faCheck,
 } from "@fortawesome/free-solid-svg-icons";
-import "../quickLinks.css";
+import "../css/quickLinks.css";
 
 function App() {
   return (
