@@ -10,7 +10,7 @@ function app() {
         <div>
             <HeaderTitle name="Publications"/>
             <div className = "card-body">
-            <strong className = "year">2012</strong>
+            <h5 className = "year">2012</h5>
             <div className = "pub-text">
                 <ul>
                     <li>Manjunath Mattam: Protocol for secure submissions into Learning Management Systems at International Conference on Security in Computer Networks and Distributed Systems (SNDS 2012).</li>
@@ -22,13 +22,13 @@ function app() {
                     <li>Padmaja Naraharisetty: Bridging Skill Gaps: Soft Skills training at MSIT, IIIT R & D Showcase 2012.</li>
                 </ul>
             </div>
-            <strong className = "year">2011</strong>
+            <h5 className = "year">2011</h5>
             <div className = "pub-text">
                 <ul>
                     <li> Padmaja Naraharisetty, Murthy S.: Investigating the effectiveness of non-interactive video based lectures in e-learning, Technology for Education, IIT Chennai 2011.</li>
                 </ul>
             </div>
-            <strong className = "year">2010</strong>
+            <h5 className = "year">2010</h5>
             <div className = "pub-text">
                 <ul>
                     <li>V.Anandaswarup, R.R.Patil, C.M.S.Raju, E.V.Raghavendra, V.Ambati, and K.Prahallad: Rapid development of speech to speech systems for tourism and emergency services in Indian languages, 1st International Conference on Services in Emerging Markets, Hyderabad, India, 2010.</li>
@@ -38,7 +38,7 @@ function app() {
 
                 </ul>
             </div>
-            <strong className = "year">2009</strong>
+            <h5 className = "year">2009</h5>
             <div className = "pub-text">
                 <ul>
                     <li>Padmaja Naraharisetty: Just-in-Time Learning: An Effective & Efficient Pedagogy of Future, IASTED WBE 2009, Thailand.</li>
@@ -49,7 +49,7 @@ function app() {
                     <li>Nagi Reddy: Differentiated Contention Window Scheme for IEEE 802.11 Wireless Networks, R&D Showcase - 2009 IIIT-Hyderabad.</li>
                 </ul>
             </div>
-            <strong className = "year">2008</strong>
+            <h5 className = "year">2008</h5>
             <div className = "pub-text">
                 <ul>
                     <li>Padmaja Naraharisetty: The Road to 21st Century Learning: Bridging Employability Skill Gaps: Opportunities and Challenges, National soft skills conference, 2008, NIT Warangal.</li>
@@ -58,7 +58,7 @@ function app() {
                     
                 </ul>
             </div>
-            <strong className = "year">2007</strong>
+            <h5 className = "year">2007</h5>
             <div className = "pub-text">
                 <ul>
                     <li>Padmaja Naraharisetty: Best practices of HR have been hijacked by industries, ISTD Journal, New Delhi.</li>
@@ -69,7 +69,7 @@ function app() {
                     
                 </ul>
             </div>
-            <strong className = "year">2006</strong>
+            <h5 className = "year">2006</h5>
             <div className = "pub-text">
                 <ul>
                     <li>Lavanya Prahallad, Indira Thammishetty, E.Veera Raghavendra and Vamshi Ambati: A tool for Entering Structural Metadata in Digital Libraries, International Conference on Universal Digital Libraries(ICUDL), Egypt 2006.</li>
@@ -78,7 +78,7 @@ function app() {
                 
                 </ul>
             </div>
-            <strong className = "year">2005</strong>
+            <h5 className = "year">2005</h5>
             <div className = "pub-text">
                 <ul>
                     <li>Lakshmi Pratha Hari: Rapid Integration Tools for Rapid Application Development-A Case Study on Legacy Integration, International Conference of Universal Digital Library 2005.</li>
@@ -88,7 +88,7 @@ function app() {
                     <li>Bhudeb Chakravarti, Vamsi STP: Mobile Trading System - A Case Study in Software Design, Satyam Technology Review, Volume 3, Q2, April 2005.</li>
                 </ul>
             </div>
-            <strong className = "year">2003</strong>
+            <h5 className = "year">2003</h5>
             <div className = "pub-text">
                 <ul>
                     <li> Narasimha Murthy D,R.V Prasanna Kumar : Software Architectural Design Model for e-Governance System (SADM-EGS), TENCON 2003. Conference on Convergent Technologies for Asia-Pacific Region.</li>
