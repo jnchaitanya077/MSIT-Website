@@ -15,7 +15,11 @@ function App() {
       >
         <div className="carousel-inner">
           <div className="carousel-item active" data-pause="hover">
-            <img src={slider_1} className="d-block w-100" alt="slider-image" />
+            <img
+              src={slider_1}
+              className="d-block w-100 h-50"
+              alt="slider-image"
+            />
           </div>
           <div className="carousel-item">
             <img src={slider_2} className="d-block w-100" alt="slider-image" />
