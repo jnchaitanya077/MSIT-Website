@@ -53,6 +53,10 @@
 
 /* Dean page CSS */
 
+span {
+  font-size: small;
+}
+
 .dean-title {
   clear: right;
 }

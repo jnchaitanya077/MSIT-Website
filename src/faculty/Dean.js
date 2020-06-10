@@ -14,9 +14,11 @@ function App() {
 
         <div className="col-lg-8 ml-4">
           <h2 className="dean-title">
-            <strong>Dr. M. Sreenivasa Rao</strong>
+            <strong>
+              Dr. M. Sreenivasa Rao <span>Phd.</span>
+            </strong>
           </h2>
-          <h6 className="sub-title">Phd.DEAN MSIT Programme</h6>
+          <h6 className="sub-title">DEAN, MSIT Programme</h6>
           <p className="dean-sub-para">
             There are associate mentors physically available for the students to
             guide them through all the courses. MSIT maintains a student:mentor
