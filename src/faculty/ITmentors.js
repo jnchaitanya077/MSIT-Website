@@ -34,7 +34,7 @@ class person extends React.Component {
   render() {
     return (
       <div>
-        <HeaderTitle branch="IT-Staff" />
+        <HeaderTitle name="IT-Staff" />
         <div className="row card-body ">
           {ITstaff.map((info) => {
             return (

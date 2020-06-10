@@ -25,7 +25,7 @@ class person extends React.Component {
   render() {
     return (
       <div>
-        <HeaderTitle branch="Soft-Skills" />
+        <HeaderTitle name="Soft-Skills" />
 
         <div className="row card-body ">
           {SSstaff.map((info) => {
