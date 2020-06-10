@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInfo,
@@ -14,7 +15,9 @@ function App() {
     <div className="row" style={{ marginRight: 0, marginLeft: 0 }}>
       <div className="col-md links">
         <FontAwesomeIcon icon={faInfo} size="3x" className="quick-icons" />
-        <h3>MSIT Vision</h3>
+        <Link to="/msit-vision">
+          <h3>MSIT Vision</h3>
+        </Link>
       </div>
       <div className="col-md links">
         <FontAwesomeIcon
