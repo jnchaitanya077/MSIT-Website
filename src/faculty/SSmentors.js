@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/staff.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import avatar from "../images/faculty/IT/images.png";
 import HeaderTitle from "../components/headerImage";
 
@@ -57,7 +59,13 @@ class person extends React.Component {
                           <i>{info.position}</i>
                         </small>
                       </h5>
-                      <p>This is really an excellent feature! </p>
+                      <p>
+                        <FontAwesomeIcon
+                          icon={faEnvelope}
+                          style={{ marginRight: 5 }}
+                        />
+                        TestName123@msitprogram.net
+                      </p>
                     </div>
                   </div>
                 </div>

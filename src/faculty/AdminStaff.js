@@ -1,12 +1,14 @@
 import React from "react";
 import "../css/staff.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import HeaderTitle from "../components/headerImage";
 import avatar from "../images/faculty/IT/images.png";
 
 const SSstaff = [
   { id: 1, name: "TestName", image: avatar, position: "Professor" },
-  { id: 2, name: "TestName", image: avatar, position: "Professor" },
-  { id: 3, name: "TestName", image: avatar, position: "Professor" },
+  { id: 2, name: "TestName", image: avatar, position: "Associate Professor" },
+  { id: 3, name: "TestName", image: avatar, position: "Assistant Professor" },
   { id: 4, name: "TestName", image: avatar, position: "Professor" },
   { id: 5, name: "TestName", image: avatar, position: "Professor" },
   { id: 6, name: "TestName", image: avatar, position: "Professor" },
@@ -39,7 +41,7 @@ class person extends React.Component {
           </p>
           {SSstaff.map((info) => {
             return (
-              <div className="col-lg-4 ">
+              <div className="col-lg-6 ">
                 <div className="card-inner box">
                   <div className="media">
                     <img
@@ -54,7 +56,13 @@ class person extends React.Component {
                           <i>{info.position}</i>
                         </small>
                       </h5>
-                      <p>This is really an excellent feature! </p>
+                      <p>
+                        <FontAwesomeIcon
+                          icon={faEnvelope}
+                          style={{ marginRight: 5 }}
+                        />
+                        TestName123@msitprogram.net
+                      </p>
                     </div>
                   </div>
                 </div>
