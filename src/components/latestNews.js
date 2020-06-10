@@ -12,7 +12,7 @@ function App() {
     <div className="newsLayout">
       <div className="row">
         <div className="col-lg-8">
-          <h1>MSIT</h1>
+          <h2 className="title">MSIT</h2>
           <p className="about-paragraph">
             MSIT (MS in IT or Master of Science in Information Technology) is a
             two year post graduate program in Computer Science started in 2001.
@@ -20,13 +20,29 @@ function App() {
             post-graduate program. MSIT program is being offered by “Consortium
             of Institutions of Higher Learning” (CIHL), formed by the
             Universities. Under MOU with CMU, some Carnegie Mellon Researchers
-            are providing guidance on the course content. MSIT is currently
-            offered at International Institute of Information Technology
-            (IIIT-H), Hyderabad, School of IT, Jawaharlal Nehru Technological
-            University Hyderabad (JNTUH), College of Engineering, Jawaharlal
-            Nehru Technological University Kakinada (JNTUK), College of
-            Engineering, Jawaharlal Nehru Technological University Anantapur
-            (JNTUA) and Sri Venkateswara University Tirupati (SVU).
+            are providing guidance on the course content.
+          </p>{" "}
+          <h2 className="title">How It All Started?</h2>
+          <p className="about-paragraph">
+            MSIT programme has been there for over 17 years now and we have seen
+            almost 2000 students graduate from this programme. This programme
+            has been created with a very fresh idea in the year 2001. That is
+            when the Hitech-City was actually coming up. There are lot of
+            companies coming into Hyderabad and investing. These companies
+            needed programmers, professionals who can come and work for them. At
+            that time, the rate of employability from the other programmes has
+            been extremely low. That was because; the industry has been taking
+            about employability skills.
+            <br />
+            <br />
+            Lot of students from the M.Tech programmes had classical education
+            which involved attending lectures, doing assignments, some projects
+            and taking exams. As a result of that, there was not much practice
+            that they actually got since most of time was spent in the classroom
+            listening to some lectures. It didn’t translate into hands-on
+            employability skills. That was when the ‘Learn By Doing’ module of
+            education was taken up and MSIT programme was established in several
+            universities in Andhra Pradesh and Telangana.
           </p>
           {/* Carousel Starting */}
           <div>
@@ -109,7 +125,7 @@ function App() {
               size="3x"
               className="latestNews-icon-one"
             />
-            <h2>Latest news</h2>
+            <h2 className="news-title">Latest news</h2>
 
             <p>
               <strong>MSIT 2020 Admissions</strong>
@@ -134,7 +150,7 @@ function App() {
               size="3x"
               className="latestNews-icon-two"
             />
-            <h2>Events</h2>
+            <h2 className="news-title">Events</h2>
 
             <p>
               <strong>Alumni Engage Events</strong>
