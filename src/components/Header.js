@@ -185,9 +185,9 @@ function App() {
               <Link to="admin-staff" className="dropdown-item">
                 Administrative Staff
               </Link>
-              <a className="dropdown-item" href="#">
+              <Link to="publications" className="dropdown-item">
                 Publications
-              </a>
+              </Link>
             </div>
           </li>
           <li className="nav-item">
