@@ -1,15 +1,15 @@
 import React from "react";
 import "../css/staff.css";
 import HeaderTitle from "../components/headerImage";
-import avatar from "../images/faculty/IT/images.png";
+import Dean from "../images/faculty/Dean/Dean_cropped.jpg";
 
-function App(){
-    return (
-        <div>
-            <HeaderTitle name="Dean"/>
-            
-
-        </div>
-    );
-
+function App() {
+  return (
+    <div>
+      <HeaderTitle name="Dean" />
+      <div className="">
+        <img src={Dean} />
+      </div>
+    </div>
+  );
 }
