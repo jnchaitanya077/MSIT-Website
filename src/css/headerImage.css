@@ -16,7 +16,30 @@
   font-weight: 900;
   font-size: 2vw;
   color: #0a397a;
-  /* padding-top: 30px;
-  padding-bottom: 30px; */
   text-align: center;
+}
+
+/* for mobile and tablet screens */
+@media only screen and (max-width: 1200px) {
+  /* spacing for logo */
+  .outer-spacing {
+    padding-top: 10%;
+  }
+
+  .header-title-outer {
+    width: 30%;
+    height: 70px;
+  }
+
+  /* label text */
+  .header-title {
+    font-size: 4.5vw;
+  }
+}
+
+/* for mobile phones */
+@media only screen and (max-width: 900px) {
+  .header-title {
+    padding-top: 10%;
+  }
 }

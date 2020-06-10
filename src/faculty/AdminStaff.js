@@ -27,7 +27,16 @@ class person extends React.Component {
       <div>
         <HeaderTitle name="Admin-Staff" />
 
-        <div className="row card-body ">
+        <div className="row card-body pt-5">
+          <p className="para">
+            The CIHL (Consortium of Institutions of Higher Learning) coordinates
+            the MSIT program and ensures its smooth run between the leaning
+            centres of IIIT and JNTU. The support of the active administrative
+            staff which includes the Network Administrators, Systems
+            Administrators, Accounts and Office Administration, HR Management
+            and Office Management staff through person and resources, are a
+            great backing for us.
+          </p>
           {SSstaff.map((info) => {
             return (
               <div className="col-lg-4 ">
@@ -36,6 +45,7 @@ class person extends React.Component {
                     <img
                       src={info.image}
                       className="avatar rounded-circle p-2"
+                      alt="Person-image"
                     />
                     <div className="media-body">
                       <h5 className="mt-0">

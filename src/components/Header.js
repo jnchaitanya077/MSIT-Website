@@ -173,9 +173,9 @@ function App() {
               Faculty
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">
+              <Link to="/dean" className="dropdown-item">
                 Dean
-              </a>
+              </Link>
               <Link to="/it-mentors" className="dropdown-item">
                 IT Mentors
               </Link>
