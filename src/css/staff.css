@@ -57,17 +57,28 @@ span {
   font-size: small;
 }
 
-.dean-title {
+.Right-title {
   clear: right;
+  text-align: right;
 }
 
+.Left-title {
+  text-align: left;
+}
+
+/* sub title left */
 .sub-title {
   font-weight: 600;
   font-style: italic;
   margin: 20px;
 }
 
-.dean-sub-para {
+/* sub title right */
+.right {
+  text-align: right;
+}
+
+.sub-para {
   margin: 20px;
   text-align: justify;
   line-height: 1.7;
@@ -75,7 +86,7 @@ span {
 
 .main-body {
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -87,12 +98,13 @@ span {
 
 /* for mobile phone and tablets screens*/
 @media only screen and (max-width: 1000px) {
-  .dean-img,
+  .Head-img,
   .sub-title,
-  .dean-title {
+  .Right-title,
+  .Left-title {
     text-align: center;
   }
-  .dean-img {
+  .Head-img {
     margin-bottom: 5%;
   }
 }

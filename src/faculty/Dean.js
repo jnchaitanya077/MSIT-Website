@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/staff.css";
-import HeaderTitle from "../components/headerImage";
+import HeaderTitle from "../components/headerImage.js";
 import Dean from "../images/faculty/Dean/Dean_cropped.jpg";
 
 function App() {
@@ -8,18 +8,18 @@ function App() {
     <div>
       <HeaderTitle name="Dean" />
       <div className="row card-body main-body">
-        <div className="col-lg-3 dean-img">
+        <div className="col-lg-3 Head-img">
           <img src={Dean} className="box  img-fluid" />
         </div>
 
         <div className="col-lg-8 ml-4">
-          <h2 className="dean-title">
+          <h2 className="Left-title">
             <strong>
               Dr. M. Sreenivasa Rao <span>Phd.</span>
             </strong>
           </h2>
           <h6 className="sub-title">DEAN, MSIT Programme</h6>
-          <p className="dean-sub-para">
+          <p className="sub-para">
             There are associate mentors physically available for the students to
             guide them through all the courses. MSIT maintains a student:mentor
             ratio of less than 10:1. i.e. for every 10 students there is one

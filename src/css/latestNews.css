@@ -20,6 +20,10 @@
   margin-bottom: 4%;
 }
 
+.news-title {
+  margin-top: 5%;
+}
+
 .latestNews-icon-two {
   transform: rotate(-30deg);
   color: red;
@@ -27,4 +31,9 @@
 
 .latestNews-icon-one {
   color: orange;
+}
+
+/* Home page Title  */
+.title {
+  color: #0a397a;
 }
