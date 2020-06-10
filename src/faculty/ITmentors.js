@@ -60,7 +60,7 @@ class person extends React.Component {
             );
           })}
         </div>
-      </div>
+      </div>  
     );
   }
 }
