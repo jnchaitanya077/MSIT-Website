@@ -37,7 +37,8 @@
 }
 
 .year {
-  color: #ce0058;
+  /* color: #ce0058; */
+  color: #0a397a;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-top: 5px;
 }
@@ -72,7 +73,15 @@
   margin-bottom: 10%;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 600px) {
+  .card-body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* for mobile phone and tablets screens*/
+@media only screen and (max-width: 1000px) {
   .dean-img,
   .sub-title,
   .dean-title {

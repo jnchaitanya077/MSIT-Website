@@ -4,6 +4,17 @@ nav {
   font-weight: 700;
   font-size: 4rem;
 }
+/* carousel*/
+.c-item {
+  height: 30vw;
+}
+
+.c-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 30vw;
+}
 
 /* If the screen size is 1000px wide or more, display elements by hover */
 @media only screen and (min-width: 1000px) {
