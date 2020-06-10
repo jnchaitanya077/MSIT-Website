@@ -36,16 +36,47 @@
 }
 
 .year {
-
   color: #ce0058;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-top: 5px;
-
 }
 
 .pub-text {
-
   margin-top: 1%;
   text-align: justify;
   padding-bottom: 5px;
+}
+
+/* Dean page CSS */
+
+.dean-title {
+  clear: right;
+}
+
+.sub-title {
+  font-weight: 600;
+  font-style: italic;
+  margin: 20px;
+}
+
+.dean-sub-para {
+  margin: 20px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.main-body {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 990px) {
+  .dean-img,
+  .sub-title,
+  .dean-title {
+    text-align: center;
+  }
+  .dean-img {
+    margin-bottom: 5%;
+  }
 }

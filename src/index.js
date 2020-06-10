@@ -12,10 +12,11 @@ import Header from "./components/Header.js";
 import Footer from "./components/footer.js";
 import Hompage from "./Homepage/homepage.js";
 //Faculty page imports
+import Dean from "./faculty/Dean.js";
 import ITmentors from "./faculty/ITmentors.js";
 import SSmentors from "./faculty/SSmentors.js";
 import AdminStaff from "./faculty/AdminStaff.js";
-import publications from "./faculty/publications.js";
+import Publications from "./faculty/publications.js";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
@@ -23,10 +24,11 @@ ReactDOM.render(
     <BrowserRouter>
       <Header />
       <Route exact path="/" component={Hompage} />
+      <Route exact path="/dean" component={Dean} />
       <Route exact path="/it-mentors" component={ITmentors} />
       <Route exact path="/ss-mentors" component={SSmentors} />
       <Route exact path="/admin-staff" component={AdminStaff} />
-      <Route exact path = "/publications" component={publications} />
+      <Route exact path="/publications" component={Publications} />
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,
