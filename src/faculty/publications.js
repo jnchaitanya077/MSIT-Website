@@ -7,9 +7,9 @@ import { render } from "@testing-library/react";
 function app() {
 
     return (
-        
+
         <div>
-            <HeaderTitle branch="Publications"/>
+            <HeaderTitle name="Publications"/>
             <strong className = "year">2012</strong>
             <div className = "pub-text">
                 <ul>
