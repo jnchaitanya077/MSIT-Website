@@ -38,5 +38,14 @@
 .year {
 
   color: #ce0058;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 5px;
 
+}
+
+.pub-text {
+
+  margin-top: 1%;
+  text-align: justify;
+  padding-bottom: 5px;
 }
