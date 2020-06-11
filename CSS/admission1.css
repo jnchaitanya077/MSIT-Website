@@ -12,7 +12,7 @@
 .post-holder { margin-bottom: 30px; }
 .post-block { margin-bottom: 30px; }
 /* for border forming around the content provided by author */
-.author-block { margin-bottom: 50px; padding: 30px; border-radius: 10px; border: 1px solid #b0c6d1; background-color: #fafbfb; }
+.author-block { margin-bottom: 50px; padding: 30px; border-radius: 10px; border: 3px solid #b0c6d1; background-color: #fafbfb; }
 .author-content { }
 .author-header { margin-bottom: 2px; border-bottom: 1px solid #b0c6d1; padding-bottom: 35px; }
 .author-title { font-size: 22px; padding-right: 8px; margin-bottom: 0px; padding-top: 15px; }
@@ -24,4 +24,16 @@ table,td {
 
 .p {
   font-size: medium;
+}
+
+/* CSS for the sample questions page */
+/* for list items in sample_test_qs */
+ul, li { margin: 0; padding: 0;  }
+
+.tab {
+  padding-left: 2px;
+}
+
+ol.a {
+  list-style-position: inside;
 }
