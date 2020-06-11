@@ -31,6 +31,7 @@ function App() {
           MSIT provides state-of-art infrastructure i.e., every student is given a laptop, 24*7 internet and a cabin. 
           Also, MSIT provides a personalized mentoring i.e., 10 students are given one mentor who can help and guide while he/she is working on IT tasks as well as on soft skills. 
           Thus, MSIT produces an employable student that reflects in the student placements. We could achieve near 100% placements since inception.
+          
           </p>
         </div>
       </div>
