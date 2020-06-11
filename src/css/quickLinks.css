@@ -1,0 +1,24 @@
+.row {
+  padding-left: 0%;
+}
+
+.links {
+  text-align: center;
+  text-decoration: none;
+
+  padding: 5%;
+}
+
+.quick-icons {
+  transition: transform 0.4s;
+}
+.quick-icons:hover {
+  color: #ffc107;
+
+  transform: scale(1.2);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
