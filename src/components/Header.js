@@ -58,7 +58,7 @@ function App() {
             </div>
           </li>
           <li className="nav-item dropdown">
-            <a
+            <Link to = "/msit-advantage"
               className="nav-link"
               href="#"
               id="navbarDropdown"
@@ -68,29 +68,29 @@ function App() {
               aria-expanded="false"
             >
               MSIT Advantage
-            </a>
+            </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">
+              <Link to ="/msit-advantage/#learningbydoing" className="dropdown-item">
                 Learning by Doing
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to ="/msit-advantage/#pcc" className="dropdown-item">
                 Project Centered Curriculum{" "}
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to ="/msit-advantage/#ss" className="dropdown-item">
                 Soft Skills
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to ="/msit-advantage/#resources" className="dropdown-item">
                 Resources for Students
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to ="/msit-advantage/infrastructure" className="dropdown-item">
                 Infrastructure{" "}
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to ="/msit-advantage" className="dropdown-item">
                 Success Stories{" "}
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to ="/msit-advantage" className="dropdown-item">
                 Specializations{" "}
-              </a>
+              </Link>
             </div>
           </li>
           <li className="nav-item dropdown">
