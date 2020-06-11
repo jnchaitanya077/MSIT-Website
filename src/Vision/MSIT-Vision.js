@@ -76,21 +76,23 @@ function App() {
             </strong>
           </h2>
           <h6 className="sub-title">Associate Dean, MSIT Programme</h6>
-          <p className="sub-para">
-          Students typically don’t attend lot of classroom sessions in our program. 
-          Every day, they have some video lectures that they would listen to and 
-          they have projects.Most of the student time goes into doing projects. While
-          the students are doing projects, they need help,that’s when the concept of a mentor comes in.
-          Mentor is almost at the age of students, he is very friendly with the students,
-          he is supposed to be guiding them on an hourly basis, helping them whenever they
-          are stuck with the project by giving them guidance on how to go forward.
-          The students have to basically use that advice and keep working on the projects. 
-          The idea is, as a result of working on the projects, the students end up spending 
-          more than 80% of their time here doing hands on work. As a result of that, the 
-          repeated practice, they actually gain lot of confidence whenever projects of that
-          kind are given to them when they get into industry. This is how the “Learn By Doing” 
-          is broadly laid out.
-          </p>
+          <blockquote className="sub-para">
+            <q>
+              Students typically don’t attend lot of classroom sessions in our program. 
+              Every day, they have some video lectures that they would listen to and 
+              they have projects.Most of the student time goes into doing projects. While
+              the students are doing projects, they need help,that’s when the concept of a mentor 
+              comes in. Mentor is almost at the age of students, he is very friendly with the 
+              students,he is supposed to be guiding them on an hourly basis, helping them 
+              whenever they are stuck with the project by giving them guidance on how to go
+              forward. The students have to basically use that advice and keep working on the
+              projects. The idea is, as a result of working on the projects, the students end up
+              spending more than 80% of their time here doing hands on work. As a result of that,
+              the repeated practice, they actually gain lot of confidence whenever projects of that
+              kind are given to them when they get into industry. This is how the “Learn By Doing” 
+              is broadly laid out.
+            </q>
+          </blockquote>
         </div>
       </div>
       {/* Head */}
