@@ -21,6 +21,8 @@ import AdminStaff from "./faculty/AdminStaff.js";
 import Publications from "./faculty/publications.js";
 import * as serviceWorker from "./serviceWorker";
 
+import test from "./components/test.js";
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -32,6 +34,7 @@ ReactDOM.render(
       <Route exact path="/ss-mentors" component={SSmentors} />
       <Route exact path="/admin-staff" component={AdminStaff} />
       <Route exact path="/publications" component={Publications} />
+      <Route exact path="/test" component={test} />
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,
