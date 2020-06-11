@@ -70,7 +70,6 @@ function App() {
               MSIT Advantage
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-<<<<<<< HEAD
               <Link to ="/msit-advantage/#learningbydoing" className="dropdown-item">
                 Learning by Doing
               </Link>
@@ -90,27 +89,6 @@ function App() {
                 Success Stories{" "}
               </Link>
               <Link to ="/msit-advantage" className="dropdown-item">
-=======
-              <Link to = "/msit-advantage/#learningbydoing" className="dropdown-item">
-                Learning by Doing
-              </Link>
-              <Link to = "/msit-advantage/#pcc" className="dropdown-item">
-                Project Centered Curriculum{" "}
-              </Link>
-              <Link to = "/msit-advantage/#ss" className="dropdown-item">
-                Soft Skills
-              </Link >
-              <Link to = "/msit-advantage/#resources" className="dropdown-item">
-                Resources for Students
-              </Link>
-              <Link to = "/msit-advantage/#infrastructure" className="dropdown-item">
-                Infrastructure{" "}
-              </Link>
-              <Link to = "/msit-advantage" className="dropdown-item">
-                Success Stories{" "}
-              </Link>
-              <Link to = "/msit-advantage" className="dropdown-item">
->>>>>>> 7e591167c47cdf5cf15d425698f3175e4bd2d8eb
                 Specializations{" "}
               </Link>
             </div>
