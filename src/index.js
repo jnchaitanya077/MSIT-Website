@@ -13,6 +13,8 @@ import Footer from "./components/footer.js";
 import Hompage from "./Homepage/homepage.js";
 //MSIT Vision imports
 import MsitVision from "./Vision/MSIT-Vision.js";
+//MSIT Advantage imports
+import MSITAdvantage from "./Advantage/MSIT-Advantage.js";
 //Faculty page imports
 import Dean from "./faculty/Dean.js";
 import ITmentors from "./faculty/ITmentors.js";
@@ -27,6 +29,7 @@ ReactDOM.render(
       <Header />
       <Route exact path="/" component={Hompage} />
       <Route exact path="/msit-vision" component={MsitVision} />
+      <Route exact path="/msit-advantage" component={MSITAdvantage} />
       <Route exact path="/dean" component={Dean} />
       <Route exact path="/it-mentors" component={ITmentors} />
       <Route exact path="/ss-mentors" component={SSmentors} />
