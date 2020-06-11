@@ -2,11 +2,20 @@
   padding-left: 0%;
 }
 
-.links {
+.links-alignment {
   text-align: center;
-  text-decoration: none;
 
   padding: 5%;
+}
+
+/* links css */
+.links {
+  color: black;
+}
+
+.links:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .quick-icons {
