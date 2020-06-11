@@ -30,6 +30,12 @@ ReactDOM.render(
       <Route exact path="/" component={Hompage} />
       <Route exact path="/msit-vision" component={MsitVision} />
       <Route exact path="/msit-advantage" component={MSITAdvantage} />
+      <Route exact path="/msit-advantage/#learningbydoing" component={MSITAdvantage} />
+      <Route exact path="/msit-advantage/#pcc" component={MSITAdvantage} />
+      <Route exact path="/msit-advantage/#ss" component={MSITAdvantage} />
+      <Route exact path="/msit-advantage/#resources" component={MSITAdvantage} />
+      <Route exact path="/msit-advantage/#infrastructure" component={MSITAdvantage} />
+
       <Route exact path="/dean" component={Dean} />
       <Route exact path="/it-mentors" component={ITmentors} />
       <Route exact path="/ss-mentors" component={SSmentors} />
