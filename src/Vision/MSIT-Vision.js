@@ -2,10 +2,10 @@ import React, { Fragment } from "react";
 import HeaderTitle from "../components/headerImage.js";
 import RightGrid from "../components/gridRight.js";
 import LeftGrid from "../components/gridLeft.js";
-import Founder from "../images/faculty/Dean/RajReddy.jpg";
-import Dean from "../images/faculty/Dean/Dean_cropped.jpg";
-import AssocDean from "../images/faculty/Dean/Praveen.png";
-import Head from "../images/faculty/Dean/Manjunath.png";
+import Founder from "../images/faculty/Dean/RajReddy_optimized.jpg";
+import Dean from "../images/faculty/Dean/Dean_optimized.jpg";
+import AssocDean from "../images/faculty/Dean/Praveen_optimized.jpg";
+import Head from "../images/faculty/Dean/Manjunath_optimized.jpg";
 
 const info = [
   {
@@ -62,6 +62,7 @@ function App() {
                 subtitle={post.subtitle}
                 body={post.body}
               />
+              <hr />
             </Fragment>
           );
         } else {
@@ -74,6 +75,7 @@ function App() {
                 subtitle={post.subtitle}
                 body={post.body}
               />
+              <hr />
             </Fragment>
           );
         }
