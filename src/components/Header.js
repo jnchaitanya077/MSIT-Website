@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/logos/logo.png";
 import "../css/header.css";
 import { Link } from "react-router-dom";
 
@@ -6,12 +7,7 @@ function App() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
       <Link className="navbar-brand" to="/">
-        <img
-          src="https://www.msitprogram.net/images/logo.png"
-          className="img-fluid"
-          alt="MSIT-Logo"
-          loading="lazy"
-        />
+        <img src={logo} className="img-fluid" alt="MSIT-Logo" loading="lazy" />
       </Link>
       <button
         className="navbar-toggler"
