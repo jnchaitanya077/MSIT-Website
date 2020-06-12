@@ -20,7 +20,9 @@ import SSmentors from "./faculty/SSmentors.js";
 import AdminStaff from "./faculty/AdminStaff.js";
 import Publications from "./faculty/publications.js";
 import * as serviceWorker from "./serviceWorker";
-
+//Admissions page imports
+import AdmissionInfo from "./Admissions/admissionProcedure.js";
+import SampleTestQuestions from "./Admissions/sample_test_qs.js"
 import test from "./components/test.js";
 
 ReactDOM.render(
@@ -28,6 +30,8 @@ ReactDOM.render(
     <BrowserRouter>
       <Header />
       <Route exact path="/" component={Hompage} />
+      <Route exact path="/admission-info" component={AdmissionInfo}/>
+      <Route exact path="/sample-test-questions" component={SampleTestQuestions} />
       <Route exact path="/msit-vision" component={MsitVision} />
       <Route exact path="/dean" component={Dean} />
       <Route exact path="/it-mentors" component={ITmentors} />

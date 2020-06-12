@@ -102,9 +102,9 @@ function App() {
               Admissions
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">
-                Admission Procedure
-              </a>
+              <Link to="/admission-info" className="dropdown-item">Admission Procedure</Link>
+
+              
               <a className="dropdown-item" href="#">
                 How to Apply?
               </a>
@@ -126,9 +126,8 @@ function App() {
               <a className="dropdown-item" href="#">
                 Entrance Test Syllabus{" "}
               </a>
-              <a className="dropdown-item" href="#">
-                Sample Test Questions
-              </a>
+              <Link to="/sample-test-questions" className="dropdown-item">GAT-Sample Questions</Link>
+
             </div>
           </li>
 
