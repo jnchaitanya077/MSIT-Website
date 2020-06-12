@@ -8,7 +8,7 @@ function App(props) {
         <h2 className="Right-title">
           <strong>
             {props.name}
-            <span>{props.qualification}</span>
+            <span> {props.qualification}</span>
           </strong>
         </h2>
         <h6 className="sub-title right">{props.subtitle}</h6>
