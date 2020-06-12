@@ -21,7 +21,7 @@ const info = [
     id: 2,
     name: "Dr. M. Sreenivasa Rao",
     image: Dean,
-    subtitle: "Founder, MSIT Programme",
+    subtitle: "Dean, MSIT Programme",
     qualification: "Phd.",
     body:
       "There are associate mentors physically available for the students to guide them through all the courses. MSIT maintains a student:mentor ratio of less than 10:1. i.e. for every 10 students there is one mentor available. There are domain experts, who create the course content and are called Principal Mentors. Apart from this, each learning center has a Course Coordinator, who is a Computer Science Professor in the department. The students also have access to digital lectures from various renowned professors world wide. We try to pick the best lectures available in the domain and deliver it to the students.",
@@ -30,7 +30,7 @@ const info = [
     id: 3,
     name: "Praveen Garimella",
     image: AssocDean,
-    subtitle: "Founder, MSIT Programme",
+    subtitle: "Associate Dean, MSIT Programme",
     qualification: "",
     body:
       "Students typically don’t attend lot of classroom sessions in our program. Every day, they have some video lectures that they would listen to and they have projects.Most of the student time goes into doing projects. While the students are doing projects, they need help,that’s when the concept of a mentor comes in. Mentor is almost at the age of students, he is very friendly with the students,he is supposed to be guiding them on an hourly basis, helping them whenever they are stuck with the project by giving them guidance on how to go forward. The students have to basically use that advice and keep working on the projects. The idea is, as a result of working on the projects, the students end up spending more than 80% of their time here doing hands on work. As a result of that, the repeated practice, they actually gain lot of confidence whenever projects of that kind are given to them when they get into industry. This is how the “Learn By Doing” is broadly laid out.",
@@ -39,7 +39,7 @@ const info = [
     id: 4,
     name: "M. Manjunath",
     image: Head,
-    subtitle: "Founder, MSIT Programme",
+    subtitle: "Head, MSIT Programme",
     qualification: "",
     body:
       "MSIT is a very unique program started in 2001. Ever since 2001, we have been seeing really great success stories that helped so many engineers transform themselves into IT professionals. In MSIT, we emphasize more on hands-on, we emphasize more on how you would react to different situations in the industry. All the courses in MSIT are designed around problem-solving. MSIT also helps you with lot of peer learning and how would you cope up when a new technology is introduced to you.",
