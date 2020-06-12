@@ -5,7 +5,7 @@ function App(props) {
   return (
     <div className="row card-body main-body">
       <div className="col-lg-3 Head-img">
-        <img src={props.image} className="box  img-fluid" />
+        <img src={props.image} className="box  img-fluid" alt="photo" />
       </div>
 
       <div className="col-lg-8 ml-4">
