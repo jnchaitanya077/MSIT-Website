@@ -1,126 +1,176 @@
 import React from "react";
 import "../css/admissions.css";
 import HeaderTitle from "../components/headerImage.js";
+import {
+  gatFee,
+  walkInDateStart,
+  walkInEndDate,
+  gatApplyLastDate,
+  gatExamDate,
+} from "./examDates.js";
 
 function App() {
-    return(
+  return (
+    <div>
+      <HeaderTitle name="Admission-Procedure" />
+      <div className="card-body border mt-5 mb-5 pr-2 bg-light ">
+        {/* Eligibility Section */}
+        <div>
+          <h2 className="title">Eligibility</h2>
+          <p>B.Tech / B.E(All Branches)</p>
+          <p>
+            Admissions are based on ranks obtained in the entrance exam called
+            Graduate Aptitude Test(GAT).
+          </p>
+        </div>
+        <hr />
 
         <div>
-            <HeaderTitle name="Admission Procedure"/>
-            <div className="content">
-            <div className="container">
-            <div className="row ">
-                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div className="post-holder">
-                    <div className="author-block">
-                        <div className="author-content">
-                            <div className="author-header p" >
-                                <h5 className="author-title" style={{color:"#0a3dab"}}>Eligibility</h5>
-                                <span align="justify"  >B.Tech / B.E (All Branches) <br/> Admissions are based on ranks obtained in the entrance exam called <font style={{color:"#0a3dab"}}> Graduate Aptitude Test (GAT).</font></span>
-                            </div>
+          {/* GAT Exam Pattern */}
+          <h2 className="title">
+            Graduate Aptitude Test (GAT) will be conducted by CIHL in two ways:
+          </h2>
+          <ol>
+            <li>
+              <strong>
+                Walk-in Entrance – Candidates have the option to choose the date
+                of the exam.
+              </strong>
+            </li>
+            <li>
+              <strong>
+                Regular GAT Entrance – Exam is conducted on a fixed date.
+              </strong>
+            </li>
+          </ol>
+          <p>
+            Due to the COVID-19 situation the Graduate Aptitude Test (GAT), both
+            Walk- in Entrance and Regular GAT Entrance are conducted online i.e.
+            candidates can take the test from home. Hence candidates can stay
+            home and stay safe.
+          </p>
 
-                      <div className="author-content">
-                        <div className="author-header p">
-                           <h5 className="author-title" style={{color:"#0a3dab"}}>Graduate Aptitude Test (GAT) will be conducted by CIHL in two ways:</h5><br/>
-                                <span  align="justify"><b>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Walk-in Entrance – Candidates have the option to choose the date of
-                                the exam.<br/><br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Regular GAT Entrance – Exam is conducted on a fixed date.</b>
-                                <br/><br/>
-                                <p>Due to the COVID-19 situation the Graduate Aptitude Test (GAT), both Walk-
-                                in Entrance and Regular GAT Entrance are conducted online i.e. candidates can
-                                take the test from home. Hence candidates can stay home and stay safe.</p>
-                                
-                                <p>Candidates can appear either for Walk-in OR Regular GAT Entrance OR both
-                                tests. Before COVID-19 situation Candidates can appear for <font style={{color:"#0a3dab"}}>Walk-ins three times and
-                                Regular GAT one time i.e, maximum 4 times.</font></p>
-                                
-                                <p>Due to the COVID-19 situation, Walk-in can be attempted one time and the
-                                Regular GAT can be attempted one time, i.e. candidate can take the test for a
-                                maximum of 2 times. The best of these two will be considered for the rankings.</p>
-                                
-                                <p>For every attempt a non-refundable amount of Rs.1000 has to be paid online by
-                                Credit / Debit card or net banking from our website (www.msitprogram.net).</p>
-                                
-   </span>
-   </div>
-</div>
+          <p>
+            Candidates can appear either for Walk-in OR Regular GAT Entrance OR
+            both tests.&nbsp;
+            <strong className="title">
+              Before COVID-19 situation Candidates can appear for Walk-ins three
+              times and Regular GAT one time i.e, maximum 4 times
+            </strong>
+            .
+          </p>
 
- {/* Table to show the dates for respective mode of examination with dates displayed. --> */}
-                <div className="author-content">
-                    <div className="author-header p">
-                        <h5 className="author-title" style={{color:"#0a3dab"}}>Walk-in Entrance Test</h5>
-                        <span align="justify" >Eligible candidates can apply online for walk-in Entrance Test <b><a href="http://msitprogram.net/admissions/" target="_blank">Aply here</a></b> from need to update 
-   
-                        <table width="70%"  align="center" cellpadding="10" cellspacing="5" >
-                            <tr>
-                                <td width="66%" height="25" align="left" valign="middle" bgcolor="#9edaf7">Due to the COVID-19 Situation</td>
-                                <td width="66%" height="25" align="left" valign="middle" bgcolor="#9edaf7"></td>
-                            </tr>
-                            <tr>
-                                <td width="66%" height="25" align="left" valign="middle" bgcolor="#9edaf7" >Walk-In Entrance GAT (online) starts on</td>
-                                <td width="34%" height="25" align="center" valign="middle" bgcolor="#9edaf7" > 15<sup>th</sup> June 2020 </td>
-                            </tr>
-                            <tr>
-                                <td width="66%" height="25" align="left" valign="middle" bgcolor="#9edaf7" >Walk-In Entrance GAT (online) ends on</td>
-                                <td width="34%" height="25" align="center" valign="middle" bgcolor="#9edaf7" > 26<sup>th</sup> June 2020 </td>
-                            </tr>
-                        </table>
-                
-                {/* <!-- Links that can be navigable to their repective pages. --> */}
-                <p> * Please find the URL that has instructions and process that need to be followed to take the exam.
-                <a href="https://online.cbexams.com/RPS/MSIT/Default.aspx" target="_blank"><font style={{color:"#0a3dab"}}>https://online.cbexams.com/RPS/MSIT/Default.aspx"</font></a></p>
-                <p> * Practice Tests :
-                <a href="https://online.cbexams.com/RPS/MSIT/Practice_Instructions.aspx" target="_blank"><font style={{color:"#0a3dab"}}>https://online.cbexams.com/RPS/MSIT/Practice_Instructions.aspx"</font></a></p>
-                  
-                        </span>
-                    </div>
-                </div>
+          <p>
+            Due to the COVID-19 situation, Walk-in can be attempted one time and
+            the Regular GAT can be attempted one time, i.e.
+            <strong className="title">
+              candidate can take the test for a maximum of 2 times.
+            </strong>
+            The best of these two will be considered for the rankings.
+          </p>
 
-                {/* <!-- Table to show the dates and deadline to submit application form. --> */}
-                <div className="author-header p">
-                        <h5 className="author-title" style={{color:"#0a3dab"}}>Regular GAT</h5>
-                        <span align="justify" >Regular Entrance Test is conducted from Candidates can apply for this test online <a href="http://msitprogram.net/admissions/" target="_blank"> Apply</a>
-                        <table width="70%" border="0" align="center" cellpadding="10" cellspacing="5" >
-                            <tr>
-                                <td width="66%" height="25" align="left" valign="middle" bgcolor="#9edaf7">Last date for applying for Regular GAT Entrance(online)</td>
-                                <td width="34%" height="25" align="center" valign="middle" bgcolor="#9edaf7">15<sup>th</sup> June 2020</td>
-                            </tr>
-                            <tr>
-                                <td width="66%" height="25" align="left" valign="middle" bgcolor="#9edaf7">Regular GAT Entrance (online) Examination is conducted on</td>
-                                <td width="34%" height="25" align="center" valign="middle" bgcolor="#9edaf7"> 28<sup>th</sup> June 2020 </td>
-                            </tr>
-                        </table>
-                        </span>
-                </div>
-                </div>
-
-                <div className="author-header p">
-                        <h5 className="author-title" style={{color:"#0a3dab"}}>Entrance test waived</h5>
-                        <span align="justify" ><b>GRE:</b> Candidates who have taken the GRE after 2019 are exempted from the entrance test (GAT) if they have a score of update GRE score</span>
-                </div>
-                </div>
-
-                <div className="author-header p">
-                    <h5 className="author-title" style={{color:"#0a3dab"}}>Allotment of Learning Center</h5><br/>
-                                 
-                    <span align="justify" > Admissions are based on ranks obtained in the entrance test. In the MSIT
-                  Counseling 2020, candidates would be asked to select learning centers and the
-                  seats are allotted in the order of their rank. Candidates admitted into IIITH &amp;
-                  JNTUH will be given direct admission into MSIT main program. Candidates
-                  admitted into JNTUK, JNTUA &amp; SVU have to undergo a 4-week preparatory
-                  program. After the successful completion of the preparatory program, they will be
-                  admitted into the MSIT main program.</span>
-                </div>
-                
-            </div>
+          <p>
+            For every attempt a non-refundable amount of Rs.{gatFee} has to be
+            paid online by Credit / Debit card or net banking from our website
+            (www.msitprogram.net).
+          </p>
         </div>
+
+        <hr />
+
+        {/* Walkin Dates and info*/}
+        <h2 className="title">Walk-in Entrance Test</h2>
+        <p>
+          Eligible candidates can apply online for walk-in Entrance Test
+          <a href="" className="links title">
+            &nbsp;<strong>Apply</strong>&nbsp;
+          </a>
+          here from {walkInDateStart}.
+        </p>
+        <div className="container">
+          <table className="table" style={{ backgroundColor: "#e3f2fd" }}>
+            <thead>
+              <tr>
+                <th scope="col">Due to the COVID-19 Situation</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Walk-In Entrance GAT (online) starts on</td>
+                <td>{walkInDateStart}</td>
+              </tr>
+              <tr>
+                <td>Walk-In Entrance GAT (online) ends on</td>
+                <td>{walkInEndDate}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          * Please find the URL that has instructions and process that need to
+          be followed to take the exam. &nbsp;
+          <a
+            href="https://online.cbexams.com/RPS/MSIT/Default.aspx"
+            className="links title"
+          >
+            Exam Instructions
+          </a>
+        </p>
+        <p>
+          * Practice Tests :
+          <a
+            href=" https://online.cbexams.com/RPS/MSIT/Practice_Instructions.aspx"
+            className="links title"
+          >
+            {" "}
+            Test Link
+          </a>
+        </p>
+        <hr />
+
+        {/* GAT Info */}
+        <h2 className="title">Regular GAT</h2>
+        <p>
+          Regular Entrance Test is conducted from {gatExamDate}. Candidates can
+          apply for this test online
+          <a
+            href="https://www.msitprogram.net/admissions/"
+            className="links title"
+          >
+            &nbsp;<strong>Apply</strong>&nbsp;
+          </a>
+        </p>
+        <div className="container">
+          <table className="table" style={{ backgroundColor: "#e3f2fd" }}>
+            <tbody>
+              <tr>
+                <td>
+                  Last date for applying for Regular GAT Entrance (online)
+                </td>
+                <td>{gatApplyLastDate}</td>
+              </tr>
+              <tr>
+                <td>
+                  Regular GAT Entrance (online) Examination is conducted on
+                </td>
+                <td>{gatExamDate}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <hr />
+
+        {/* GRE Info */}
+        <h2 className="title">Entrance test waived</h2>
+        <p>
+          <strong>GRE:</strong> Candidates who have taken the GRE after July
+          2016 are exempted from the entrance test (GAT) if they have a score of
+          301/3.5
+        </p>
+      </div>
     </div>
-</div>
-        </div>
-        </div>
-    );
-    
+  );
 }
 
 export default App;

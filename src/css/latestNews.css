@@ -35,5 +35,6 @@
 
 /* Home page Title  */
 .title {
-  color: #0a397a;
+  /* color: #0a397a; */
+  color: rgb(10, 61, 171);
 }

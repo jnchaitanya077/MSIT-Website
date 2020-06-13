@@ -22,7 +22,11 @@ import Publications from "./faculty/publications.js";
 import * as serviceWorker from "./serviceWorker";
 //Admissions page imports
 import AdmissionInfo from "./Admissions/admissionProcedure.js";
-import SampleTestQuestions from "./Admissions/sample_test_qs.js"
+import HowToApply from "./Admissions/howToApply.js";
+import WalkInProcess from "./Admissions/walkInProcess.js";
+import Schedule from "./Admissions/Schedule.js";
+import Fee from "./Admissions/feeStructure.js";
+import SampleTestQuestions from "./Admissions/sample_test_qs.js";
 import test from "./components/test.js";
 
 ReactDOM.render(
@@ -30,8 +34,17 @@ ReactDOM.render(
     <BrowserRouter>
       <Header />
       <Route exact path="/" component={Hompage} />
-      <Route exact path="/admission-info" component={AdmissionInfo}/>
-      <Route exact path="/sample-test-questions" component={SampleTestQuestions} />
+      <Route exact path="/admission-info" component={AdmissionInfo} />
+      <Route exact path="/how-to-apply" component={HowToApply} />
+      <Route exact path="/walk-in-process" component={WalkInProcess} />
+      <Route exact path="/schedule" component={Schedule} />
+      <Route exact path="/fee-structure" component={Fee} />
+
+      <Route
+        exact
+        path="/sample-test-questions"
+        component={SampleTestQuestions}
+      />
       <Route exact path="/msit-vision" component={MsitVision} />
       <Route exact path="/dean" component={Dean} />
       <Route exact path="/it-mentors" component={ITmentors} />

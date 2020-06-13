@@ -15,7 +15,8 @@
 .header-title {
   font-weight: 900;
   font-size: 2vw;
-  color: #0a397a;
+  /* color: #0a397a; */
+  color: rgb(10, 61, 171);
   text-align: center;
 }
 
