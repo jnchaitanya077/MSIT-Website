@@ -1,0 +1,15 @@
+.cardsPadding {
+  margin: 5% 15%;
+
+  margin: 0px;
+  padding: 5% 10%;
+}
+
+/* If the screen size is 1000px wide or more, display elements by hover */
+@media only screen and (max-width: 800px) {
+  .cardsPadding {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 3%;
+  }
+}
