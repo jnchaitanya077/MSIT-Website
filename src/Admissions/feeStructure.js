@@ -9,17 +9,23 @@ function App() {
         <h2 className="title">Fees & Tuition</h2>
         <div className="container">
           <table className="table" style={{ backgroundColor: "#e3f2fd" }}>
+            <thead>
+              <tr>
+                <th>Learning Center</th>
+                <th>Annual Fee</th>
+              </tr>
+            </thead>
             <tbody>
               <tr>
-                <td>Annual Fee ( IIITH )</td>
+                <td> IIITH </td>
                 <td>Rs. 2,00,000/- </td>
               </tr>
               <tr>
-                <td>Annual Fee ( JNTUH )</td>
+                <td> JNTUH </td>
                 <td>Rs. 1,70,000/-</td>
               </tr>
               <tr>
-                <td>Annual Fee ( JNTUK, JNTUA, SVU )</td>
+                <td> JNTUK, JNTUA, SVU </td>
                 <td>Rs. 1,50,000/-</td>
               </tr>
             </tbody>
