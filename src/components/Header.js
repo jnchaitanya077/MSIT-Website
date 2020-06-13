@@ -124,9 +124,11 @@ function App() {
               <Link to="/fee-structure" className="dropdown-item">
                 Fee for MSIT
               </Link>
-              <a className="dropdown-item" href="#">
-                Entrance Test Syllabus{" "}
-              </a>
+              
+              <Link to="/entranceSyllabus" className="dropdown-item">
+                Entrance Test Syllabus
+              </Link>
+
               <Link to="/sample-test-questions" className="dropdown-item">
                 GAT-Sample Questions
               </Link>

@@ -27,6 +27,7 @@ import WalkInProcess from "./Admissions/walkInProcess.js";
 import Schedule from "./Admissions/Schedule.js";
 import Fee from "./Admissions/feeStructure.js";
 import SampleTestQuestions from "./Admissions/sample_test_qs.js";
+import EntranceSyllabus from "./Admissions/entranceSyllabus.js";
 import test from "./components/test.js";
 
 ReactDOM.render(
@@ -39,12 +40,9 @@ ReactDOM.render(
       <Route exact path="/walk-in-process" component={WalkInProcess} />
       <Route exact path="/schedule" component={Schedule} />
       <Route exact path="/fee-structure" component={Fee} />
+      <Route exact path="/entranceSyllabus" component={EntranceSyllabus} />
 
-      <Route
-        exact
-        path="/sample-test-questions"
-        component={SampleTestQuestions}
-      />
+      <Route exact path="/sample-test-questions" component={SampleTestQuestions} />
       <Route exact path="/msit-vision" component={MsitVision} />
       <Route exact path="/dean" component={Dean} />
       <Route exact path="/it-mentors" component={ITmentors} />
