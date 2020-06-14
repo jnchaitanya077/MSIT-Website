@@ -58,7 +58,8 @@ function App() {
             </div>
           </li>
           <li className="nav-item dropdown">
-            <Link to = "/msit-advantage"
+            <Link
+              to="/msit-advantage"
               className="nav-link"
               href="#"
               id="navbarDropdown"
@@ -70,26 +71,38 @@ function App() {
               MSIT Advantage
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link to ="/msit-advantage/#learningbydoing" className="dropdown-item">
+              <Link
+                to="/msit-advantage/#LearningByDoing"
+                className="dropdown-item"
+              >
                 Learning by Doing
               </Link>
-              <Link to ="/msit-advantage/#pcc" className="dropdown-item">
-                Project Centered Curriculum{" "}
+              <Link
+                to="/msit-advantage/#ProjectCenteredCurriculum"
+                className="dropdown-item"
+              >
+                Project Centered Curriculum
               </Link>
-              <Link to ="/msit-advantage/#ss" className="dropdown-item">
+              <Link to="/msit-advantage/#SoftSkills" className="dropdown-item">
                 Soft Skills
               </Link>
-              <Link to ="/msit-advantage/#resources" className="dropdown-item">
+              <Link
+                to="/msit-advantage/#ResourcesForStudents"
+                className="dropdown-item"
+              >
                 Resources for Students
               </Link>
-              <Link to ="/msit-advantage/infrastructure" className="dropdown-item">
-                Infrastructure{" "}
+              <Link
+                to="/msit-advantage/#Infrastructure"
+                className="dropdown-item"
+              >
+                Infrastructure
               </Link>
-              <Link to ="/msit-advantage" className="dropdown-item">
-                Success Stories{" "}
+              <Link to="/msit-advantage" className="dropdown-item">
+                Success Stories
               </Link>
-              <Link to ="/msit-advantage" className="dropdown-item">
-                Specializations{" "}
+              <Link to="/msit-advantage" className="dropdown-item">
+                Specializations
               </Link>
             </div>
           </li>

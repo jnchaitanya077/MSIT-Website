@@ -3,7 +3,7 @@ import "../css/staff.css";
 
 function App(props) {
   return (
-    <div className="row card-body main-body">
+    <div className="row card-body main-body" id={props.id}>
       <div className="col-lg-3 Head-img">
         <img src={props.image} className="box  img-fluid" />
       </div>
