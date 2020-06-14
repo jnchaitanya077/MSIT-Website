@@ -4,6 +4,10 @@ nav {
   font-weight: 700;
   font-size: 4rem;
 }
+/* navigation bar links color */
+.nav-link {
+  color: #e1e6e2 !important;
+}
 /* carousel*/
 .c-item {
   height: 30vw;
@@ -20,7 +24,7 @@ nav {
 @media only screen and (min-width: 1000px) {
   .nav-item:hover .dropdown-menu {
     display: block;
-    color: "white";
+    /* color: "white"; */
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.6rem;
@@ -45,14 +49,17 @@ nav {
 /*color changes to yellow when hover on each dropdown*/
 nav li:hover {
   background-color: #ffc107;
-  color: "white";
 }
 
 nav a {
-  color: #c1c4c6;
+  color: white;
   font-size: 16px;
 }
 
 .dropdown-menu a:hover {
+  /* Yellow */
+  background-color: #ffc107;
+  /* background-color: #001340; */
   background-color: #007bff;
+  color: white;
 }
