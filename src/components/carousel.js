@@ -10,7 +10,7 @@ function App() {
     <section>
       <div
         id="carouselExampleInterval"
-        class="carousel slide"
+        className="carousel slide"
         data-ride="carousel"
       >
         <div className="carousel-inner">
