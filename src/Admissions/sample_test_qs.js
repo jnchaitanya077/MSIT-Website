@@ -7,25 +7,27 @@ function App() {
   return (
     <div>
       <HeaderTitle name="GAT Sample Test Questions" />
+      {/* Bootstrap model build */}
       <div class="content">
         <div class="container">
           <div class="row ">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <div class="post-holder">
+                {/* author block class to form a border around the content */}
                 <div class="author-block">
                   <div class="author-content">
                     <div class="author-header p">
                       <h1 className="title">
-                        Sample Graduate Aptitude Test Questions
+                      <strong>Sample Graduate Aptitude Test Questions</strong>
                       </h1>
                       <h5 class="author-title" style={{ color: "#0a3dab" }}>
-                        VERBAL ABILITY
+                        <strong>VERBAL ABILITY</strong>
                       </h5>
                       <br />
                       <h6 style={{ color: "#0a3dab" }}>
-                        Sentence Completion:-
+                      <strong>Sentence Completion:-</strong>
                       </h6>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         Given below is a sentence with blanks, indicating that a
                         part of the sentence is missing. The sentence is
@@ -35,7 +37,7 @@ function App() {
                       </span>{" "}
                       <br />
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. The purpose of
                         the proposed indemnity policy is to __________ the
@@ -59,10 +61,11 @@ function App() {
                     </div>
                   </div>
 
+                  {/* Each module starting with author content class is a division of info separating by a line. */}
                   <div class="author-content">
                     <div class="author-header p">
-                      <h6 style={{ color: "#0a3dab" }}>Anology:-</h6>
-                      <span align="justify">
+                      <h6 style={{ color: "#0a3dab" }}><strong>Anology:-</strong></h6>
+                      <span align="justify" className="med-font">
                         {" "}
                         Given below is a pair of words separated by a colon and
                         followed by five answer choices. Choose the pair of the
@@ -72,7 +75,7 @@ function App() {
                       </span>{" "}
                       <br />
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. EXCERPT : NOVEL
                         ::{" "}
                       </span>{" "}
@@ -95,9 +98,9 @@ function App() {
                   <div class="author-content">
                     <div class="author-header p">
                       <h6 style={{ color: "#0a3dab" }}>
-                        Reading Comprehension:-
+                      <strong>Reading Comprehension:-</strong>
                       </h6>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         Here is a passage. At the end of the passage is a series
                         of questions followed by answer choices. Read the
@@ -109,9 +112,9 @@ function App() {
                       <br />
                       <br />
                       <h6 style={{ color: "#0a3dab" }}>
-                        Passage for Questions 3 and 4:
+                      <strong>Passage for Questions 3 and 4:</strong>
                       </h6>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         Socialism differs from Communism in that is a tendency
                         not a body of dogmas. There is no authoritative
@@ -132,7 +135,7 @@ function App() {
                       </span>{" "}
                       <br />
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.It is possible to
                         infer from the passage that capitalism may be eradicated{" "}
                       </span>{" "}
@@ -152,12 +155,12 @@ function App() {
                         &emsp;&emsp;&emsp;&nbsp;e.when there are no desires
                         <br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. The postulate of
                         Socialism as opposed to that of Capitalism is{" "}
                       </span>{" "}
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         <p>
                           &emsp;&emsp;&emsp;&nbsp;a. that all men must enjoy
                           unbr/idled liberty <br />
@@ -182,8 +185,8 @@ function App() {
 
                   <div class="author-content">
                     <div class="author-header p">
-                      <h6 style={{ color: "#0a3dab" }}>Antonyms:-</h6>
-                      <span align="justify">
+                      <h6 style={{ color: "#0a3dab" }}><strong>Antonyms:-</strong></h6>
+                      <span align="justify" className="med-font">
                         {" "}
                         Given below is a word. Each word is followed by five
                         words or phrases. Choose the word that is most nearly
@@ -194,7 +197,7 @@ function App() {
                       </span>{" "}
                       <br />
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.ADULATION{" "}
                       </span>{" "}
                       <br />
@@ -215,9 +218,9 @@ function App() {
                   <div class="author-content">
                     <div class="author-header p">
                       <h5 class="author-title" style={{ color: "#0a3dab" }}>
-                        Quantitative Ability:-
+                      <strong>Quantitative Ability:-</strong>
                       </h5>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         This series consists of a set of problems. Each problem
                         is followed by a set of five options. Read the problem
@@ -226,7 +229,7 @@ function App() {
                       </span>{" "}
                       <br />
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. In an
                         examination, 70% students passed in Science and 65%
                         passed in Social Studies. 27% of the students failed in
@@ -246,7 +249,7 @@ function App() {
                         &emsp;&emsp;&emsp;&nbsp;e. None of These
                         <br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. In the college
                         election a candidate secured 62% of the votes and was
                         elected by a majority of 144 votes. The total number of
@@ -270,9 +273,9 @@ function App() {
                   <div class="author-content">
                     <div class="author-header p">
                       <h5 class="author-title" style={{ color: "#0a3dab" }}>
-                        Quantitative Comparison:-
+                      <strong>Quantitative Comparison:-</strong>
                       </h5>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         The following set of questions comprises two columns -
                         column A and column B. Compare the two quantities
@@ -280,7 +283,7 @@ function App() {
                         correct answer is one among the five options provided.{" "}
                       </span>{" "}
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         NOTE: Sometimes information about one or both quantities
                         is centered above the two columns. If the same symbol
                         appears in both columns, it represents the same thing
@@ -288,7 +291,7 @@ function App() {
                       </span>{" "}
                       <br />
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Quantity A =
                         (9/13)2 Quantity B = (9/13)1/2{" "}
                       </span>{" "}
@@ -304,7 +307,7 @@ function App() {
                         &emsp;&emsp;&emsp;&nbsp;e. None of the above
                         <br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Quantity A =
                         (1/25)1/2 + (1/144)1/2 Quantity B = [(1/25) +
                         (1/144)]1/2{" "}
@@ -321,12 +324,12 @@ function App() {
                         &emsp;&emsp;&emsp;&nbsp;e. None of the above
                         <br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. y2 + z2 = 34 and
                         yz = 15{" "}
                       </span>{" "}
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantity A =
                         y2 + 2yz + z2 Quantity B = (y + z)2{" "}
                       </span>{" "}
@@ -342,7 +345,7 @@ function App() {
                         &emsp;&emsp;&emsp;&nbsp;e. None of the above
                         <br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Two finite sets
                         have ‘m’ and ‘n’ elements respectively. The total number
                         of subsets of ‘m’ is 56 more than the total number of
@@ -361,7 +364,7 @@ function App() {
                         &emsp;&emsp;&emsp;&nbsp;e. 2,5
                         <br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Let L denote the
                         set of all straight lines in a plane. Let a relation R
                         be defined by a R b Û a ^ b for a,b Î L. The relation R
@@ -379,7 +382,7 @@ function App() {
                         &emsp;&emsp;&emsp;&nbsp;e. none of these
                         <br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. If a function F
                         is such that F ( 0 ) = 2, F (1) = 3 and F ( x + 2 ) = 2
                         F (x) – F ( x + 1 ) for x ³ 0, then F (5) is equal to{" "}
@@ -402,9 +405,9 @@ function App() {
                   <div class="author-content">
                     <div class="author-header p">
                       <h5 class="author-title" style={{ color: "#0a3dab" }}>
-                        Analytical and Reasonaning Ability:-
+                      <strong>Analytical and Reasonaning Ability:-</strong>
                       </h5>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         In this section, each set of questions is based on a
                         short passage or a set of conditions. Sometimes, in
@@ -415,9 +418,9 @@ function App() {
                       <br />
                       <br />
                       <h6 style={{ color: "#0a3dab" }}>
-                        Passage for Questions 1 and 2:-
+                      <strong>Passage for Questions 1 and 2:-</strong>
                       </h6>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         As president of the National Association of Rubber
                         Manufactures, I oppose government handouts to private
@@ -430,7 +433,7 @@ function App() {
                         citizens.{" "}
                       </span>{" "}
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. The major logical
                         weakness of the argument above is the fact that -{" "}
                       </span>{" "}
@@ -454,7 +457,7 @@ function App() {
                         danger.
                         <br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Which of the
                         following persons would be most likely to disagree with
                         the conclusions reached in the above argument?{" "}
@@ -479,9 +482,9 @@ function App() {
                         <br />
                       </p>
                       <h6 style={{ color: "#0a3dab" }}>
-                        Passage for Questions 3 to 5:-
+                      <strong>Passage for Questions 3 to 5:-</strong>
                       </h6>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         An office manager must assign offices to six staff
                         members. The available offices, numbered 1 to 6
@@ -492,7 +495,7 @@ function App() {
                       </span>{" "}
                       <br />
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         {" "}
                         Priya’s work requires her to speak on the telephone
                         frequently throughout the day.
@@ -515,7 +518,7 @@ function App() {
                       </span>{" "}
                       <br />
                       <br />
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.The best employee
                         to occupy the office furtherest from Dev would be{" "}
                       </span>{" "}
@@ -531,7 +534,7 @@ function App() {
                         &emsp;&emsp;&emsp;&nbsp;e. Anand
                         <br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. The three
                         employees who smoke should be placed on Offices{" "}
                       </span>{" "}
@@ -543,7 +546,7 @@ function App() {
                         &emsp;&emsp;&emsp;&nbsp;d. 2,3 and 4<br />
                         &emsp;&emsp;&emsp;&nbsp;e. 2,3 and 6<br />
                       </p>
-                      <span align="justify">
+                      <span align="justify" className="med-font">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Which of the
                         following events, occurring one month after the
                         assignment of offices, would be most likely to lead to a

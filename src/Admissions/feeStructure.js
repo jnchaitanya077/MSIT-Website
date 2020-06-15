@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <HeaderImage name="Fee" />
-      <div className="card-body">
+      <div className="card-body author-block mt-5 mb-5 pr-2">
         <h2 className="title">Fees & Tuition</h2>
         <div className="container">
           <table className="table" style={{ backgroundColor: "#e3f2fd" }}>

@@ -37,7 +37,7 @@ class App extends React.Component {
     return (
       <div>
         <HeaderTitle name="Admissions" />
-        <div className="container border mt-5 mb-5 pr-2 bg-light ">
+        <div className="container author-block mt-5 mb-5 pr-2 bg-light post-block ">
           {/* Eligibility Section */}
           <div id="AdmissionProcedure">
             <h1 className="pb-4">Admission-Procedure</h1>
