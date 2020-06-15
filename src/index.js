@@ -2,13 +2,17 @@ import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 //Bootstrap imports
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.css";
+
+// import "bootstrap/dist/css/bootstrap.min.css";
 // import $ from "jquery";
 // import Popper from "popper.js";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./css/index.css";
 //About Msit imports
 import MsitProgram from "./AboutMsit/MsitProgram.js";
+import Structure from "./AboutMsit/CoursesAndStructure.js";
 //Homepage imports
 import Header from "./components/Header.js";
 import Footer from "./components/footer.js";
@@ -37,6 +41,7 @@ ReactDOM.render(
       <Route exact path="/admin-staff" component={AdminStaff} />
       <Route exact path="/publications" component={Publications} />
       <Route exact path="/MsitProgram" component={MsitProgram} />
+      <Route exact path="/course-and-structure" component={Structure} />
 
       <Footer />
     </BrowserRouter>
