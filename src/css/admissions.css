@@ -65,3 +65,11 @@ span {
   width: 90%;
   height: 90%;
 }
+.preview {
+  font-family: Times New Roman, serif;
+  font-weight: 400;
+  color: #336699;
+  text-shadow: 2px 1px 0 #c1c1c1;
+  text-align: center;
+  font-size: 50px;
+}

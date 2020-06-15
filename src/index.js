@@ -28,6 +28,7 @@ import Schedule from "./Admissions/Schedule.js";
 import Fee from "./Admissions/feeStructure.js";
 import SampleTestQuestions from "./Admissions/sample_test_qs.js";
 import EntranceSyllabus from "./Admissions/entranceSyllabus.js";
+import FAQ from "./Homepage/faq.js"
 import test from "./components/test.js";
 
 ReactDOM.render(
@@ -59,6 +60,9 @@ ReactDOM.render(
       <Route exact path="/ss-mentors" component={SSmentors} />
       <Route exact path="/admin-staff" component={AdminStaff} />
       <Route exact path="/publications" component={Publications} />
+      <Route exact path="/faq" component={FAQ} />
+
+
       <Route exact path="/test" component={test} />
       <Footer />
     </BrowserRouter>
