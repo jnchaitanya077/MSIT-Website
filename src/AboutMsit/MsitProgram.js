@@ -1,5 +1,4 @@
 import React from "react";
-import { removeData } from "jquery";
 import HeaderTitle from "../components/headerImage.js";
 import MsitAdv from "../images/AboutMsit/msitadv.jpg";
 import { Link } from "react-router-dom";
@@ -7,15 +6,12 @@ function App() {
   return (
     <div>
       <HeaderTitle name="Overview" />
-      {/* <div className="myDiv">
-        <h1>Overview</h1>
-    </div> */}
       &nbsp; &nbsp;
-      <h1 style={{ paddingLeft: "200px" }}>MSIT PROGRAM</h1>
-      <div className="container about-TajMahal Justify-content-center">
+      <div className="card-body Justify-content-center">
         <div className="row profile-row">
           {/* <!-- text column--> */}
-          <div className="col-8">
+          <div className="col-md-8">
+            <h1>MSIT PROGRAM</h1>
             <p>
               MSIT program is being offered by “Consortium of Institutions of
               Higher Learning” (CIHL), formed by the universities in Andhra
@@ -37,11 +33,11 @@ function App() {
           </div>
 
           {/* <!-- image column--> */}
-          <div className="col-4">
+          <div className="col-md-4">
             <img
               src={MsitAdv}
               alt=""
-              className="alignright"
+              className="alignright img-fluid"
               style={{ width: "340px", height: "380px" }}
             />
           </div>
@@ -91,24 +87,9 @@ function App() {
           Eligibility :{" "}
           <span style={{ color: "red" }}> B.Tech / B.E (All Branches)</span>
         </h4>
-        {/* <button
-          type="button"
-          className="btn btn-outline-secondary"
-          style={{
-            marginTop: "15px",
-            marginBottom: "40px",
-            backgroundColor: "red",
-            padding: "10px 60px",
-            fontSize: "larger",
-          }}
-        >
-          <a href="CoursesAndStructure.html">
-            <h4>Courses And Structure</h4>
-          </a>
-        </button> */}
         <Link
           to="/course-and-structure"
-          className="btn btn-secondary"
+          className="btn btn-secondary mt-3 mb-3"
           style={{ color: "white", fontSize: "16px" }}
         >
           Courses And Structure
