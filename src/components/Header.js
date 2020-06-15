@@ -31,11 +31,11 @@ function App() {
             <a
               className="nav-link"
               href="#"
-              // id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
-              // aria-haspopup="true"
-              // aria-expanded="false"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
             >
               About MSIT
             </a>
@@ -61,11 +61,11 @@ function App() {
             <Link
               className="nav-link"
               href="#"
-              // id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
-              // aria-haspopup="true"
-              // aria-expanded="false"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
             >
               MSIT Advantage
             </Link>
@@ -109,11 +109,11 @@ function App() {
             <a
               className="nav-link"
               href="#"
-              // id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
-              // aria-haspopup="true"
-              // aria-expanded="false"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
             >
               Admissions
             </a>
@@ -152,11 +152,11 @@ function App() {
             <a
               className="nav-link"
               href="#"
-              // id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
-              // aria-haspopup="true"
-              // aria-expanded="false"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
             >
               Recruiters
             </a>
@@ -176,11 +176,11 @@ function App() {
             <a
               className="nav-link"
               href="#"
-              // id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
-              // aria-haspopup="true"
-              // aria-expanded="false"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
             >
               Faculty
             </a>
