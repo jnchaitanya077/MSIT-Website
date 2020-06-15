@@ -1,23 +1,6 @@
 import React from "react";
 import { UncontrolledCollapse, Button } from "reactstrap";
 class Welcome extends React.Component {
-  // handleSubmit() {
-  //   console.log("called");
-  //   var dots = document.getElementById("dots");
-  //   var moreText = document.getElementById("more");
-  //   var btnText = document.getElementById("myBtn");
-
-  //   if (dots.style.display === "none") {
-  //     dots.style.display = "inline";
-  //     btnText.innerHTML = "Show more";
-  //     moreText.style.display = "none";
-  //   } else {
-  //     dots.style.display = "none";
-  //     btnText.innerHTML = "Show less";
-  //     moreText.style.display = "inline";
-  //   }
-  // }
-
   render() {
     return (
       <div>
@@ -460,23 +443,6 @@ class Welcome extends React.Component {
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          {/* 
-    <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
-
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.display === "block") {
-            content.style.display = "none";
-          } else {
-            content.style.display = "block";
-          }
-        });
-      }
-    </script> */}
         </div>
       </div>
     );
