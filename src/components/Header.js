@@ -59,7 +59,6 @@ function App() {
           </li>
           <li className="nav-item dropdown">
             <Link
-              to="/msit-advantage"
               className="nav-link"
               href="#"
               // id="navbarDropdown"
