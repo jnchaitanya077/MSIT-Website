@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.046f9302.chunk.css",
+    "main.js": "/static/js/main.0ccbff3b.chunk.js",
+    "main.js.map": "/static/js/main.0ccbff3b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d687547e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d687547e.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2cff961e.chunk.js": "/static/js/2.2cff961e.chunk.js",
+    "static/js/2.2cff961e.chunk.js.map": "/static/js/2.2cff961e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4c757b89d079fa421c64e1bf2063d012.js": "/precache-manifest.4c757b89d079fa421c64e1bf2063d012.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.046f9302.chunk.css.map": "/static/css/main.046f9302.chunk.css.map",
+    "static/js/2.2cff961e.chunk.js.LICENSE.txt": "/static/js/2.2cff961e.chunk.js.LICENSE.txt",
+    "static/media/Dean_cropped.jpg": "/static/media/Dean_cropped.a1202f31.jpg",
+    "static/media/Manjunath.png": "/static/media/Manjunath.a5cd8fc1.png",
+    "static/media/Praveen.png": "/static/media/Praveen.dc818fbf.png",
+    "static/media/RajReddy.jpg": "/static/media/RajReddy.fc77a865.jpg",
+    "static/media/alumini-engage.jpg": "/static/media/alumini-engage.537c68f9.jpg",
+    "static/media/avatar.jpeg": "/static/media/avatar.6c2199f1.jpeg",
+    "static/media/footerLogo.jpg": "/static/media/footerLogo.c27b5f53.jpg",
+    "static/media/infrastructure1.jpg": "/static/media/infrastructure1.978e37ff.jpg",
+    "static/media/infrastructure2.jpg": "/static/media/infrastructure2.87151d64.jpg",
+    "static/media/learn1.jpg": "/static/media/learn1.82aa0ed0.jpg",
+    "static/media/pcc1.jpg": "/static/media/pcc1.865b43fa.jpg",
+    "static/media/slider_1.jpg": "/static/media/slider_1.eeb57275.jpg",
+    "static/media/slider_1_test.jpg": "/static/media/slider_1_test.4d287bb1.jpg",
+    "static/media/slider_2.jpg": "/static/media/slider_2.d2bb01b1.jpg",
+    "static/media/slider_3.jpg": "/static/media/slider_3.c85c73cb.jpg",
+    "static/media/slider_4.jpg": "/static/media/slider_4.2104a143.jpg",
+    "static/media/slider_6.jpg": "/static/media/slider_6.d3227afa.jpg",
+    "static/media/ss.jpg": "/static/media/ss.25cbc49f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d687547e.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.2cff961e.chunk.js",
+    "static/css/main.046f9302.chunk.css",
+    "static/js/main.0ccbff3b.chunk.js"
+  ]
+}

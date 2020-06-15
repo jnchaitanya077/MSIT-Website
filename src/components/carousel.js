@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/header.css";
-import slider1 from "../images/slider/slider_1_test.jpg";
+import slider1 from "../images/slider/slider1.jpg";
 import slider_2 from "../images/slider/slider_2.jpg";
 import slider_3 from "../images/slider/slider_6.jpg";
 import slider_4 from "../images/slider/slider_4.jpg";

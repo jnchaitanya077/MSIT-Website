@@ -8,7 +8,7 @@ import {
   faFacebookSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import "../css/footer.css";
-import footerLogo from "../images/logos/footerLogo.jpg";
+import footerLogo from "../images/logos/footer.jpg";
 
 function App() {
   return (

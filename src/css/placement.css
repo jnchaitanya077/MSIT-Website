@@ -1,5 +1,6 @@
 .placement {
-  background-image: url(https://www.pes.edu/wp-content/uploads/2019/09/slider2-2018-111.jpg);
+  /* background-image: url(https://www.pes.edu/wp-content/uploads/2019/09/slider2-2018-111.jpg); */
+  background-image: url("../images/placements/placement.jpg");
   background-size: cover;
   background-position: center right;
   height: 500px;
