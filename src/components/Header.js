@@ -102,13 +102,16 @@ function App() {
               Admissions
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link to="/admission-info" className="dropdown-item">
+              <Link
+                to="/admission/#AdmissionProcedure"
+                className="dropdown-item"
+              >
                 Admission Procedure
               </Link>
-              <Link to="/how-to-apply" className="dropdown-item">
+              <Link to="/admission/#HowToApply" className="dropdown-item">
                 How to Apply?
               </Link>
-              <Link to="/walk-in-process" className="dropdown-item">
+              <Link to="/admission/#WalkinProcess" className="dropdown-item">
                 Walk-in Process
               </Link>
 
@@ -124,7 +127,7 @@ function App() {
               <Link to="/fee-structure" className="dropdown-item">
                 Fee for MSIT
               </Link>
-              
+
               <Link to="/entranceSyllabus" className="dropdown-item">
                 Entrance Test Syllabus
               </Link>

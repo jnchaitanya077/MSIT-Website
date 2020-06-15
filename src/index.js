@@ -35,14 +35,24 @@ ReactDOM.render(
     <BrowserRouter>
       <Header />
       <Route exact path="/" component={Hompage} />
-      <Route exact path="/admission-info" component={AdmissionInfo} />
-      <Route exact path="/how-to-apply" component={HowToApply} />
-      <Route exact path="/walk-in-process" component={WalkInProcess} />
+      {/* Amissions */}
+      <Route exact path="/admission" component={AdmissionInfo} />
+      <Route
+        exact
+        path="/admission/#AdmissionProcedure"
+        component={AdmissionInfo}
+      />
+      <Route exact path="/admission/#HowToApply" component={AdmissionInfo} />
+      <Route exact path="/admission/#WalkinProcess" component={AdmissionInfo} />
       <Route exact path="/schedule" component={Schedule} />
       <Route exact path="/fee-structure" component={Fee} />
       <Route exact path="/entranceSyllabus" component={EntranceSyllabus} />
 
-      <Route exact path="/sample-test-questions" component={SampleTestQuestions} />
+      <Route
+        exact
+        path="/sample-test-questions"
+        component={SampleTestQuestions}
+      />
       <Route exact path="/msit-vision" component={MsitVision} />
       <Route exact path="/dean" component={Dean} />
       <Route exact path="/it-mentors" component={ITmentors} />

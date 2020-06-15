@@ -27,7 +27,7 @@
   transform: scale(1.2);
 }
 
-h3 {
+.title-card {
   font-size: 1.5rem;
   margin-top: 5%;
 }
