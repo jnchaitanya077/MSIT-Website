@@ -1,8 +1,8 @@
 import React from "react";
 import "../css/header.css";
-import slider_1 from "../images/slider/slider_1.jpg";
+import slider1 from "../images/slider/slider_1_test.jpg";
 import slider_2 from "../images/slider/slider_2.jpg";
-import slider_3 from "../images/slider/slider_3.jpg";
+import slider_3 from "../images/slider/slider_6.jpg";
 import slider_4 from "../images/slider/slider_4.jpg";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <div className="carousel-inner">
           <div className="carousel-item active c-item" data-pause="hover">
             <img
-              src={slider_1}
+              src={slider1}
               className="d-block w-100 h-50"
               alt="slider-image"
             />
