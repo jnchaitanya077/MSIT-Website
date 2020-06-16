@@ -53,6 +53,9 @@ nav {
   .navbar-brand {
     width: 70%;
   }
+  nav {
+    height: 80px;
+  }
 }
 
 /*color changes to yellow when hover on each dropdown*/
