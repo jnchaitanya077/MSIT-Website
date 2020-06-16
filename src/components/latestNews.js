@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="newsLayout">
       <div className="row">
-        <div className="col-lg-8">
+        <div className="col-lg-8 order-2 order-md-2 order-lg-1">
           <h2 className="title">MSIT</h2>
           <p className="about-paragraph">
             MSIT (MS in IT or Master of Science in Information Technology) is a
@@ -117,7 +117,7 @@ function App() {
           </div>
         </div>
         {/* News Section */}
-        <div className="col-lg-4 ">
+        <div className="col-lg-4 order-1 order-md-1 order-lg-2">
           {/* Latest News*/}
           <div className="col news">
             <FontAwesomeIcon
