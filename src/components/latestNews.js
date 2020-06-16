@@ -125,25 +125,59 @@ function App() {
               size="3x"
               className="latestNews-icon-one"
             />
-            <h2 className="news-title">Latest news</h2>
-
-            <p>
-              <strong>MSIT 2020 Admissions</strong>
-            </p>
-            <p>
-              <strong>GAT 2020 Scorecard</strong>
-            </p>
-            <p>
-              <strong>Walk-ins Info</strong>
-            </p>
-            <p>
-              <strong>Python Workshop</strong>
-            </p>
+            <h2 className="news-title">Latest News</h2>
             <hr />
-            <p>Read More</p>
+            <div>
+              <h5>
+                <strong>MSIT 2020 Admissions</strong>
+                <span class="badge badge-pill badge-danger">New</span>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                ind
+              </p>
+            </div>
+            <div>
+              <h5>
+                <strong>GAT 2020 Scorecard</strong>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+              </p>
+            </div>
+            <div>
+              <h5>
+                <strong>Walk-ins Info</strong>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+              </p>
+            </div>
+            <div>
+              <h5>
+                <strong>Python Workshop</strong>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+              </p>
+            </div>
+            <div>
+              <h5>
+                <strong>Alumni Engage Events</strong>
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+              </p>
+            </div>
+            <hr />
+            <p className="mb-4">Read More</p>
           </div>
 
-          {/*Events*/}
+          {/* Events
           <div className="col news">
             <FontAwesomeIcon
               icon={faBullhorn}
@@ -166,7 +200,7 @@ function App() {
             </p>
             <hr />
             <p>See More</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

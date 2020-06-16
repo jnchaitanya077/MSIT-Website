@@ -53,8 +53,8 @@ nav {
   .navbar-brand {
     width: 70%;
   }
-  nav {
-    height: 80px;
+  body {
+    padding-top: 72px;
   }
 }
 

@@ -6,6 +6,11 @@
   text-align: justify;
   line-height: 1.7rem;
 }
+
+/* news badge */
+.badge {
+  margin-left: 3%;
+}
 .newsLayout {
   padding: 5% 10%;
   background-color: whitesmoke;
@@ -15,13 +20,16 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
   padding-top: 30px;
-  height: 350px;
+  /* height: 350px; */
   padding-left: 5%;
+  padding-bottom: 5%;
   margin-bottom: 4%;
 }
 
 .news-title {
-  margin-top: 5%;
+  /* margin-top: 5%; */
+  display: inline;
+  padding-left: 5%;
 }
 
 .latestNews-icon-two {
