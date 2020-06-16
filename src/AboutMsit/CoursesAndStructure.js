@@ -45,6 +45,19 @@ const ITElectives = [
   ];
 
 class courses extends React.Component {
+    
+    componentDidMount() {
+        console.log("mount");
+        const myId = window.location.hash.slice(1);
+        const elem = document.getElementById(myId);
+        if (elem) {
+          elem.scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+        }
+      }
+    
   render() {
     return (
       <div>
@@ -114,7 +127,7 @@ class courses extends React.Component {
                     );
                 })}
 
-                <h1>Domain Specializations</h1> 
+                <h1 id = "specializations">Domain Specializations</h1> 
                 {Specializations.map((info) => {
                     return (
                         <ul>

@@ -52,8 +52,9 @@ function App(){
                     <p>To provide an opportunity not only to IT professionals but also to professionals and experts from non-IT domains to acquire a thorough knowledge of IT concepts and the capacity to swiftly translate this knowledge into services in their respective domains.</p>
                 </div>
                 <h4>Eligibility : <span style={{color: "red"}}> B.Tech / B.E (All Branches)</span></h4>
-                <Link to = "/CoursesAndStructure" className="btn btn-outline-success" >
-                    Courses and Structure
+                <h3>Want to know about "Specializations"?</h3>
+                <Link to = "/CoursesAndStructure/#specializations" className="btn btn-outline-success" >
+                    Click here
                 </Link>
                 <span></span>
             </div>
