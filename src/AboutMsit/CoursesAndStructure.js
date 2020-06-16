@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/staff.css";
 import HeaderTitle from "../components/headerImage";
 import Collapsible from 'react-collapsible';
 import Jumbotron from 'react-bootstrap/Jumbotron'
@@ -60,96 +59,93 @@ class courses extends React.Component {
     
   render() {
     return (
-      <div>
-        <HeaderTitle name="Courses And Structure" /> 
-        <div className="container about-courses Justify-content-center" >
-            <div className="row profile-row">
-                {/* <!-- text column--> */}
-                <div className="col-12">
-                    <p>MSIT employs a unique ‘Sequential Learning’ technique by which a student only moves on to the next course after thoroughly mastering the preceding course as against the conventional BTECH/MTECH programs which offer courses in a parallel fashion. This sequential pattern would enable a student to master one course a time, understand the relevant concepts, give him some scope to explore in depth into core concepts and move on with the next course. The Mastery Model of assessment requires a student to score 70% and above. This motivates students to stretch their abilities and reach the required target percentage. An academic year is divided into 6 mini semesters. Duration of each mini semester is eight weeks. The first year has five IT and Soft Skills mini semesters each and 1 practicum mini semester. The Second year has four IT and Soft Skills mini semesters each and 2 practicum mini semesters. There would be a 4 - week vacation spread over the year.</p>
-                </div>
+        <div>
+            <HeaderTitle name="Courses And Structure" /> 
+            <div className="container about-courses Justify-content-center" >
+                <div className="row profile-row" style={{paddingTop:"40px", paddingBottom:"40px"}}>
+                    {/* <!-- text column--> */}
+                    <div className="col-12">
+                        <p>MSIT employs a unique ‘Sequential Learning’ technique by which a student only moves on to the next course after thoroughly mastering the preceding course as against the conventional BTECH/MTECH programs which offer courses in a parallel fashion. This sequential pattern would enable a student to master one course a time, understand the relevant concepts, give him some scope to explore in depth into core concepts and move on with the next course. The Mastery Model of assessment requires a student to score 70% and above. This motivates students to stretch their abilities and reach the required target percentage. An academic year is divided into 6 mini semesters. Duration of each mini semester is eight weeks. The first year has five IT and Soft Skills mini semesters each and 1 practicum mini semester. The Second year has four IT and Soft Skills mini semesters each and 2 practicum mini semesters. There would be a 4 - week vacation spread over the year.</p>
+                        <h2>MSIT offers spectrum of courses including: </h2> 
+            
+                        <h2 style={{color: "rgb(119, 11, 11)"}}>IT Core</h2>
+                        {ITCore.map((info) => {
+                            return (
+                                <ul>
+                                    <li>
+                                        <Jumbotron fluid style= {{ height: "auto" , padding:"0px" , margin:"0px"}}>
+                                            <Container>
+                                                <Collapsible trigger={info.courseName}>
+                                                    <h5>Course Description</h5>
+                                                    <p>{info.description}</p>
+                                                </Collapsible>
+                                            </Container>
+                                        </Jumbotron>
+                                    </li>
+                                </ul>
+                            );
+                        })}
 
-                <h2>MSIT offers spectrum of courses including: </h2> 
-                
-                <h1>IT Core</h1>
-                {ITCore.map((info) => {
-                    return (
-                        <ul>
-                            <li>
-                                <Jumbotron fluid style= {{ height: "auto" , padding:"0px" , margin:"0px"}}>
-                                    <Container>
-                                        <Collapsible trigger={info.courseName}>
-                                            <h5>Course Description</h5>
-                                            <p>{info.description}</p>
-                                        </Collapsible>
-                                    </Container>
-                                </Jumbotron>
-                            </li>
-                        </ul>
-                    );
-                })}
+                        <h2 style={{color: "rgb(119, 11, 11)"}}>IT Electives</h2> 
+                        {ITElectives.map((info) => {
+                            return (
+                                <ul>
+                                    <li>
+                                        <Jumbotron fluid style= {{ height: "auto" , padding:"0px" , margin:"0px"}}>
+                                            <Container>
+                                                <Collapsible trigger={info.courseName}>
+                                                    <h5>Course Description</h5>
+                                                    <p>{info.description}</p>
+                                                </Collapsible>
+                                            </Container>
+                                        </Jumbotron>
+                                    </li>
+                                </ul>
 
-                <h1>IT Electives</h1> 
-                {ITElectives.map((info) => {
-                    return (
-                        <ul>
-                            <li>
-                                <Jumbotron fluid style= {{ height: "auto" , padding:"0px" , margin:"0px"}}>
-                                    <Container>
-                                        <Collapsible trigger={info.courseName}>
-                                            <h5>Course Description</h5>
-                                            <p>{info.description}</p>
-                                        </Collapsible>
-                                    </Container>
-                                </Jumbotron>
-                            </li>
-                        </ul>
+                            );
+                        })}
 
-                    );
-                })}
+                        <h2 style={{color: "rgb(119, 11, 11)"}}>Soft Skills</h2> 
+                        {SSCourses.map((info) => {
+                            return (
+                                <ul>
+                                    <li>
+                                        <Jumbotron fluid style= {{ height: "auto" , padding:"0px" , margin:"0px"}}>
+                                            <Container>
+                                                <Collapsible trigger={info.courseName}>
+                                                    <h5>Course Description</h5>
+                                                    <p>{info.description}</p>
+                                                </Collapsible>
+                                            </Container>
+                                        </Jumbotron>
+                                    </li>
+                                </ul>
 
-                <h1>Soft Skills</h1> 
-                {SSCourses.map((info) => {
-                    return (
-                        <ul>
-                            <li>
-                                <Jumbotron fluid style= {{ height: "auto" , padding:"0px" , margin:"0px"}}>
-                                    <Container>
-                                        <Collapsible trigger={info.courseName}>
-                                            <h5>Course Description</h5>
-                                            <p>{info.description}</p>
-                                        </Collapsible>
-                                    </Container>
-                                </Jumbotron>
-                            </li>
-                        </ul>
+                            );
+                        })}
 
-                    );
-                })}
-
-                <h1 id = "specializations">Domain Specializations</h1> 
-                {Specializations.map((info) => {
-                    return (
-                        <ul>
-                            <li>
-                                <Jumbotron fluid style= {{ height: "auto" , padding:"0px" , margin:"0px"}}>
-                                    <Container>
-                                        <Collapsible trigger={info.courseName}>
-                                            <h5>Course Description</h5>
-                                            <p>{info.description}</p>
-                                        </Collapsible>
-                                    </Container>
-                                </Jumbotron>
-                            </li>
-                        </ul>
-
-                    );
-                })}
+                        <h2 id = "specializations" style={{color: "rgb(119, 11, 11)"}}>Domain Specializations</h2> 
+                        {Specializations.map((info) => {
+                            return (
+                                <ul>
+                                    <li>
+                                        <Jumbotron fluid style= {{ height: "auto" , padding:"0px" , margin:"0px"}}>
+                                            <Container>
+                                                <Collapsible trigger={info.courseName}>
+                                                    <h5>Course Description</h5>
+                                                    <p>{info.description}</p>
+                                                </Collapsible>
+                                            </Container>
+                                        </Jumbotron>
+                                    </li>
+                                </ul>
+                            );
+                        })}
+                    </div>
         
+                </div>
             </div>
         </div>
-      </div>
-
     );
   }
 }

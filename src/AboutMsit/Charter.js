@@ -4,12 +4,8 @@ import "../css/header.css";
 function App(){
     return(
      
-        // <Link to = "/MsitProgram" className="dropdown-item" >
-        // MSIT Program
-        // </Link>
-
         <Link to = "/MsitProgram" className="btn btn-outline-success" >
-        Msit Charter
+            Msit Charter
         </Link>
 
     );

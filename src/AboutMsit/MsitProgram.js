@@ -8,13 +8,11 @@ function App(){
     return(
         <div>
             <HeaderTitle name = "Overview"/>
-            &nbsp;
-            &nbsp;
-            <h1 style={{paddingLeft: "200px"}}>MSIT PROGRAM</h1>
-            <div className="container about-MsitProgram Justify-content-center">
+            <div className="container about-MsitProgram Justify-content-center" style={{paddingTop: "40px", paddingBottom:"40px"}}>
                 <div className="row profile-row">
                     {/* <!-- text column--> */}
                     <div className="col-8">
+                        <h1 style={{color:"rgb(119, 11, 11)"}}>MSIT PROGRAM</h1>
                         <p>MSIT program is being offered by “Consortium of Institutions of Higher Learning” (CIHL), formed by the universities in Andhra Pradesh and Telangana. CIHL has designed the program with inputs from major IT companies</p>
                         &nbsp;
                         &nbsp;
@@ -33,8 +31,7 @@ function App(){
                         <img src={MsitAdv} alt="" className="alignright" style={{width: "340px", height: "380px"}}/>
                     </div>
                 </div>
-                &nbsp;
-                &nbsp;
+
                 <div className="row profile-row">
                     {/* <!-- text column--> */}
                     <div className="col-12">
@@ -44,19 +41,19 @@ function App(){
                         <p>MSIT offers the latest domain specializations on par with international universities. Computer Networks and Information Security as domain specializations are offered for the first time in the states (AP & Telangana) only in MSIT. Besides these, the course also offers specializations in Software Engineering and E-commerce which have very high demand in the current software industry.</p>        
                     </div>
                 </div>
-                <h1>Msit Charter</h1>
+                <h1 style={{color:"rgb(119, 11, 11)"}}>Msit Charter</h1>
                 <div className="col-12" id ="para">
                     <p>To prepare very high quality IT professionals for a global market by grooming them in IT and Soft Skills.</p>
                     <p>To enable them to accept opportunities in a framework of professionally sound and quality conscious organizations, as well as to take up entrepreneurial ventures.</p>
                     <p>To develop their sensitivity and capability to continually respond to changing technology and working environments, by using an 'active learning' approach.</p>
                     <p>To provide an opportunity not only to IT professionals but also to professionals and experts from non-IT domains to acquire a thorough knowledge of IT concepts and the capacity to swiftly translate this knowledge into services in their respective domains.</p>
                 </div>
-                <h4>Eligibility : <span style={{color: "red"}}> B.Tech / B.E (All Branches)</span></h4>
-                <h3>Want to know about "Specializations"?</h3>
+                <h4>Eligibility : <span style={{color: "red",fontSize :"large"}}> B.Tech / B.E (All Branches)</span></h4>
+                <h3>Want to know about Specializations?</h3>
                 <Link to = "/CoursesAndStructure/#specializations" className="btn btn-outline-success" >
                     Click here
                 </Link>
-                <span></span>
+    
             </div>
         </div>
     );

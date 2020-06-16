@@ -14,6 +14,7 @@ import "./css/index.css";
 import MsitProgram from "./AboutMsit/MsitProgram.js";
 import Charter from "./AboutMsit/Charter.js";
 import CoursesAndStructure from "./AboutMsit/CoursesAndStructure.js"
+import Curriculum from "./AboutMsit/Curriculum.js"
 //Homepage imports
 import Header from "./components/Header.js";
 import Footer from "./components/footer.js";
@@ -44,6 +45,7 @@ ReactDOM.render(
       <Route exact path="/MsitProgram" component={MsitProgram} />
       <Route exact path="/Charter" component={Charter} />
       <Route exact path="/CoursesAndStructure" component={CoursesAndStructure} />
+      <Route exact path="/Curriculum" component={Curriculum} />
 
       <Footer />
     </BrowserRouter>

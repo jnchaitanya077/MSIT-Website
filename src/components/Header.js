@@ -45,7 +45,7 @@ function App() {
               <Link to = "/CoursesAndStructure" className="dropdown-item">
                 Courses and Structure
               </Link>
-              <Link to = "/" className="dropdown-item">
+              <Link to = "/Curriculum" className="dropdown-item">
                 Curriculum
               </Link>
 
