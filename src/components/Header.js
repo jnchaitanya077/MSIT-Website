@@ -7,7 +7,12 @@ function App() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
       <Link className="navbar-brand" to="/">
-        <img src={Logo} className="img-fluid" alt="MSIT-Logo" loading="lazy" />
+        <img
+          src={Logo}
+          className="img-fluid header-logo"
+          alt="MSIT-Logo"
+          loading="lazy"
+        />
       </Link>
       <button
         className="navbar-toggler"

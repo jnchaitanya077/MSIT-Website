@@ -46,6 +46,15 @@ nav {
   }
 }
 
+@media only screen and (max-width: 455px) {
+  .header-logo {
+    width: 100%;
+  }
+  .navbar-brand {
+    width: 70%;
+  }
+}
+
 /*color changes to yellow when hover on each dropdown*/
 nav li:hover {
   background-color: #ffc107;
