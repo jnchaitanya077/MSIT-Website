@@ -195,10 +195,10 @@ function App() {
               <Link to="/ss-mentors" className="dropdown-item">
                 Soft Skills Mentors
               </Link>
-              <Link to="admin-staff" className="dropdown-item">
+              <Link to="/admin-staff" className="dropdown-item">
                 Administrative Staff
               </Link>
-              <Link to="publications" className="dropdown-item">
+              <Link to="/publications" className="dropdown-item">
                 Publications
               </Link>
             </div>

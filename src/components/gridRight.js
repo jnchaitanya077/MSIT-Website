@@ -17,7 +17,7 @@ function App(props) {
         </blockquote>
       </div>
       <div className="col-lg-3 order-1 order-md-1 order-lg-2 ml-4 Head-img">
-        <img src={props.image} className="box  img-fluid" />
+        <img src={props.image} className="box  img-fluid" alt="photo" />
       </div>
     </div>
   );
