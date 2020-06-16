@@ -36,18 +36,19 @@ function App() {
               About MSIT
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">
-                Charter
-              </a>
+            <Link to = "/Charter" className="dropdown-item" >
+                MSIT Charter
+              </Link>
               <Link to = "/MsitProgram" className="dropdown-item" >
                 MSIT Program
               </Link>
-              <a className="dropdown-item" href="#">
+              <Link to = "/CoursesAndStructure" className="dropdown-item">
                 Courses and Structure
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to = "/" className="dropdown-item">
                 Curriculum
-              </a>
+              </Link>
+
               <a className="dropdown-item" href="#">
                 Certification and Learning Centers
               </a>

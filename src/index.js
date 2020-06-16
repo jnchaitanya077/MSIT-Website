@@ -9,6 +9,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./css/index.css";
 //About Msit imports
 import MsitProgram from "./AboutMsit/MsitProgram.js";
+import Charter from "./AboutMsit/Charter.js";
+import CoursesAndStructure from "./AboutMsit/CoursesAndStructure.js"
 //Homepage imports
 import Header from "./components/Header.js";
 import Footer from "./components/footer.js";
@@ -37,6 +39,8 @@ ReactDOM.render(
       <Route exact path="/admin-staff" component={AdminStaff} />
       <Route exact path="/publications" component={Publications} />
       <Route exact path="/MsitProgram" component={MsitProgram} />
+      <Route exact path="/Charter" component={Charter} />
+      <Route exact path="/CoursesAndStructure" component={CoursesAndStructure} />
 
       <Footer />
     </BrowserRouter>
