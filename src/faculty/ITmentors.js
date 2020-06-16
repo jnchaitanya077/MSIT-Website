@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/staff.css";
+import Info from "../components/Infocard.js";
 import HeaderTitle from "../components/headerImage";
 import avatar from "../images/faculty/IT/images.png";
 
