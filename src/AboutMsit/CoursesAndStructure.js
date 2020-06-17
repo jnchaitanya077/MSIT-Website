@@ -3,6 +3,8 @@ import HeaderTitle from "../components/headerImage";
 import Collapsible from 'react-collapsible';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
+import { Link } from "react-router-dom";
+import "../css/quickLinks.css";
 
 const ITCore = [
   { id: 1, courseName: "Digital Literacy (Prerequisite)",  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." },
@@ -67,8 +69,25 @@ class courses extends React.Component {
                     <div className="col-12">
                         <p>MSIT employs a unique ‘Sequential Learning’ technique by which a student only moves on to the next course after thoroughly mastering the preceding course as against the conventional BTECH/MTECH programs which offer courses in a parallel fashion. This sequential pattern would enable a student to master one course a time, understand the relevant concepts, give him some scope to explore in depth into core concepts and move on with the next course. The Mastery Model of assessment requires a student to score 70% and above. This motivates students to stretch their abilities and reach the required target percentage. An academic year is divided into 6 mini semesters. Duration of each mini semester is eight weeks. The first year has five IT and Soft Skills mini semesters each and 1 practicum mini semester. The Second year has four IT and Soft Skills mini semesters each and 2 practicum mini semesters. There would be a 4 - week vacation spread over the year.</p>
                         <h2>MSIT offers spectrum of courses including: </h2> 
-            
-                        <h2 style={{color: "rgb(119, 11, 11)"}}>IT Core</h2>
+                        
+                        <Jumbotron fluid style= {{ height: "80px" , padding:"0%" , margin:"0%"}} id = "jumbotron1">
+                            <div className="row" style={{ marginRight: 0, marginLeft: 0}}>
+                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" , paddingTop:"0%"}}>
+                                    <a href="#jumbotron1"><h3 style={{ color:"#0a2e78"}}>IT Core</h3></a>
+                                </div>
+                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" , paddingTop:"0%" }}>
+                                    <a href="#ITCore"><h3 style={{ color:"#0a2e78"}}>IT Electives</h3></a>
+                                </div>
+                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" , paddingTop:"0%" }}>
+                                    <a href="#ITElectives"><h3 style={{ color:"#0a2e78"}}>SS Courses</h3></a>
+                                </div>
+                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" , paddingTop:"0%" }}>
+                                    <a href="#SSCourses"><h3 style={{ color:"#0a2e78"}}>Specializations</h3></a>
+                                </div>
+                            </div>
+                        </Jumbotron>
+
+                        <h2 style={{color: "rgb(119, 11, 11)" , paddingTop:"20px"}} id = "ITCore">IT Core</h2>
                         {ITCore.map((info) => {
                             return (
                                 <ul>
@@ -85,8 +104,9 @@ class courses extends React.Component {
                                 </ul>
                             );
                         })}
-
-                        <h2 style={{color: "rgb(119, 11, 11)"}}>IT Electives</h2> 
+                        
+                        
+                        <h2 style={{color: "rgb(119, 11, 11)" }} id = "ITElectives">IT Electives</h2> 
                         {ITElectives.map((info) => {
                             return (
                                 <ul>
@@ -104,8 +124,9 @@ class courses extends React.Component {
 
                             );
                         })}
+                        
 
-                        <h2 style={{color: "rgb(119, 11, 11)"}}>Soft Skills</h2> 
+                        <h2 style={{color: "rgb(119, 11, 11)" }} id = "SSCourses">Soft Skills</h2> 
                         {SSCourses.map((info) => {
                             return (
                                 <ul>
@@ -124,7 +145,7 @@ class courses extends React.Component {
                             );
                         })}
 
-                        <h2 id = "specializations" style={{color: "rgb(119, 11, 11)"}}>Domain Specializations</h2> 
+                        <h2 id = "specializations" style={{color: "rgb(119, 11, 11)" }}>Domain Specializations</h2> 
                         {Specializations.map((info) => {
                             return (
                                 <ul>
