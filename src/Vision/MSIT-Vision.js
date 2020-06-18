@@ -55,6 +55,7 @@ function App() {
         if (post.id % 2 == 0) {
           return (
             <Fragment key={post.id}>
+              <hr />
               <RightGrid
                 name={post.name}
                 image={post.image}
@@ -62,12 +63,12 @@ function App() {
                 subtitle={post.subtitle}
                 body={post.body}
               />
-              <hr />
             </Fragment>
           );
         } else {
           return (
             <Fragment key={post.id}>
+              <hr />
               <LeftGrid
                 name={post.name}
                 image={post.image}
@@ -75,7 +76,6 @@ function App() {
                 subtitle={post.subtitle}
                 body={post.body}
               />
-              <hr />
             </Fragment>
           );
         }

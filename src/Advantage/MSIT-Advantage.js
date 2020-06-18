@@ -90,6 +90,7 @@ class App extends React.Component {
           if (post.id % 2 == 0) {
             return (
               <Fragment key={post.id}>
+                <hr />
                 <RightGrid
                   id={post.idName}
                   name={post.name}
@@ -103,6 +104,7 @@ class App extends React.Component {
           } else {
             return (
               <Fragment key={post.id}>
+                <hr />
                 <LeftGrid
                   id={post.idName}
                   name={post.name}
