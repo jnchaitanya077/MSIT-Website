@@ -119,33 +119,39 @@ function App() {
               Admissions
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">
+              <Link
+                to="/admission/#AdmissionProcedure"
+                className="dropdown-item"
+              >
                 Admission Procedure
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to="/admission/#HowToApply" className="dropdown-item">
                 How to Apply?
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to="/admission/#WalkinProcess" className="dropdown-item">
                 Walk-in Process
-              </a>
+              </Link>
+
               <a className="dropdown-item" href="#">
                 Mock-Test
               </a>
               <a className="dropdown-item" href="#">
                 Apply Online
               </a>
-              <a className="dropdown-item" href="#">
+              <Link to="/schedule" className="dropdown-item">
                 Schedule
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to="/fee-structure" className="dropdown-item">
                 Fee for MSIT
-              </a>
-              <a className="dropdown-item" href="#">
-                Entrance Test Syllabus{" "}
-              </a>
-              <a className="dropdown-item" href="#">
-                Sample Test Questions
-              </a>
+              </Link>
+
+              <Link to="/entranceSyllabus" className="dropdown-item">
+                Entrance Test Syllabus
+              </Link>
+
+              <Link to="/sample-test-questions" className="dropdown-item">
+                GAT-Sample Questions
+              </Link>
             </div>
           </li>
 

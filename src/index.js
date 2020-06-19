@@ -22,22 +22,56 @@ import SSmentors from "./faculty/SSmentors.js";
 import AdminStaff from "./faculty/AdminStaff.js";
 import Publications from "./faculty/publications.js";
 import * as serviceWorker from "./serviceWorker";
-//test
-import Test from "./components/test.js";
+//Admissions page imports
+import AdmissionInfo from "./Admissions/admissionProcedure.js";
+import HowToApply from "./Admissions/howToApply.js";
+import WalkInProcess from "./Admissions/walkInProcess.js";
+import Schedule from "./Admissions/Schedule.js";
+import Fee from "./Admissions/feeStructure.js";
+import SampleTestQuestions from "./Admissions/sample_test_qs.js";
+import EntranceSyllabus from "./Admissions/entranceSyllabus.js";
+import FAQ from "./Homepage/faq.js";
+import test from "./components/test.js";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Route exact path="/testing" component={Test} />
       <Header />
+      {/* index */}
       <Route exact path="/" component={Hompage} />
+      {/* MSIT Vision */}
       <Route exact path="/msit-vision" component={MsitVision} />
+      {/* MSIT Advantage */}
       <Route exact path="/msit-advantage" component={MSITAdvantage} />
+      <Route exact path="/" component={Hompage} />
+      {/* Amissions */}
+      <Route exact path="/admission" component={AdmissionInfo} />
+      {/* <Route
+        exact
+        path="/admission/#AdmissionProcedure"
+        component={AdmissionInfo}
+      />
+      <Route exact path="/admission/#HowToApply" component={AdmissionInfo} />
+      <Route exact path="/admission/#WalkinProcess" component={AdmissionInfo} /> */}
+      <Route exact path="/schedule" component={Schedule} />
+      <Route exact path="/fee-structure" component={Fee} />
+      <Route exact path="/entranceSyllabus" component={EntranceSyllabus} />
+
+      <Route
+        exact
+        path="/sample-test-questions"
+        component={SampleTestQuestions}
+      />
+      {/* faculty */}
       <Route exact path="/dean" component={Dean} />
       <Route exact path="/it-mentors" component={ITmentors} />
       <Route exact path="/ss-mentors" component={SSmentors} />
       <Route exact path="/admin-staff" component={AdminStaff} />
       <Route exact path="/publications" component={Publications} />
+      <Route exact path="/faq" component={FAQ} />
+
+      <Route exact path="/test" component={test} />
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,

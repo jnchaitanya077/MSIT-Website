@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/staff.css";
 import Info from "../components/Infocard.js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import HeaderTitle from "../components/headerImage";
 import avatar from "../images/faculty/IT/images.png";
 

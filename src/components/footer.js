@@ -9,6 +9,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "../css/footer.css";
 import footerLogo from "../images/logos/footer.jpg";
+import FAQ from "../Homepage/faq.js";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -36,7 +38,10 @@ function App() {
               <a href="#">Refund / Cancellation</a>
             </li>
             <li className="footer-links">
-              <a href="#">FAQ</a>
+              {/* <a href="FAQ">FAQ</a> */}
+              <Link to="/faq" className="footer-links">
+                FAQ
+              </Link>
             </li>
           </ul>
         </div>
