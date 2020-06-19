@@ -61,7 +61,7 @@ function App() {
           <li className="nav-item dropdown">
             <Link
               className="nav-link"
-              href="#"
+              to="#"
               id="navbarDropdown"
               // role="button"
               // data-toggle="dropdown"

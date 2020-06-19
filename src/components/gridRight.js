@@ -4,7 +4,7 @@ import "../css/staff.css";
 function App(props) {
   return (
     <div className="row main-body-adv" id={props.id}>
-      <div className="col-lg-8 order-2 order-md-2 order-lg-1 ml-4">
+      <div className="col-lg-8 order-2 order-md-2 order-lg-1 ">
         <h2 className="Right-title">
           <strong>
             {props.name}
