@@ -40,7 +40,7 @@ class App extends React.Component {
         <div className="container author-block mt-5 mb-5 pr-2 bg-light post-block ">
           {/* Eligibility Section */}
           <div id="AdmissionProcedure">
-            <h1 className="pb-4">Admission-Procedure</h1>
+            <h1 className="pb-4 preview" >Admission-Procedure</h1>
             <h3 className="title">Eligibility</h3>
             <p>B.Tech / B.E(All Branches)</p>
             <p>
@@ -173,7 +173,7 @@ class App extends React.Component {
 
           {/* How to apply */}
           <div id="HowToApply">
-            <h1 className="pb-4">How To Apply?</h1>
+            <h1 className="pb-4 title">How To Apply?</h1>
             <p>
               Admissions are based on ranks obtained in the entrance exam called
               Graduate Aptitude Test (GAT). Graduate Aptitude Test (GAT) will be
@@ -202,7 +202,7 @@ class App extends React.Component {
 
           {/* Walkin Process */}
           <div id="WalkinProcess">
-            <h1 className="pb-4">Walk in Process</h1>
+            <h1 className="pb-4 title">Walk in Process</h1>
             <p>
               From 2006 admissions onwards, MSIT has introduced the "Walk-in
               Entrance" (now from home itself). This is planned for the

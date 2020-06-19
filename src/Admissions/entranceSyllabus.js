@@ -20,7 +20,7 @@ function App() {
 									<img src={Gat} className="box2"  className="center"/><br/><br/>
 								</div>
 									<h4 style={{ color: "#0a3dab" }}><strong>What is GAT?</strong></h4>
-									<p align="justify">
+									<p>
 										GAT is the acronym for Graduate Aptitude Test. A good score in GAT is a 
 										part- requirement for admission to The Master of Science in Information 
 										Technology (MSIT) Program, which is a two year post graduate program in 
@@ -44,7 +44,7 @@ function App() {
 							<div class="author-content">
 								<div class="author-header p">
 									<h4 style={{ color: "#0a3dab" }}><strong>STRUCTURE OF GAT</strong></h4>
-									<p align="justify">
+									<p>
 									GAT consists of two main sections, namely, Critical Reading and, Quantitative
 									Ability.The Critical Reading section comprises of Reading Comprehension , 
 									Analytical and Logical Reasoning. The Quantitative Ability section comprises 
@@ -58,7 +58,7 @@ function App() {
 							<div class="author-content">
 								<div class="author-header p">
 									<h4 style={{ color: "#0a3dab" }}><strong>SCORING In GAT</strong></h4>
-									<p align="justify">
+									<p>
 									Scaled scores are a standardized converted score based on your correct responses. 
 									A Scaled Score is the total number of correct answers (i.e, the raw score) that 
 									has been converted into a consistent and standardized scale. In each GAT section, 
@@ -70,14 +70,14 @@ function App() {
 							<div class="author-content">
 								<div class="author-header p">
 									<h4 style={{ color: "#0a3dab" }}><strong>PREPARATION FOR GAT</strong></h4>
-									<p align="justify">
+									<p>
 									Since GAT is not directly a knowledge based test, it takes into account what a 
 									student has learnt in his school/high school days up to Standard XII. Therefore, 
 									practice becomes more important than just reading. It is advisable for candidates 
 									to practise mock tests through various websites and books. A list of test web links 
 									and practice books are indicated below- <br/><br/>
 									</p>
-									<p align="justify">
+									<p>
 									<strong style={{ color: "#0a3dab" }}>WEBLINKS:</strong> Here students can find Aptitude Questions and Answers with explanations 
 									for Quantitative Aptitude, Logical Reasoning, Verbal Ability & Data Interpretation 
 									so that they can learn, practise & improve their skills.   
