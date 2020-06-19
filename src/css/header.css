@@ -6,9 +6,40 @@ nav {
 }
 /* navigation bar links color */
 .nav-link {
-  color: #e1e6e2 !important;
+  /* color: #e1e6e2 !important; */
+  color: white !important;
 }
-/* carousel*/
+
+/*color changes to yellow when hover on each dropdown*/
+nav li:hover {
+  /* background-color: #ffc107; */
+  background-color: rgb(235, 195, 52);
+}
+
+nav a {
+  color: white;
+  font-size: 16px;
+}
+
+/* dropdown menu */
+.dropdown-menu {
+  background-color: #001340;
+  color: white;
+  margin-top: 0px;
+}
+
+.dropdown-menu a:hover {
+  /* Yellow */
+  background-color: rgb(235, 195, 52);
+  /* background-color: #001340; */
+  /* background-color: #007bff; */
+  /* color: white; */
+}
+.dropdown-item {
+  color: whitesmoke;
+}
+
+/*------------- carousel-----------------*/
 .c-item {
   height: 32vw;
 }
@@ -19,32 +50,13 @@ nav {
   left: 0;
   min-height: 30vw;
 }
-
-/* If the screen size is 1000px wide or more, display elements by hover */
-@media only screen and (min-width: 1000px) {
-  .nav-item:hover .dropdown-menu {
-    display: block;
-    /* color: "white"; */
-  }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.6rem;
-    padding-left: 0.6rem;
-  }
-
-  nav {
-    height: 80px;
-  }
-
-  .navPadding {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .navbar {
-    padding-left: 10%;
-    padding-right: 10%;
+/*---------------for smaller devices------------ */
+@media only screen and (max-width: 350px) {
+  body {
+    padding-top: 20%;
   }
 }
+
 /* mobile devices css */
 @media only screen and (max-width: 455px) {
   .header-logo {
@@ -54,30 +66,88 @@ nav {
     width: 70%;
   }
   body {
-    padding-top: 17%;
+    padding-top: 16%;
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (min-width: 456px) and (max-width: 998px) {
   body {
-    padding-top: 20%;
+    padding-top: 80px;
   }
 }
 
-/*color changes to yellow when hover on each dropdown*/
-nav li:hover {
-  background-color: #ffc107;
+@media only screen and (max-width: 990px) {
+  .dropdown-menu {
+    background-color: white;
+    margin-top: 0px;
+  }
+  .dropdown-item {
+    color: black;
+  }
+  nav li:hover .dropdown-menu {
+    display: block;
+  }
+  .c-item {
+    height: 32vw;
+  }
 }
 
-nav a {
-  color: white;
-  font-size: 16px;
+/* If the screen size is 1000px wide or more, display elements by hover */
+@media only screen and (min-width: 1000px) {
+  nav {
+    height: 13vh;
+  }
+
+  body {
+    padding-top: 13vh;
+  }
+
+  .nav-item:hover .dropdown-menu {
+    display: block;
+    /* color: "white"; */
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+  }
+
+  .navPadding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* navbar inside spacing */
+  .navbar {
+    padding-left: 10%;
+    padding-right: 8%;
+  }
+
+  .c-item {
+    height: 60vh;
+  }
+
+  .c-item img {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    min-height: 40vw;
+  }
 }
 
-.dropdown-menu a:hover {
-  /* Yellow */
-  background-color: #ffc107;
-  /* background-color: #001340; */
-  background-color: #007bff;
-  color: white;
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .navbar {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  body {
+    padding-top: 10vh;
+  }
+  nav {
+    height: 10vh;
+  }
+  .c-item {
+    height: 32vw;
+  }
 }

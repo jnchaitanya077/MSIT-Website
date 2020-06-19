@@ -22,8 +22,10 @@ function App() {
         </div>
 
         <div className="col-md-4">
-          <h3 className="heading">Quick Links</h3>
           <ul className="quick-links level-three-headings ">
+            <li>
+              <h3 className="heading footer-links">Quick Links</h3>
+            </li>
             <li className="footer-links">
               <a href="#">Terms & Conditions</a>
             </li>

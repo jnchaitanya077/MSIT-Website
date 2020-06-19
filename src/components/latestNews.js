@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRss, faBullhorn } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 import "../css/latestNews.css";
 import image1 from "../images/events/slider_1.jpg";
@@ -128,53 +129,78 @@ function App() {
             <h2 className="news-title">Latest News</h2>
             <hr />
             <div>
-              <h5>
-                <strong>MSIT 2020 Admissions</strong>
-                <span class="badge badge-pill badge-danger">New</span>
-              </h5>
+              <a href="https://msitprogram.net/admissions/" className="links">
+                <h5>
+                  <strong>MSIT 2020 Admissions</strong>
+                  <span class="badge badge-pill badge-danger shadow">New</span>
+                </h5>
+              </a>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 ind
               </p>
             </div>
             <div>
-              <h5>
-                <strong>GAT 2020 Scorecard</strong>
-              </h5>
+              <a
+                href="https://online.cbexams.com/MSITOnlineScorecard/Scorecard.aspx"
+                className="links"
+              >
+                <h5>
+                  <strong>GAT 2020 Scorecard</strong>
+                </h5>
+              </a>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
               </p>
             </div>
             <div>
-              <h5>
-                <strong>Walk-ins Info</strong>
-              </h5>
+              <Link to="" className="links">
+                <h5>
+                  <strong>Walk-ins Info</strong>
+                </h5>
+              </Link>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
               </p>
             </div>
             <div>
-              <h5>
-                <strong>Python Workshop</strong>
-              </h5>
+              <Link to="" className="links">
+                <h5>
+                  <strong>Python Workshop</strong>
+                </h5>
+              </Link>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
               </p>
             </div>
             <div>
-              <h5>
-                <strong>Alumni Engage Events</strong>
-              </h5>
+              <Link to="" className="links">
+                <h5>
+                  <strong>Alumni Engage Events</strong>
+                </h5>
+              </Link>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
               </p>
             </div>
+            <div>
+              <Link to="" className="links">
+                <h5>
+                  <strong>MSIT Cricket League</strong>
+                </h5>
+              </Link>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+              </p>
+            </div>
+
             <hr />
-            <p className="mb-4">Read More</p>
+            <p className="mb-4">View all</p>
           </div>
 
           {/* Events

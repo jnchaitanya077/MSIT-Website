@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <HeaderTitle name="Dean" />
-      <div className="row card-body main-body">
+      <div className="row main-body mt-5 mb-5">
         <div className="col-lg-3 Head-img">
           <img src={Dean} className="box  img-fluid" />
         </div>

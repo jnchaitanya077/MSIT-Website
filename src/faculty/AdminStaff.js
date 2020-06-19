@@ -124,7 +124,7 @@ class person extends React.Component {
       <div>
         <HeaderTitle name="Admin-Staff" />
 
-        <div className="row card-body pt-5">
+        <div className="row main-body pt-5">
           <p className="para">
             The CIHL (Consortium of Institutions of Higher Learning) coordinates
             the MSIT program and ensures its smooth run between the leaning

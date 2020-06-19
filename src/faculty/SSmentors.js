@@ -123,7 +123,7 @@ class person extends React.Component {
     return (
       <div>
         <HeaderTitle name="Soft-Skills" />
-        <div className="row card-body pt-5">
+        <div className="row main-body pt-5">
           <p className="para">
             There are Associate Mentors for Soft skills in MSIT who mentor the
             students throughout their course. It follows a pattern of mentor
@@ -136,7 +136,6 @@ class person extends React.Component {
             smooth running of the program. Resources are gathered from numerous
             learning sources and integrated into the program.
           </p>
-          <hr />
           {SSstaff.map((info) => {
             return (
               <Info

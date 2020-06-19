@@ -3,6 +3,7 @@ footer {
   text-align: center;
   background-color: #06131a;
   padding-top: 3%;
+
   /* font-family: "Quicksand", sans-serif; */
 }
 
@@ -16,8 +17,12 @@ li a {
   color: #697176;
 }
 
+.heading {
+  color: white;
+}
 .footer-links {
-  margin: 2%;
+  margin-left: 40%;
+  text-align: left;
 }
 
 /* Footer images */
@@ -57,4 +62,11 @@ li a {
 .level-three-headings {
   color: #697176;
   font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-links {
+    text-align: center;
+    margin-left: 0%;
+  }
 }

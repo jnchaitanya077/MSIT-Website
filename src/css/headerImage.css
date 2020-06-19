@@ -1,6 +1,6 @@
 .header-image {
   background-color: #0a397a;
-  height: 200px;
+  height: 10vw;
 }
 
 .outer-spacing {
@@ -23,22 +23,32 @@
 @media only screen and (max-width: 1200px) {
   /* spacing for logo */
   .outer-spacing {
-    padding-top: 10%;
+    padding-top: 4vh;
   }
 
   .header-title-outer {
-    width: 30%;
-    height: 70px;
+    width: 20vw;
+    height: 60px;
   }
 
   /* label text */
   .header-title {
-    font-size: 4.5vw;
+    font-size: 2vw;
   }
 }
 
 /* for mobile phones */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
+  .header-image {
+    background-color: #0a397a;
+    height: 20vh;
+  }
+
+  .header-title-outer {
+    width: 20vh;
+    height: 60px;
+  }
+
   .header-title {
     padding-top: 10%;
   }

@@ -5,7 +5,7 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 80px;
+  /* padding-top: 80px; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -17,4 +17,15 @@ code {
 .row {
   margin-left: 0px;
   margin-right: 0px;
+}
+@media only screen and (min-width: 1000px) {
+  .quick-carousel {
+    height: 87vh;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .quick-carousel {
+    height: 90vh;
+  }
 }

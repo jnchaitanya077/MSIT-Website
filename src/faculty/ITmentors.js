@@ -123,7 +123,7 @@ class person extends React.Component {
     return (
       <div>
         <HeaderTitle name="IT-Staff" />
-        <div className="row card-body pt-5">
+        <div className="row main-body pt-5">
           <p className="para">
             There are associate mentors, physically available for the students,
             to guide them through all the courses. MSIT maintains a

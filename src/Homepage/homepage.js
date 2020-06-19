@@ -8,8 +8,10 @@ import Cards from "../components/cards.js";
 function App() {
   return (
     <div>
-      <Carousel />
-      <Links />
+      <div className="quick-carousel">
+        <Carousel />
+        <Links />
+      </div>
       <News />
       <Placement />
       <Cards />

@@ -22,39 +22,17 @@ import SSmentors from "./faculty/SSmentors.js";
 import AdminStaff from "./faculty/AdminStaff.js";
 import Publications from "./faculty/publications.js";
 import * as serviceWorker from "./serviceWorker";
+//test
+import Test from "./components/test.js";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      <Route exact path="/testing" component={Test} />
       <Header />
       <Route exact path="/" component={Hompage} />
       <Route exact path="/msit-vision" component={MsitVision} />
       <Route exact path="/msit-advantage" component={MSITAdvantage} />
-      <Route
-        exact
-        path="/msit-advantage/#LearningByDoing"
-        component={MSITAdvantage}
-      />
-      <Route
-        exact
-        path="/msit-advantage/#ProjectCenteredCurriculum"
-        component={MSITAdvantage}
-      />
-      <Route
-        exact
-        path="/msit-advantage/#SoftSkills"
-        component={MSITAdvantage}
-      />
-      <Route
-        exact
-        path="/msit-advantage/#ResourcesForStudents"
-        component={MSITAdvantage}
-      />
-      <Route
-        exact
-        path="/msit-advantage/#Infrastructure"
-        component={MSITAdvantage}
-      />
       <Route exact path="/dean" component={Dean} />
       <Route exact path="/it-mentors" component={ITmentors} />
       <Route exact path="/ss-mentors" component={SSmentors} />

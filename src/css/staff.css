@@ -4,8 +4,19 @@
   line-height: 1.7;
 }
 
+/* faculty cards */
+.main {
+  text-align: center;
+}
+
+.rounded-circle {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* main body alignment for all pages */
-.card-body {
+.main-body {
   margin-left: 10%;
   margin-right: 10%;
   padding-right: 0%;
@@ -74,7 +85,7 @@ hr {
 .sub-title {
   font-weight: 600;
   font-style: italic;
-  margin: 20px;
+  margin: 2%;
 }
 
 /* sub title right */
@@ -83,14 +94,22 @@ hr {
 }
 
 .sub-para {
-  margin: 20px;
+  margin: 0px;
   text-align: justify;
   line-height: 1.7;
 }
 
-.main-body {
-  margin-top: 5%;
-  margin-bottom: 5%;
+.main-body-adv {
+  /* TRBL */
+
+  margin: 5% 10% 5% 10%;
+  padding-right: 0%;
+}
+
+@media only screen and (min-width: 800px) {
+  .left-spacing {
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
