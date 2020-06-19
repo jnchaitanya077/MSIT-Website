@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInfo,
-  faGraduationCap,
+  faBookmark,
   faRupeeSign,
   faIndustry,
   faCheck,
@@ -24,7 +24,7 @@ function App() {
       <div className="col-md-6 col-lg links-alignment">
         <Link to="#" className="links">
           <FontAwesomeIcon
-            icon={faGraduationCap}
+            icon={faBookmark}
             size="3x"
             className="quick-icons"
           />
@@ -34,14 +34,14 @@ function App() {
         </Link>
       </div>
       <div className="col-md-6 col-lg links-alignment">
-        <Link to="#" className="links">
+        <Link to="/fee-structure" className="links">
           <FontAwesomeIcon
             icon={faRupeeSign}
             size="3x"
             className="quick-icons"
           />
         </Link>
-        <Link to="#" className="links">
+        <Link to="/fee-structure" className="links">
           <h3>Fee Structure</h3>
         </Link>
       </div>
@@ -58,12 +58,12 @@ function App() {
         </Link>
       </div>
       <div className="col-md-12 col-lg links-alignment">
-        <Link to="#" className="links">
+        <a href="https://msitprogram.net/admissions/" className="links">
           <FontAwesomeIcon icon={faCheck} size="3x" className="quick-icons" />
-        </Link>
-        <Link to="#" className="links">
+        </a>
+        <a href="https://msitprogram.net/admissions/" className="links">
           <h3>Apply</h3>
-        </Link>
+        </a>
       </div>
     </div>
   );

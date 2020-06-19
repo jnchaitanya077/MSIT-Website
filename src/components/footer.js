@@ -39,6 +39,7 @@ function App() {
             </li>
             <li className="footer-links">
               {/* <a href="FAQ">FAQ</a> */}
+
               <Link to="/faq" className="footer-links">
                 FAQ
               </Link>

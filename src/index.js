@@ -31,12 +31,11 @@ import Fee from "./Admissions/feeStructure.js";
 import SampleTestQuestions from "./Admissions/sample_test_qs.js";
 import EntranceSyllabus from "./Admissions/entranceSyllabus.js";
 import FAQ from "./Homepage/faq.js";
-import test from "./components/test.js";
+import Test from "./components/test.js";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Route exact path="/testing" component={Test} />
       <Header />
       {/* index */}
       <Route exact path="/" component={Hompage} />
@@ -44,7 +43,6 @@ ReactDOM.render(
       <Route exact path="/msit-vision" component={MsitVision} />
       {/* MSIT Advantage */}
       <Route exact path="/msit-advantage" component={MSITAdvantage} />
-      <Route exact path="/" component={Hompage} />
       {/* Amissions */}
       <Route exact path="/admission" component={AdmissionInfo} />
       {/* <Route
@@ -71,7 +69,7 @@ ReactDOM.render(
       <Route exact path="/publications" component={Publications} />
       <Route exact path="/faq" component={FAQ} />
 
-      <Route exact path="/test" component={test} />
+      <Route exact path="/testing" component={Test} />
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,
