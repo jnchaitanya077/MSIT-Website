@@ -4,6 +4,7 @@ import HeaderTitle from "../components/headerImage.js"
 import MsitAdv from "../images/AboutMsit/msitadv.jpg"
 import { Link } from "react-router-dom";
 import "../css/AboutMsit.css";
+
 function App(){    
     return(
         <div>
@@ -12,23 +13,29 @@ function App(){
                 <div className="row profile-row">
                     {/* <!-- text column--> */}
                     <div className="col-8">
-                        <h1 style={{color:"rgb(119, 11, 11)"}}>MSIT PROGRAM</h1>
+                        <h1 style={{color:"rgb(119, 11, 11)"}}>MSIT Program</h1>
                         <p>MSIT program is being offered by “Consortium of Institutions of Higher Learning” (CIHL), formed by the universities in Andhra Pradesh and Telangana. CIHL has designed the program with inputs from major IT companies</p>
                         &nbsp;
                         &nbsp;
                         <h4>This is a glimpse of the leading institutions involved in this programme:</h4>
-                        <ul>
-                            <li>IIIT, Hyderabad (IIIT-H)</li>
-                            <li>JNTU, Hyderabad (JNTUH)</li>
-                            <li>JNTU, Kakinada (JNTUK)</li>
-                            <li>JNTU, Anantapur (JNTUA)</li>
-                            <li>SV University, Tirupati (SVU)</li>
-                        </ul>
+                        <div className="col news" style={{height:"160px" , paddingTop:"2%", marginTop:"20px"}}>
+                            <ul>
+                                <li>IIIT, Hyderabad (IIIT-H)</li>
+                                <li>JNTU, Hyderabad (JNTUH)</li>
+                                <li>JNTU, Kakinada (JNTUK)</li>
+                                <li>JNTU, Anantapur (JNTUA)</li>
+                                <li>SV University, Tirupati (SVU)</li>
+                            </ul>
+                        </div>
                     </div>
 
                     {/* <!-- image column--> */}
                     <div className="col-4">
-                        <img src={MsitAdv} alt="" className="alignright" style={{width: "340px", height: "380px"}}/>
+                        <div  className="col news" style={{height:"400px",width:"350px", paddingTop:"1%", paddingLeft:"1%", paddingRight:"1%", paddingBottom:"1%"}}>
+                            {/* <img src={MsitAdv} alt="" className="alignright" style={{width: "340px", height: "380px"}}/> */}
+                            <img src={MsitAdv} alt="" className="alignright" style={{width: "334px", height: "393px"}}/>
+                        </div>
+                        
                     </div>
                 </div>
 

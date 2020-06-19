@@ -21,7 +21,22 @@ button :hover{
     color: black;
 }
 
-
+.Collapsible__trigger {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+  }
+  .Collapsible__contentInner h5{
+    color: rgb(82, 11, 11);
+  }
+  .Collapsible__contentInner{
+      padding: 20px;
+  }
 
 
     /* -----------------------------------------------Courses and Structure------------------------------------------------ */
