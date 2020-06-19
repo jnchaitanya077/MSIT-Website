@@ -17,26 +17,30 @@ nav li:hover {
 }
 
 nav a {
-  color: white;
+  /* color: white; */
   font-size: 16px;
 }
 
 /* dropdown menu */
 .dropdown-menu {
   background-color: #001340;
-  color: white;
+  /* color: white; */
   margin-top: 0px;
 }
 
 .dropdown-menu a:hover {
-  /* Yellow */
   background-color: rgb(235, 195, 52);
-  /* background-color: #001340; */
-  /* background-color: #007bff; */
-  /* color: white; */
 }
 .dropdown-item {
   color: whitesmoke;
+  background-color: #001340;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+  background-color: #001340;
 }
 
 /*------------- carousel-----------------*/

@@ -44,7 +44,7 @@ function App() {
               <a className="dropdown-item" href="#">
                 Charter
               </a>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item " href="#">
                 MSIT Program
               </a>
               <a className="dropdown-item" href="#">

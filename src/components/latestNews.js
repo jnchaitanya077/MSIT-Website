@@ -132,7 +132,9 @@ function App() {
               <a href="https://msitprogram.net/admissions/" className="links">
                 <h5>
                   <strong>MSIT 2020 Admissions</strong>
-                  <span class="badge badge-pill badge-danger shadow">New</span>
+                  <span className="badge badge-pill badge-danger shadow">
+                    New
+                  </span>
                 </h5>
               </a>
               <p>
