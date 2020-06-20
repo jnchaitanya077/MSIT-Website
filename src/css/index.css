@@ -28,6 +28,17 @@ code {
   font-size: 1.1em;
   font-weight: 400;
 }
+@media only screen and (max-width: 998px) {
+  .general-text {
+    line-height: 1.5em;
+  }
+  body {
+    line-height: 1.5em;
+  }
+  .about-paragraph {
+    line-height: 1.5em;
+  }
+}
 @media only screen and (min-width: 1000px) {
   .quick-carousel {
     height: 87vh;
