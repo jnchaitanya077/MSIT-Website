@@ -15,7 +15,7 @@ function App(props) {
           </strong>
         </h2>
         <h6 className="sub-title">{props.subtitle}</h6>
-        <blockquote className="sub-para">
+        <blockquote className="sub-para general-text">
           <q>{props.body}</q>
         </blockquote>
       </div>

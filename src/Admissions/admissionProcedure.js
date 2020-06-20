@@ -40,8 +40,13 @@ class App extends React.Component {
         <div className="container author-block mt-5 mb-5 pr-2 bg-light post-block ">
           {/* Eligibility Section */}
           <div id="AdmissionProcedure">
-            <h1 className="pb-4 preview" >Admission-Procedure</h1>
-            <h3 className="title">Eligibility</h3>
+            <h1 className="pb-4 title">
+              <strong>Admission-Procedure</strong>
+            </h1>
+            {/* <h1 className="pb-4 preview"></h1> */}
+            <h3 className="title" style={{ marginTop: "0px" }}>
+              <strong>Eligibility</strong>
+            </h3>
             <p>B.Tech / B.E(All Branches)</p>
             <p>
               Admissions are based on ranks obtained in the entrance exam called
@@ -50,8 +55,10 @@ class App extends React.Component {
 
             {/* GAT Exam Pattern */}
             <h4 className="title">
-              Graduate Aptitude Test (GAT) will be conducted by CIHL in two
-              ways:
+              <strong>
+                Graduate Aptitude Test (GAT) will be conducted by CIHL in two
+                ways:
+              </strong>
             </h4>
             <ol>
               <li>
@@ -81,7 +88,9 @@ class App extends React.Component {
             </p>
 
             {/* Walkin Dates and info*/}
-            <h5>Walk-in Entrance Test</h5>
+            <h5 className="title">
+              <strong>Walk-in Entrance Test</strong>
+            </h5>
             <p>
               Eligible candidates can apply online for walk-in Entrance Test
               <a href="" className="links ">
@@ -130,7 +139,9 @@ class App extends React.Component {
             </p>
 
             {/* GAT Info */}
-            <h5 className="title">Regular GAT</h5>
+            <h5 className="title">
+              <strong>Regular GAT</strong>
+            </h5>
             <p>
               Regular Entrance Test is conducted from {gatExamDate}. Candidates
               can apply for this test online
@@ -161,7 +172,9 @@ class App extends React.Component {
             </div>
 
             {/* GRE Info */}
-            <h5 className="title">Entrance test waived</h5>
+            <h5 className="title">
+              <strong>Entrance test waived</strong>
+            </h5>
             <p>
               <strong>GRE:</strong> Candidates who have taken the GRE after July
               2016 are exempted from the entrance test (GAT) if they have a
@@ -173,17 +186,23 @@ class App extends React.Component {
 
           {/* How to apply */}
           <div id="HowToApply">
-            <h1 className="pb-4 title">How To Apply?</h1>
+            <h1 className="pb-4 title">
+              <strong>How To Apply?</strong>
+            </h1>
             <p>
               Admissions are based on ranks obtained in the entrance exam called
               Graduate Aptitude Test (GAT). Graduate Aptitude Test (GAT) will be
               conducted by CIHL in two ways:
             </p>
 
-            <h5 className="title ">Walk-in Entrance test:</h5>
+            <h5 className="title ">
+              <strong>Walk-in Entrance test:</strong>
+            </h5>
             <p>Candidates have the option to choose the date of the exam</p>
 
-            <h5 className="title ">Regular GAT Entrance test:</h5>
+            <h5 className="title ">
+              <strong>Regular GAT Entrance test:</strong>
+            </h5>
             <p>Exam is conducted on a fixed date.</p>
 
             <p>
@@ -202,7 +221,9 @@ class App extends React.Component {
 
           {/* Walkin Process */}
           <div id="WalkinProcess">
-            <h1 className="pb-4 title">Walk in Process</h1>
+            <h1 className="pb-4 title">
+              <strong>Walk in Process</strong>
+            </h1>
             <p>
               From 2006 admissions onwards, MSIT has introduced the "Walk-in
               Entrance" (now from home itself). This is planned for the
@@ -211,7 +232,9 @@ class App extends React.Component {
               taking the exam.
             </p>
             <h5 className="title">
-              Walk-in Entrance Test (now online and from home itself):
+              <strong>
+                Walk-in Entrance Test (now online and from home itself):
+              </strong>
             </h5>
             <p>
               Candidates have the option to choose the date of the exam. Walk-in

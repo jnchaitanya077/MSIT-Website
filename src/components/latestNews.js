@@ -13,8 +13,10 @@ function App() {
     <div className="newsLayout">
       <div className="row">
         <div className="col-lg-8 order-2 order-md-2 order-lg-1">
-          <h2 className="title">MSIT</h2>
-          <p className="about-paragraph">
+          <h2 className="title">
+            <strong>MSIT</strong>
+          </h2>
+          <p className="about-paragraph general-text">
             MSIT (MS in IT or Master of Science in Information Technology) is a
             two year post graduate program in Computer Science started in 2001.
             MSIT is an innovative multi-university interdisciplinary
@@ -23,8 +25,10 @@ function App() {
             Universities. Under MOU with CMU, some Carnegie Mellon Researchers
             are providing guidance on the course content.
           </p>{" "}
-          <h2 className="title">How It All Started?</h2>
-          <p className="about-paragraph">
+          <h2 className="title">
+            <strong>How It All Started?</strong>
+          </h2>
+          <p className="about-paragraph general-text">
             MSIT programme has been there for over 17 years now and we have seen
             almost 2000 students graduate from this programme. This programme
             has been created with a very fresh idea in the year 2001. That is
@@ -126,7 +130,9 @@ function App() {
               size="3x"
               className="latestNews-icon-one"
             />
-            <h2 className="news-title">Latest News</h2>
+            <h2 className="news-title">
+              <strong>Latest News</strong>
+            </h2>
             <hr />
             <div>
               <a href="https://msitprogram.net/admissions/" className="links">

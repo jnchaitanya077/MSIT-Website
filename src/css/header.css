@@ -30,6 +30,7 @@ nav a {
 
 .dropdown-menu a:hover {
   background-color: rgb(235, 195, 52);
+  color: black;
 }
 .dropdown-item {
   color: whitesmoke;
@@ -87,7 +88,9 @@ nav a {
   }
   .dropdown-item {
     color: black;
+    background-color: whitesmoke;
   }
+
   nav li:hover .dropdown-menu {
     display: block;
   }

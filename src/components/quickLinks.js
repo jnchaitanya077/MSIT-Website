@@ -18,7 +18,9 @@ function App() {
           <FontAwesomeIcon icon={faInfo} size="3x" className="quick-icons" />
         </Link>
         <Link to="/msit-vision" className="links">
-          <h3>MSIT Vision</h3>
+          <h3>
+            <strong>MSIT Vision</strong>
+          </h3>
         </Link>
       </div>
       <div className="col-md-6 col-lg links-alignment">
@@ -30,7 +32,9 @@ function App() {
           />
         </Link>
         <Link to="#" className="links">
-          <h3>Specializations</h3>
+          <h3>
+            <strong>Specializations</strong>
+          </h3>
         </Link>
       </div>
       <div className="col-md-6 col-lg links-alignment">
@@ -42,7 +46,9 @@ function App() {
           />
         </Link>
         <Link to="/fee-structure" className="links">
-          <h3>Fee Structure</h3>
+          <h3>
+            <strong>Fee Structure</strong>
+          </h3>
         </Link>
       </div>
       <div className="col-md-6 col-lg links-alignment">
@@ -54,7 +60,9 @@ function App() {
           />
         </Link>
         <Link to="#" className="links">
-          <h3>Placements</h3>
+          <h3>
+            <strong>Placements</strong>
+          </h3>
         </Link>
       </div>
       <div className="col-md-12 col-lg links-alignment">
@@ -62,7 +70,9 @@ function App() {
           <FontAwesomeIcon icon={faCheck} size="3x" className="quick-icons" />
         </a>
         <a href="https://msitprogram.net/admissions/" className="links">
-          <h3>Apply</h3>
+          <h3>
+            <strong>Apply</strong>
+          </h3>
         </a>
       </div>
     </div>

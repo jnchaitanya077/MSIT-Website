@@ -10,7 +10,7 @@ function App() {
           <br /> Organizations Of the World.
         </h2>
         <div className="horizontal"></div>
-        <p>
+        <p className="general-text">
           Year 2018 – 11 students placed with a salary package in excess
           <br /> of 20 Lakhs Per Annum
           <br />
