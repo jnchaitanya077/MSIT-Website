@@ -28,6 +28,7 @@ code {
   font-size: 1.1em;
   font-weight: 400;
 }
+
 @media only screen and (max-width: 998px) {
   .general-text {
     line-height: 1.5em;
@@ -36,7 +37,8 @@ code {
     line-height: 1.5em;
   }
   .about-paragraph {
-    line-height: 1.5em;
+    line-height: 1.5em !important;
+    text-align: left !important;
   }
 }
 @media only screen and (min-width: 1000px) {

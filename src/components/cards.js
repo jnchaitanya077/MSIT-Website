@@ -6,7 +6,7 @@ import "../css/cards.css";
 function App() {
   return (
     <div className="row cardsPadding">
-      <div className="col-md-4 ">
+      <div className="col-md-4 singleCard">
         <div className="card">
           <img className="card-img-top" src={image1} alt="Card image cap" />
           <div className="card-body">
@@ -22,7 +22,7 @@ function App() {
         </div>
       </div>
 
-      <div className="col-md-4 ">
+      <div className="col-md-4 singleCard">
         <div className="card">
           <img className="card-img-top" src={image1} alt="Card image cap" />
           <div className="card-body">
@@ -38,7 +38,7 @@ function App() {
         </div>
       </div>
 
-      <div className="col-md-4 ">
+      <div className="col-md-4 singleCard">
         <div className="card">
           <img className="card-img-top" src={image1} alt="Card image cap" />
           <div className="card-body">
