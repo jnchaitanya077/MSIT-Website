@@ -36,7 +36,7 @@ function App() {
               About MSIT
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <Link to = "/Charter" className="dropdown-item" >
+            <Link to = "/MsitProgram" className="dropdown-item" >
                 MSIT Charter
               </Link>
               <Link to = "/MsitProgram" className="dropdown-item" >
