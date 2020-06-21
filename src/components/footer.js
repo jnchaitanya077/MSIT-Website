@@ -28,14 +28,15 @@ function App() {
               <h3 className="heading footer-links">Quick Links</h3>
             </li>
             <li className="footer-links">
-              <a href="#">Terms & Conditions</a>
+              <Link to="/TermsAndConditions">Terms and Conditions</Link>
             </li>
             <li className="footer-links">
-              <a href="#">Privacy Policy</a>
+              <Link to="/PrivacyPolicy">Privacy Policy</Link>
             </li>
             <li className="footer-links">
-              <a href="#">Refund / Cancellation</a>
+              <Link to="/RefundCancellation">Refund/Cancellation</Link>
             </li>
+
             <li className="footer-links">
               <Link
                 to="/faq"

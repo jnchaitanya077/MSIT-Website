@@ -43,6 +43,10 @@ import FAQ from "./Homepage/faq.js";
 // Recruiters page imports
 import Placements from "./Recruiters/placements.js";
 import Corp_relations from "./Recruiters/Corp_relations.js";
+// footer
+import TermsAndConditions from "./FooterLinks/TermsAndConditions.js";
+import PrivacyPolicy from "./FooterLinks/PrivacyPolicy.js";
+import RefundCancellation from "./FooterLinks/RefundCancellation.js";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -86,6 +90,10 @@ ReactDOM.render(
         component={CoursesAndStructure}
       />
       <Route exact path="/Curriculum" component={Curriculum} />
+      {/* footer */}
+      <Route exact path="/TermsAndConditions" component={TermsAndConditions} />
+      <Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />
+      <Route exact path="/RefundCancellation" component={RefundCancellation} />
 
       <Footer />
     </BrowserRouter>
