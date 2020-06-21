@@ -124,7 +124,7 @@ class person extends React.Component {
       <div>
         <HeaderTitle name="Soft-Skills" />
         <div className="row main-body pt-5">
-          <p className="para">
+          <p className="general-text">
             There are Associate Mentors for Soft skills in MSIT who mentor the
             students throughout their course. It follows a pattern of mentor
             student ratio of 1:10. The Resource Principal Mentor is responsible
@@ -136,16 +136,19 @@ class person extends React.Component {
             smooth running of the program. Resources are gathered from numerous
             learning sources and integrated into the program.
           </p>
-          {SSstaff.map((info) => {
-            return (
-              <Info
-                image={info.image}
-                name={info.name}
-                position={info.position}
-                email={info.email}
-              />
-            );
-          })}
+
+          <div className="card-deck">
+            {SSstaff.map((info) => {
+              return (
+                <Info
+                  image={info.image}
+                  name={info.name}
+                  position={info.position}
+                  email={info.email}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     );

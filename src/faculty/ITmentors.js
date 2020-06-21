@@ -126,7 +126,7 @@ class person extends React.Component {
       <div>
         <HeaderTitle name="IT-Staff" />
         <div className="row main-body pt-5">
-          <p className="para">
+          <p className="general-text">
             There are associate mentors, physically available for the students,
             to guide them through all the courses. MSIT maintains a
             student:mentor ratio of less than 10:1. i.e. for every 10 students
@@ -138,16 +138,18 @@ class person extends React.Component {
             wide. We try to pick the best lectures available in the domain and
             deliver it to the students.
           </p>
-          {ITstaff.map((info) => {
-            return (
-              <Info
-                image={info.image}
-                name={info.name}
-                position={info.position}
-                email={info.email}
-              />
-            );
-          })}
+          <div className="card-deck">
+            {ITstaff.map((info) => {
+              return (
+                <Info
+                  image={info.image}
+                  name={info.name}
+                  position={info.position}
+                  email={info.email}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     );

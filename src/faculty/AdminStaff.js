@@ -134,16 +134,18 @@ class person extends React.Component {
             and Office Management staff through person and resources, are a
             great backing for us.
           </p>
-          {SSstaff.map((info) => {
-            return (
-              <Info
-                image={info.image}
-                name={info.name}
-                position={info.position}
-                email={info.email}
-              />
-            );
-          })}
+          <div className="card-deck">
+            {SSstaff.map((info) => {
+              return (
+                <Info
+                  image={info.image}
+                  name={info.name}
+                  position={info.position}
+                  email={info.email}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     );

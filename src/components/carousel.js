@@ -34,7 +34,7 @@ function App() {
           data-slide="prev"
         >
           <span
-            className="carousel-control-prev-icon"
+            className="carousel-control-prev-icon bg-dark rounded"
             aria-hidden="true"
           ></span>
           <span className="sr-only">Previous</span>
@@ -46,7 +46,7 @@ function App() {
           data-slide="next"
         >
           <span
-            className="carousel-control-next-icon"
+            className="carousel-control-next-icon bg-dark rounded"
             aria-hidden="true"
           ></span>
           <span className="sr-only">Next</span>
