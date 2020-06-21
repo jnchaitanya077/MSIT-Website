@@ -53,7 +53,7 @@ class curriculum extends React.Component {
                     <div className="col-12">
                         <p>MSIT offers Project centric curriculum which lends practical experience and helps the students to muster the implementation details of all the concepts related to each course. Each course is broken down into modules, each of which is offered as a project to be worked on. The students understand the concept while working on the project and submit the relevant tasks (deliverables) within the deadline specified by their mentors. The students get the required guidance and support at every level from the mentors who have a wide knowledge base.</p>
                         <p>Soft Skills training is embedded into curriculum and each mini-semester has one soft skills workshop in addition to continuous coaching in language training on a daily basis.</p>
-                        <div className="col news" style={{height:"auto"}}>
+                        <div className="col news" style={{height:"auto", paddingRight:"40px"}}>
                             <h2 style={{color: "rgb(119, 11, 11)"}}>MSIT 1st year Syllabus:</h2>
                             <p>An academic year is divided into 6 mini semesters. Duration of each mini semester is eight weeks. The first year has five IT and Soft Skills mini semesters and 1 practicum mini semester.</p>
                             <p>All core courses of computer science are offered in the first year. The final mini-semester in the first year is catered for practicum</p>
@@ -88,7 +88,7 @@ class curriculum extends React.Component {
                             </Jumbotron>
                         </div>
                         
-                        <div className="col news" style={{height:"390px"}}>
+                        <div className="col news" style={{height:"auto" , paddingBottom:"20px", paddingRight:"40px"}}>
                             <h2 style={{color: "rgb(119, 11, 11)"}}>MSIT 2nd year Syllabus:</h2>
                             <p>The Second year has three mini semesters of IT and Soft skills, and three mini semesters of practicum. During the Second year, Software Engineering Foundation course is offered in the first mini semester followed by domain specializations. Last three mini semesters are catered for practicum.</p>
                             <ul>

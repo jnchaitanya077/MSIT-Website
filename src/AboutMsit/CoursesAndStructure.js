@@ -71,24 +71,22 @@ class courses extends React.Component {
                         <p>MSIT employs a unique ‘Sequential Learning’ technique by which a student only moves on to the next course after thoroughly mastering the preceding course as against the conventional BTECH/MTECH programs which offer courses in a parallel fashion. This sequential pattern would enable a student to master one course a time, understand the relevant concepts, give him some scope to explore in depth into core concepts and move on with the next course. The Mastery Model of assessment requires a student to score 70% and above. This motivates students to stretch their abilities and reach the required target percentage. An academic year is divided into 6 mini semesters. Duration of each mini semester is eight weeks. The first year has five IT and Soft Skills mini semesters each and 1 practicum mini semester. The Second year has four IT and Soft Skills mini semesters each and 2 practicum mini semesters. There would be a 4 - week vacation spread over the year.</p>
                         <h2>MSIT offers spectrum of courses including: </h2> 
                         
-                        {/* <Jumbotron fluid style= {{ height: "80px" , padding:"0%" , margin:"0%"}} id = "jumbotron1"> */}
-                        <div className="col news"  style= {{height:"80px", paddingTop:"10px", marginBottom:"15px", marginTop:"15px"}}> 
+                        <div className="col news"  style= {{height:"auto", paddingTop:"10px", marginBottom:"15px", marginTop:"15px"}}> 
                             <div className="row" style={{ marginRight: 0, marginLeft: 0}}>
-                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" , paddingTop:"0%"}}>
+                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" ,marginBottom:"1%", paddingTop:"0%" , paddingBottom:"3px"}}>
                                     <a href="#col news"><h3 style={{ color:"#0a2e78"}}>IT Core</h3></a>
                                 </div>
-                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" , paddingTop:"0%" }}>
+                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%",marginBottom:"1%", paddingTop:"0%", paddingBottom:"3px" }}>
                                     <a href="#ITCore"><h3 style={{ color:"#0a2e78"}}>IT Electives</h3></a>
                                 </div>
-                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" , paddingTop:"0%" }}>
+                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" ,marginBottom:"1%", paddingTop:"0%" , paddingBottom:"3px"}}>
                                     <a href="#ITElectives"><h3 style={{ color:"#0a2e78"}}>SS Courses</h3></a>
                                 </div>
-                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" , paddingTop:"0%" }}>
+                                <div className="col-md-6 col-lg links-alignment" style={{marginTop:"1%" ,marginBottom:"1%", paddingTop:"0%", paddingBottom:"3px" }}>
                                     <a href="#SSCourses"><h3 style={{ color:"#0a2e78"}}>Specializations</h3></a>
                                 </div>
                             </div>
                         </div>  
-                        {/* </Jumbotron> */}
 
                         <div className="col news" style= {{height: "auto", paddingTop:"30px", paddingBottom:"30px", marginBottom:"15px", marginTop:"15px"}}>  
                             <h2 style={{color: "rgb(119, 11, 11)"}} id = "ITCore">IT Core</h2>
