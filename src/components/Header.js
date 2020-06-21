@@ -31,7 +31,7 @@ function App() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item dropdown">
-            <a
+            <Link
               className="nav-link"
               href="#"
               id="navbarDropdown"
@@ -39,7 +39,7 @@ function App() {
               aria-expanded="false"
             >
               About MSIT
-            </a>
+            </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <Link to="/MsitProgram" className="dropdown-item">
                 MSIT Charter
@@ -54,9 +54,12 @@ function App() {
                 Curriculum
               </Link>
 
-              <a className="dropdown-item" href="#">
-                Certification and Learning Centers
-              </a>
+              <Link
+                to="/CertificationAndLearningCenters"
+                className="dropdown-item"
+              >
+                Certification & Learning Centers
+              </Link>
             </div>
           </li>
           <li className="nav-item dropdown">
@@ -231,9 +234,9 @@ function App() {
             </div>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Gallery{" "}
-            </a>
+            <Link to="/gallery" className="nav-link">
+              Gallery
+            </Link>
           </li>
         </ul>
       </div>

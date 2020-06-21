@@ -15,6 +15,10 @@ import MsitProgram from "./AboutMsit/MsitProgram.js";
 import Charter from "./AboutMsit/Charter.js";
 import CoursesAndStructure from "./AboutMsit/CoursesAndStructure.js";
 import Curriculum from "./AboutMsit/Curriculum.js";
+import Certification from "./AboutMsit/CertificationAndLearningCenters.js";
+//Gallery
+import Gallery from "./gallery/GG.js";
+
 //Homepage imports
 import Header from "./components/Header.js";
 import Footer from "./components/footer.js";
@@ -63,7 +67,8 @@ ReactDOM.render(
         path="/msit-advantage/#LearningByDoing"
         component={MSITAdvantage}
       />
-      {/* Amissions */}
+
+      {/* Admissions */}
       <Route exact path="/admission" component={AdmissionInfo} />
       <Route exact path="/schedule" component={Schedule} />
       <Route exact path="/fee-structure" component={Fee} />
@@ -82,6 +87,7 @@ ReactDOM.render(
       <Route exact path="/faq" component={FAQ} />
       <Route exact path="/placements" component={Placements} />
       <Route exact path="/corp_relations" component={Corp_relations} />
+      {/* About MSIT */}
       <Route exact path="/MsitProgram" component={MsitProgram} />
       <Route exact path="/Charter" component={Charter} />
       <Route
@@ -90,10 +96,13 @@ ReactDOM.render(
         component={CoursesAndStructure}
       />
       <Route exact path="/Curriculum" component={Curriculum} />
+      <Route exact path="/LearningCenters" component={Certification} />
       {/* footer */}
       <Route exact path="/TermsAndConditions" component={TermsAndConditions} />
       <Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />
       <Route exact path="/RefundCancellation" component={RefundCancellation} />
+      {/* Gallery */}
+      <Route exact path="/gallery" component={Gallery} />
 
       <Footer />
     </BrowserRouter>
