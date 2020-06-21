@@ -2,6 +2,8 @@ import React from "react";
 import "../css/header.css";
 import { Link } from "react-router-dom";
 import Logo from "../images/logos/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -33,15 +35,19 @@ function App() {
               className="nav-link"
               href="#"
               id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               About MSIT
+              <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
             </a>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">
+            <div
+              className="dropdown-menu"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              aria-labelledby="navbarDropdown"
+            >
+              <a className="dropdown-item" href="www.google.com">
                 Charter
               </a>
               <a className="dropdown-item " href="#">
@@ -63,14 +69,18 @@ function App() {
               className="nav-link"
               to="#"
               id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               MSIT Advantage
+              <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
             </Link>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div
+              className="dropdown-menu"
+              data-toggle="collapse"
+              aria-labelledby="navbarDropdown"
+              data-target=".navbar-collapse.show"
+            >
               <Link
                 to="/msit-advantage/#LearningByDoing"
                 className="dropdown-item"
@@ -111,14 +121,18 @@ function App() {
               className="nav-link"
               href="#"
               id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               Admissions
+              <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
             </a>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div
+              className="dropdown-menu"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              aria-labelledby="navbarDropdown"
+            >
               <Link
                 to="/admission/#AdmissionProcedure"
                 className="dropdown-item"
@@ -160,14 +174,18 @@ function App() {
               className="nav-link"
               href="#"
               id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               Recruiters
+              <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
             </a>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div
+              className="dropdown-menu"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              aria-labelledby="navbarDropdown"
+            >
               <a className="dropdown-item" href="#">
                 Placements
               </a>
@@ -184,14 +202,18 @@ function App() {
               className="nav-link"
               href="#"
               id="navbarDropdown"
-              // role="button"
-              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               Faculty
+              <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
             </a>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div
+              className="dropdown-menu"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              aria-labelledby="navbarDropdown"
+            >
               <Link to="/dean" className="dropdown-item">
                 Dean
               </Link>

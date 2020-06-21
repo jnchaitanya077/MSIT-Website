@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 //Bootstrap imports
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import $ from "jquery";
 import Popper from "popper.js";
@@ -31,7 +32,7 @@ import Fee from "./Admissions/feeStructure.js";
 import SampleTestQuestions from "./Admissions/sample_test_qs.js";
 import EntranceSyllabus from "./Admissions/entranceSyllabus.js";
 import FAQ from "./Homepage/faq.js";
-import Test from "./components/test.js";
+import Test from "./components/nav.js";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -43,19 +44,16 @@ ReactDOM.render(
       <Route exact path="/msit-vision" component={MsitVision} />
       {/* MSIT Advantage */}
       <Route exact path="/msit-advantage" component={MSITAdvantage} />
+      <Route
+        exact
+        path="/msit-advantage/#LearningByDoing"
+        component={MSITAdvantage}
+      />
       {/* Amissions */}
       <Route exact path="/admission" component={AdmissionInfo} />
-      {/* <Route
-        exact
-        path="/admission/#AdmissionProcedure"
-        component={AdmissionInfo}
-      />
-      <Route exact path="/admission/#HowToApply" component={AdmissionInfo} />
-      <Route exact path="/admission/#WalkinProcess" component={AdmissionInfo} /> */}
       <Route exact path="/schedule" component={Schedule} />
       <Route exact path="/fee-structure" component={Fee} />
       <Route exact path="/entranceSyllabus" component={EntranceSyllabus} />
-
       <Route
         exact
         path="/sample-test-questions"
