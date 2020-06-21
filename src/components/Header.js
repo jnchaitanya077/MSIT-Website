@@ -39,26 +39,21 @@ function App() {
               aria-expanded="false"
             >
               About MSIT
-              <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
             </a>
-            <div
-              className="dropdown-menu"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-              aria-labelledby="navbarDropdown"
-            >
-              <a className="dropdown-item" href="www.google.com">
-                Charter
-              </a>
-              <a className="dropdown-item " href="#">
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <Link to="/MsitProgram" className="dropdown-item">
+                MSIT Charter
+              </Link>
+              <Link to="/MsitProgram" className="dropdown-item">
                 MSIT Program
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to="/CoursesAndStructure" className="dropdown-item">
                 Courses and Structure
-              </a>
-              <a className="dropdown-item" href="#">
+              </Link>
+              <Link to="/Curriculum" className="dropdown-item">
                 Curriculum
-              </a>
+              </Link>
+
               <a className="dropdown-item" href="#">
                 Certification and Learning Centers
               </a>
@@ -204,6 +199,8 @@ function App() {
               className="nav-link"
               href="#"
               id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
