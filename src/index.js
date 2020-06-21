@@ -32,7 +32,10 @@ import Fee from "./Admissions/feeStructure.js";
 import SampleTestQuestions from "./Admissions/sample_test_qs.js";
 import EntranceSyllabus from "./Admissions/entranceSyllabus.js";
 import FAQ from "./Homepage/faq.js";
-import Test from "./components/nav.js";
+
+// Recruiters page imports
+import Placements from "./Recruiters/placements.js";
+import Corp_relations from "./Recruiters/Corp_relations.js";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -66,8 +69,9 @@ ReactDOM.render(
       <Route exact path="/admin-staff" component={AdminStaff} />
       <Route exact path="/publications" component={Publications} />
       <Route exact path="/faq" component={FAQ} />
+      <Route exact path="/placements" component={Placements} />
+      <Route exact path="/corp_relations" component={Corp_relations} />
 
-      <Route exact path="/testing" component={Test} />
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,
