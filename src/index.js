@@ -96,7 +96,11 @@ ReactDOM.render(
         component={CoursesAndStructure}
       />
       <Route exact path="/Curriculum" component={Curriculum} />
-      <Route exact path="/LearningCenters" component={Certification} />
+      <Route
+        exact
+        path="/CertificationAndLearningCenters"
+        component={Certification}
+      />
       {/* footer */}
       <Route exact path="/TermsAndConditions" component={TermsAndConditions} />
       <Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />

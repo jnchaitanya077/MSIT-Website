@@ -15,14 +15,14 @@ function App() {
   return (
     <footer>
       <div className="row" style={{ marginRight: 0 }}>
-        <div className="col-md-4">
+        <div className="col-md-4" style={{ position: "static" }}>
           <img src={footerLogo} alt="footer-logo" className="footer-image" />
           <p className="level-three-headings">
             IIITH | JNTUH | JNTUK | JNTUA | SVU
           </p>
         </div>
 
-        <div className="col-md-4">
+        <div className="col-md-4" style={{ position: "static" }}>
           <ul className="quick-links level-three-headings ">
             <li>
               <h3 className="heading footer-links">Quick Links</h3>
@@ -49,7 +49,10 @@ function App() {
           </ul>
         </div>
 
-        <div className="col-md-4 social-media-icons level-three-headings">
+        <div
+          className="col-md-4 social-media-icons level-three-headings"
+          style={{ position: "static" }}
+        >
           <a href="https://www.facebook.com/search/top/?q=msit%20program">
             <FontAwesomeIcon
               icon={faFacebookSquare}
