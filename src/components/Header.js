@@ -186,15 +186,17 @@ function App() {
               data-target=".navbar-collapse.show"
               aria-labelledby="navbarDropdown"
             >
-              <a className="dropdown-item" href="#">
+              <Link to="/placements" className="dropdown-item">
                 Placements
-              </a>
+              </Link>
+
               <a className="dropdown-item" href="#">
                 Placements History
               </a>
-              <a className="dropdown-item" href="#">
+
+              <Link to="/corp_relations" className="dropdown-item">
                 Corporate Relationships
-              </a>
+              </Link>
             </div>
           </li>
           <li className="nav-item dropdown">

@@ -59,6 +59,7 @@
   margin-top: 5px;
 }
 
+
 /* publications paragraph */
 .pub-text {
   margin-top: 1%;
@@ -100,10 +101,13 @@ hr {
 
 .sub-para {
   margin: 0px;
-  text-align: justify;
   line-height: 1.7;
 }
 
+.img-size {
+  height: 180px;
+  width: 220px;
+}
 .main-body-adv {
   /* TRBL */
 
