@@ -39,12 +39,13 @@ function App() {
             <Link
               className="nav-link"
               id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
+              // role="button"
+              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               About MSIT
+              <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
             </Link>
             <div
               className="dropdown-menu"
@@ -52,10 +53,10 @@ function App() {
               aria-labelledby="navbarDropdown"
               data-target=".navbar-collapse.show"
             >
-              <Link to="/MsitProgram" className="dropdown-item">
+              <Link to="/MsitProgram/#charter" className="dropdown-item">
                 MSIT Charter
               </Link>
-              <Link to="/MsitProgram" className="dropdown-item">
+              <Link to="/MsitProgram/#MsitProgram" className="dropdown-item">
                 MSIT Program
               </Link>
               <Link to="/CoursesAndStructure" className="dropdown-item">
@@ -77,8 +78,8 @@ function App() {
             <Link
               className="nav-link"
               id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
+              // role="button"
+              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
@@ -130,8 +131,8 @@ function App() {
             <a
               className="nav-link"
               id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
+              // role="button"
+              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
@@ -185,8 +186,8 @@ function App() {
               className="nav-link"
               href="#"
               id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
+              // role="button"
+              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
@@ -217,8 +218,8 @@ function App() {
               className="nav-link"
               href="#"
               id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
+              // role="button"
+              // data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >

@@ -145,6 +145,15 @@ nav a {
     padding-right: 5%;
     padding-left: 5%;
   }
+  .navbar-brand {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1600px) {
+  .c-item img {
+    height: 50vw;
+  }
 }
 
 @media screen and (min-width: 1600px) {

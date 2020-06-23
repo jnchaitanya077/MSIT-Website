@@ -31,7 +31,7 @@ function App() {
             className="quick-icons"
           />
         </Link>
-        <Link to="#" className="links">
+        <Link to="/CoursesAndStructure#specializations" className="links">
           <h3 className="quick-links">
             <strong>Specializations</strong>
           </h3>

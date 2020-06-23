@@ -38,4 +38,7 @@
     background: rgba(60, 87, 176, 0.4);
     padding-top: 10%;
   }
+  .placement {
+    background-image: url("../images/placements/placement-md.jpg");
+  }
 }

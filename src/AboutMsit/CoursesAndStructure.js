@@ -183,6 +183,17 @@ const Specializations = [
 ];
 
 class courses extends React.Component {
+  componentDidMount() {
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }
+  }
   componentDidUpdate() {
     console.log("mount");
     const myId = window.location.hash.slice(1);
@@ -199,7 +210,7 @@ class courses extends React.Component {
     return (
       <div>
         <HeaderTitle name="Courses And Structure" />
-        <div className="newsLayout about-courses">
+        <div className="newsLayout about-courses pt-0">
           <div
             className="row profile-row"
             style={{ paddingTop: "40px", paddingBottom: "40px" }}
@@ -283,6 +294,7 @@ class courses extends React.Component {
                   return (
                     <ul>
                       <li>
+                        {" "}
                         <Jumbotron
                           fluid
                           style={{
@@ -294,6 +306,7 @@ class courses extends React.Component {
                           <Container>
                             <Collapsible trigger={info.courseName}>
                               <h5>Course Description</h5>
+
                               <p>{info.description}</p>
                             </Collapsible>
                           </Container>

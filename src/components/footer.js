@@ -23,7 +23,7 @@ function App() {
         </div>
 
         <div className="col-md-4" style={{ position: "static" }}>
-          <ul className="quick-links level-three-headings ">
+          <ul className="footer-heading level-three-headings ">
             <li>
               <h3 className="heading footer-links">Quick Links</h3>
             </li>

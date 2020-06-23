@@ -24,6 +24,11 @@ li a {
   text-align: left;
 }
 
+.footer-heading {
+  margin-top: 5%;
+  list-style-type: none;
+}
+
 /* Footer images */
 .footer-image {
   margin-bottom: 5%;
