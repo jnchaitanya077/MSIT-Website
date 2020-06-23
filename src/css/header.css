@@ -157,4 +157,24 @@ nav a {
   .c-item {
     height: 32vw;
   }
+
+  .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
+
+/*color changes to yellow when hover on each dropdown*/
+/* nav li:hover {
+  background-color: #ffc107;
+  color: "white";
+}
+
+nav a {
+  color: #c1c4c6;
+  font-size: 16px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #007bff;
+} */

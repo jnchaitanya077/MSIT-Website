@@ -2,12 +2,18 @@ import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 //Bootstrap imports
-
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import $ from "jquery";
 import Popper from "popper.js";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./css/index.css";
+//About Msit imports
+import MsitProgram from "./AboutMsit/MsitProgram.js";
+import Charter from "./AboutMsit/Charter.js";
+import CoursesAndStructure from "./AboutMsit/CoursesAndStructure.js";
+import Curriculum from "./AboutMsit/Curriculum.js";
 //Homepage imports
 import Header from "./components/Header.js";
 import Footer from "./components/footer.js";
@@ -68,9 +74,19 @@ ReactDOM.render(
       <Route exact path="/ss-mentors" component={SSmentors} />
       <Route exact path="/admin-staff" component={AdminStaff} />
       <Route exact path="/publications" component={Publications} />
+      {/* Recruiters */}
       <Route exact path="/faq" component={FAQ} />
       <Route exact path="/placements" component={Placements} />
       <Route exact path="/corp_relations" component={Corp_relations} />
+      {/* About MSIT */}
+      <Route exact path="/MsitProgram" component={MsitProgram} />
+      <Route exact path="/Charter" component={Charter} />
+      <Route
+        exact
+        path="/CoursesAndStructure"
+        component={CoursesAndStructure}
+      />
+      <Route exact path="/Curriculum" component={Curriculum} />
 
       <Footer />
     </BrowserRouter>
