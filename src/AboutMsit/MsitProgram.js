@@ -3,7 +3,7 @@ import { removeData } from "jquery";
 import HeaderTitle from "../components/headerImage.js";
 import MsitAdv from "../images/AboutMsit/msitadv.jpg";
 import { Link } from "react-router-dom";
-import "../css/AboutMsit.css";
+// import "../css/AboutMsit.css";
 
 class App extends React.Component {
   componentDidMount() {
