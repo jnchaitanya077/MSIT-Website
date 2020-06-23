@@ -14,6 +14,7 @@ import MsitProgram from "./AboutMsit/MsitProgram.js";
 import Charter from "./AboutMsit/Charter.js";
 import CoursesAndStructure from "./AboutMsit/CoursesAndStructure.js";
 import Curriculum from "./AboutMsit/Curriculum.js";
+import Certification from "./AboutMsit/CertificationAndLearningCenters.js";
 //Homepage imports
 import Header from "./components/Header.js";
 import Footer from "./components/footer.js";
@@ -31,8 +32,6 @@ import Publications from "./faculty/publications.js";
 import * as serviceWorker from "./serviceWorker";
 //Admissions page imports
 import AdmissionInfo from "./Admissions/admissionProcedure.js";
-import HowToApply from "./Admissions/howToApply.js";
-import WalkInProcess from "./Admissions/walkInProcess.js";
 import Schedule from "./Admissions/Schedule.js";
 import Fee from "./Admissions/feeStructure.js";
 import SampleTestQuestions from "./Admissions/sample_test_qs.js";
@@ -87,6 +86,11 @@ ReactDOM.render(
         component={CoursesAndStructure}
       />
       <Route exact path="/Curriculum" component={Curriculum} />
+      <Route
+        exact
+        path="/CertificationAndLearningCenters"
+        component={Certification}
+      />
 
       <Footer />
     </BrowserRouter>

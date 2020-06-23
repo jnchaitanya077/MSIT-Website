@@ -61,9 +61,12 @@ function App() {
                 Curriculum
               </Link>
 
-              <a className="dropdown-item" href="#">
+              <Link
+                to="/CertificationAndLearningCenters"
+                className="dropdown-item"
+              >
                 Certification and Learning Centers
-              </a>
+              </Link>
             </div>
           </li>
           <li className="nav-item dropdown">
