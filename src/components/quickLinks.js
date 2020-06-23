@@ -18,7 +18,7 @@ function App() {
           <FontAwesomeIcon icon={faInfo} size="3x" className="quick-icons" />
         </Link>
         <Link to="/msit-vision" className="links">
-          <h3>
+          <h3 className="quick-links">
             <strong>MSIT Vision</strong>
           </h3>
         </Link>
@@ -32,7 +32,7 @@ function App() {
           />
         </Link>
         <Link to="#" className="links">
-          <h3>
+          <h3 className="quick-links">
             <strong>Specializations</strong>
           </h3>
         </Link>
@@ -46,7 +46,7 @@ function App() {
           />
         </Link>
         <Link to="/fee-structure" className="links">
-          <h3>
+          <h3 className="quick-links">
             <strong>Fee Structure</strong>
           </h3>
         </Link>
@@ -60,7 +60,7 @@ function App() {
           />
         </Link>
         <Link to="#" className="links">
-          <h3>
+          <h3 className="quick-links">
             <strong>Placements</strong>
           </h3>
         </Link>
@@ -70,7 +70,7 @@ function App() {
           <FontAwesomeIcon icon={faCheck} size="3x" className="quick-icons" />
         </a>
         <a href="https://msitprogram.net/admissions/" className="links">
-          <h3>
+          <h3 className="quick-links">
             <strong>Apply</strong>
           </h3>
         </a>

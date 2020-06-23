@@ -28,19 +28,30 @@ function App() {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div
+        className="collapse navbar-collapse"
+        data-toggle="collapse"
+        data-target=".navbar-collapse.show"
+        id="navbarSupportedContent"
+      >
         <ul className="navbar-nav ml-auto">
           <li className="nav-item dropdown">
             <Link
               className="nav-link"
-              href="#"
               id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               About MSIT
             </Link>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div
+              className="dropdown-menu"
+              data-toggle="collapse"
+              aria-labelledby="navbarDropdown"
+              data-target=".navbar-collapse.show"
+            >
               <Link to="/MsitProgram" className="dropdown-item">
                 MSIT Charter
               </Link>
@@ -65,8 +76,9 @@ function App() {
           <li className="nav-item dropdown">
             <Link
               className="nav-link"
-              to="#"
               id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
@@ -117,8 +129,9 @@ function App() {
           <li className="nav-item dropdown">
             <a
               className="nav-link"
-              href="#"
               id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
@@ -172,6 +185,8 @@ function App() {
               className="nav-link"
               href="#"
               id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
@@ -181,7 +196,7 @@ function App() {
             <div
               className="dropdown-menu"
               data-toggle="collapse"
-              data-target=".navbar-collapse.show"
+              // data-target=".navbar-collapse.show"
               aria-labelledby="navbarDropdown"
             >
               <Link to="/placements" className="dropdown-item">
@@ -213,7 +228,7 @@ function App() {
             <div
               className="dropdown-menu"
               data-toggle="collapse"
-              data-target=".navbar-collapse.show"
+              // data-target=".navbar-collapse.show"
               aria-labelledby="navbarDropdown"
             >
               <Link to="/dean" className="dropdown-item">

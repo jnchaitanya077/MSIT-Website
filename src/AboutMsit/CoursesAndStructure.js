@@ -183,7 +183,7 @@ const Specializations = [
 ];
 
 class courses extends React.Component {
-  componentDidMount() {
+  componentDidUpdate() {
     console.log("mount");
     const myId = window.location.hash.slice(1);
     const elem = document.getElementById(myId);
@@ -236,25 +236,34 @@ class courses extends React.Component {
                 // }}
               >
                 <div className="row" style={{ marginRight: 0, marginLeft: 0 }}>
-                  <div className="col-md-6 col-lg links-alignment course-title">
-                    <a href="#col news">
-                      <h3 style={{ color: "#0a2e78" }}>IT Core</h3>
-                    </a>
+                  <div className="col-md-6 col-lg course-title">
+                    <Link to="/CoursesAndStructure/#ITCore" className="links">
+                      <h3>IT Core</h3>
+                    </Link>
                   </div>
-                  <div className="col-md-6 col-lg links-alignment course-title">
-                    <a href="#ITCore">
-                      <h3 style={{ color: "#0a2e78" }}>IT Electives</h3>
-                    </a>
+                  <div className="col-md-6 col-lg course-title">
+                    <Link
+                      to="/CoursesAndStructure/#ITElectives"
+                      className="links"
+                    >
+                      <h3>IT Electives</h3>
+                    </Link>
                   </div>
-                  <div className="col-md-6 col-lg links-alignment course-title">
-                    <a href="#ITElectives">
-                      <h3 style={{ color: "#0a2e78" }}>SS Courses</h3>
-                    </a>
+                  <div className="col-md-6 col-lg course-title">
+                    <Link
+                      to="/CoursesAndStructure/#SSCourses"
+                      className="links"
+                    >
+                      <h3>SS Courses</h3>
+                    </Link>
                   </div>
-                  <div className="col-md-6 col-lg links-alignment course-title">
-                    <a href="#SSCourses">
-                      <h3 style={{ color: "#0a2e78" }}>Specializations</h3>
-                    </a>
+                  <div className="col-md-6 col-lg course-title">
+                    <Link
+                      to="/CoursesAndStructure/#specializations"
+                      className="links"
+                    >
+                      <h3>Specializations</h3>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -269,9 +278,7 @@ class courses extends React.Component {
                   marginTop: "15px",
                 }}
               >
-                <h2 style={{ color: "rgb(119, 11, 11)" }} id="ITCore">
-                  IT Core
-                </h2>
+                <h2 id="ITCore">IT Core</h2>
                 {ITCore.map((info) => {
                   return (
                     <ul>
@@ -307,9 +314,7 @@ class courses extends React.Component {
                   marginTop: "15px",
                 }}
               >
-                <h2 style={{ color: "rgb(119, 11, 11)" }} id="ITElectives">
-                  IT Electives
-                </h2>
+                <h2 id="ITElectives">IT Electives</h2>
                 {ITElectives.map((info) => {
                   return (
                     <ul>
@@ -345,9 +350,7 @@ class courses extends React.Component {
                   marginTop: "15px",
                 }}
               >
-                <h2 style={{ color: "rgb(119, 11, 11)" }} id="SSCourses">
-                  Soft Skills
-                </h2>
+                <h2 id="SSCourses">Soft Skills</h2>
                 {SSCourses.map((info) => {
                   return (
                     <ul>
@@ -383,9 +386,7 @@ class courses extends React.Component {
                   marginTop: "15px",
                 }}
               >
-                <h2 id="specializations" style={{ color: "rgb(119, 11, 11)" }}>
-                  Domain Specializations
-                </h2>
+                <h2 id="specializations">Domain Specializations</h2>
                 {Specializations.map((info) => {
                   return (
                     <ul>
