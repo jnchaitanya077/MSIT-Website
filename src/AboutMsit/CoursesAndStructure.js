@@ -195,6 +195,18 @@ class courses extends React.Component {
     }
   }
 
+  componentDidMount() {
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }
+  }
+
   render() {
     return (
       <div>

@@ -116,7 +116,10 @@ function App() {
               <Link to="/msit-advantage" className="dropdown-item">
                 Success Stories
               </Link>
-              <Link to="/msit-advantage" className="dropdown-item">
+              <Link
+                to="/CoursesAndStructure/#specializations"
+                className="dropdown-item"
+              >
                 Specializations
               </Link>
             </div>
