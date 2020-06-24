@@ -3,7 +3,7 @@ import React from "react";
 function LearningCenters(props) {
   return (
     <div
-      className="col shadows mb-3"
+      className="col shadows-courses  p-4 mb-3"
       style={{ height: "auto", paddingBottom: "0" }}
     >
       <h3 id="section1">{props.university}</h3>
@@ -13,24 +13,19 @@ function LearningCenters(props) {
           <span>Here</span>
         </a>
       </p>
-      <div
-        className="jumbotron jumbotron-fluid"
-        style={{ height: "50px", width: "30%", padding: "1%" }}
-      >
-        <div>
-          <a
-            href={props.fullLink}
-            target="_blank"
-            className="links"
-            style={{
-              //   color: "rgb(6, 44, 59)",
-              fontWeight: "bolder",
-              fontSize: "larger",
-            }}
-          >
-            Know More About {props.university}
-          </a>
-        </div>
+      <div className="" style={{ height: "50px", padding: "1%" }}>
+        <a
+          href={props.fullLink}
+          target="_blank"
+          className="links"
+          style={{
+            //   color: "rgb(6, 44, 59)",
+            fontWeight: "bolder",
+            fontSize: "larger",
+          }}
+        >
+          Know More About {props.university}
+        </a>
       </div>
     </div>
   );

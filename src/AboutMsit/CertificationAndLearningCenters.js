@@ -66,7 +66,10 @@ class App extends React.Component {
           {/* <!-- text column--> */}
 
           <div className="col-12" id="para">
-            <div className="shadows " style={{ height: "auto" }}>
+            <div
+              className="shadows-courses p-4 mb-3"
+              style={{ height: "auto" }}
+            >
               <h3>Certification</h3>
               <p>
                 MSIT is a 2 year Postgraduate program offered by a consortium of
@@ -81,7 +84,10 @@ class App extends React.Component {
               </p>
             </div>
 
-            <div className="shadows " style={{ height: "auto" }}>
+            <div
+              className="shadows-courses  p-4 mb-3"
+              style={{ height: "auto" }}
+            >
               <h3>Learning Centers</h3>
               <p>
                 The Learning Centers where this programme is being offered are
@@ -91,105 +97,99 @@ class App extends React.Component {
 
               <table>
                 <tr style={{ backgroundColor: "#757070", color: "white" }}>
-                  <th>Sl. No</th>
-                  <th>
-                    <h4>Learning Center</h4>
-                  </th>
-                  <th>
-                    <h4>University</h4>
-                  </th>
-                  <th>
-                    <h4>Intake</h4>
-                  </th>
+                  <th>S.No</th>
+                  <th>Learning Center</th>
+                  <th>University</th>
+                  <th>Intake</th>
                 </tr>
 
                 <tr>
-                  <th>1</th>
-                  <th>
+                  <td>1</td>
+                  <td>
                     <Link
                       to="/CertificationAndLearningCenters/#section1"
                       className="links-alignment links"
                     >
                       International Institute of Information Technology (IIIT)
                     </Link>
-                  </th>
-                  <th>
+                  </td>
+                  <td>
                     IIIT is a deemed University at Gachibowli, Hyderabad,
                     Telangana
-                  </th>
-                  <th>110</th>
+                  </td>
+                  <td>110</td>
                 </tr>
 
                 <tr>
-                  <th>2</th>
-                  <th>
+                  <td>2</td>
+                  <td>
                     <Link
                       to="/CertificationAndLearningCenters/#section2"
                       className="links-alignment links"
                     >
                       School of Information Technology, JNTU, Kukatpally
                     </Link>
-                  </th>
-                  <th>
+                  </td>
+                  <td>
                     Jawaharlal Nehru Technological University, Hyderabad,
                     Telangana
-                  </th>
-                  <th>100</th>
+                  </td>
+                  <td>100</td>
                 </tr>
 
                 <tr>
-                  <th>3</th>
-                  <th>
+                  <td>3</td>
+                  <td>
                     <Link
                       to="/CertificationAndLearningCenters/#section3"
                       className="links-alignment links"
                     >
                       JNTU Kakinada
                     </Link>
-                  </th>
-                  <th>
+                  </td>
+                  <td>
                     Jawaharlal Nehru Technological University Kakinada, Andhra
                     Pradesh
-                  </th>
-                  <th>50</th>
+                  </td>
+                  <td>50</td>
                 </tr>
 
                 <tr>
-                  <th>4</th>
-                  <th>
+                  <td>4</td>
+                  <td>
                     <Link
                       to="/CertificationAndLearningCenters/#section4"
                       className="links-alignment links"
                     >
                       JNTU Anantapur
                     </Link>
-                  </th>
-                  <th>
+                  </td>
+                  <td>
                     Jawaharlal Nehru Technological University Anantapur, Andhra
                     Pradesh
-                  </th>
-                  <th>50</th>
+                  </td>
+                  <td>50</td>
                 </tr>
 
                 <tr>
-                  <th>5</th>
-                  <th>
+                  <td>5</td>
+                  <td>
                     <Link
                       to="/CertificationAndLearningCenters/#section5"
                       className="links-alignment links"
                     >
                       SV University Tirupati
                     </Link>
-                  </th>
-                  <th>Sri Venkateswara University Tirupati, Andhra Pradesh</th>
-                  <th>50</th>
+                  </td>
+                  <td>Sri Venkateswara University Tirupati, Andhra Pradesh</td>
+                  <td>50</td>
                 </tr>
               </table>
             </div>
 
-            <h1 style={{ marginBottom: "5%", marginTop: "5%" }}>
+            <h2 style={{ marginBottom: "2%", marginTop: "2%" }}>
               Want to know something about Universities ? Go ahead{" "}
-            </h1>
+            </h2>
 
             {learningCenters.map((info) => {
               return (

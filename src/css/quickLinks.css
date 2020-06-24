@@ -11,10 +11,10 @@
 /* links css */
 .links {
   color: black;
+  text-decoration: none;
 }
 
 .links:hover {
-  text-decoration: none;
   /* color: #ffc107; */
   color: red;
 }

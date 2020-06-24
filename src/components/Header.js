@@ -48,10 +48,10 @@ function App() {
               data-target=".navbar-collapse.show"
               aria-labelledby="navbarDropdown"
             >
-              <Link to="/MsitProgram" className="dropdown-item">
+              <Link to="/MsitProgram/#charter" className="dropdown-item">
                 MSIT Charter
               </Link>
-              <Link to="/MsitProgram" className="dropdown-item">
+              <Link to="/MsitProgram/#MsitProgram" className="dropdown-item">
                 MSIT Program
               </Link>
               <Link to="/CoursesAndStructure" className="dropdown-item">
