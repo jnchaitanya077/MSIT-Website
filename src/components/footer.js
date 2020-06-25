@@ -15,26 +15,26 @@ function App() {
   return (
     <footer>
       <div className="row" style={{ marginRight: 0 }}>
-        <div className="col-md-4">
+        <div className="col-md-4" style={{ position: "static" }}>
           <img src={footerLogo} alt="footer-logo" className="footer-image" />
           <p className="level-three-headings">
             IIITH | JNTUH | JNTUK | JNTUA | SVU
           </p>
         </div>
 
-        <div className="col-md-4">
+        <div className="col-md-4" style={{ position: "static" }}>
           <ul className="quick-links level-three-headings ">
             <li>
               <h3 className="heading footer-links">Quick Links</h3>
             </li>
             <li className="footer-links">
-              <a href="#">Terms & Conditions</a>
+              <Link to="/TermsAndConditions">Terms & Conditions</Link>
             </li>
             <li className="footer-links">
-              <a href="#">Privacy Policy</a>
+              <Link to="/PrivacyPolicy">Privacy Policy</Link>
             </li>
             <li className="footer-links">
-              <a href="#">Refund / Cancellation</a>
+              <Link to="/RefundCancellation">Refund / Cancellation</Link>
             </li>
             <li className="footer-links">
               <Link

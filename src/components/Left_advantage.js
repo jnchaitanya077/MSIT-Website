@@ -18,7 +18,15 @@ function App(props) {
         <h6 className="sub-title">{props.subtitle}</h6>
 
         <blockquote className="sub-para general-text">
-          <q>{props.body}</q>
+          {props.body}
+
+          <Collapsible
+            trigger="See More"
+            className="test"
+            style={{ display: "inline", color: "red" }}
+          >
+            {props.body}
+          </Collapsible>
         </blockquote>
       </div>
     </div>

@@ -242,9 +242,9 @@ function App() {
             </div>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Gallery{" "}
-            </a>
+            <Link className="nav-link" to="/gallery">
+              Gallery
+            </Link>
           </li>
         </ul>
       </div>

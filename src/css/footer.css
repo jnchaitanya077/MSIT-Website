@@ -40,6 +40,7 @@ li a {
   padding: 1%;
   color: #697176;
   font-weight: 580;
+  position: static;
 }
 
 /* Social media icons */
@@ -61,6 +62,7 @@ li a {
 .level-three-headings {
   color: #697176;
   font-weight: 600;
+  position: static;
 }
 
 @media screen and (max-width: 800px) {

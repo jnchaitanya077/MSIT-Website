@@ -1,13 +1,14 @@
 import React, { Fragment } from "react";
 import HeaderTitle from "../components/headerImage.js";
-import RightGrid from "../components/gridRight.js";
-import LeftGrid from "../components/gridLeft.js";
+import RightGrid from "../components/Right_advantage.js";
+import LeftGrid from "../components/Left_advantage.js";
 import LBD from "../images/advantage/learn1.jpg";
 import PCC from "../images/advantage/pcc1.jpg";
 import SS from "../images/advantage/ss.jpg";
 // import Resources from "../images/faculty/IT/ss.jpg";
 import Infrastructure from "../images/advantage/infrastructure1.jpg";
 import Infrastructuretwo from "../images/advantage/infrastructure2.jpg";
+import "../css/advantage.css";
 
 const info = [
   {

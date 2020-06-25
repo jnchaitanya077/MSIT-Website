@@ -23,6 +23,8 @@ import Hompage from "./Homepage/homepage.js";
 import MsitVision from "./Vision/MSIT-Vision.js";
 //MSIT Advantage imports
 import MSITAdvantage from "./Advantage/MSIT-Advantage.js";
+// Gallery
+import Gallery from "./gallery/GG.js";
 //Faculty page imports
 import Dean from "./faculty/Dean.js";
 import ITmentors from "./faculty/ITmentors.js";
@@ -41,6 +43,11 @@ import FAQ from "./Homepage/faq.js";
 import Placements from "./Recruiters/placements.js";
 import Corp_relations from "./Recruiters/Corp_relations.js";
 // import Test from "./components/test.js";
+
+//FooterLinks
+import TermsAndConditions from "./FooterLinks/TermsAndConditions.js";
+import PrivacyPolicy from "./FooterLinks/PrivacyPolicy.js";
+import RefundCancellation from "./FooterLinks/RefundCancellation.js";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -91,6 +98,13 @@ ReactDOM.render(
         path="/CertificationAndLearningCenters"
         component={Certification}
       />
+      {/* Gallery */}
+      <Route exact path="/gallery" component={Gallery} />
+
+      {/* FooterLinks */}
+      <Route exact path="/TermsAndConditions" component={TermsAndConditions} />
+      <Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />
+      <Route exact path="/RefundCancellation" component={RefundCancellation} />
 
       <Footer />
     </BrowserRouter>

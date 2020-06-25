@@ -1,0 +1,11 @@
+.test {
+  display: inline !important;
+}
+
+.test span {
+  color: red;
+}
+
+.test .Collapsible__contentInner {
+  padding: 0% !important;
+}
