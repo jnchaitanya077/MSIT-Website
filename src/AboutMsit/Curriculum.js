@@ -108,7 +108,7 @@ class curriculum extends React.Component {
         >
           <div className="row profile-row">
             <div className="col-12">
-              <p className="paragraph">
+              <p className="general-text">
                 MSIT offers Project centric curriculum which lends practical
                 experience and helps the students to muster the implementation
                 details of all the concepts related to each course. Each course
@@ -119,7 +119,7 @@ class curriculum extends React.Component {
                 The students get the required guidance and support at every
                 level from the mentors who have a wide knowledge base.
               </p>
-              <p className="paragraph">
+              <p className="general-text">
                 Soft Skills training is embedded into curriculum and each
                 mini-semester has one soft skills workshop in addition to
                 continuous coaching in language training on a daily basis.
@@ -128,13 +128,13 @@ class curriculum extends React.Component {
                 className="shadows-courses p-5 mb-4"
                 style={{ height: "auto" }}
               >
-                <h2>MSIT First year Syllabus:</h2>
-                <p className="paragraph">
+                <h2 className="title-text">MSIT First year Syllabus:</h2>
+                <p className="general-text">
                   An academic year is divided into 6 mini semesters. Duration of
                   each mini semester is eight weeks. The first year has five IT
                   and Soft Skills mini semesters and 1 practicum mini semester.
                 </p>
-                <p className="paragraph">
+                <p className="general-text">
                   All core courses of computer science are offered in the first
                   year. The final mini-semester in the first year is catered for
                   practicum
@@ -176,15 +176,15 @@ class curriculum extends React.Component {
                   height: "auto",
                 }}
               >
-                <h2>MSIT Second year Syllabus:</h2>
-                <p className="paragraph">
+                <h2 className="title-text">MSIT Second year Syllabus:</h2>
+                <p className="general-text">
                   The Second year has three mini semesters of IT and Soft
                   skills, and three mini semesters of practicum. During the
                   Second year, Software Engineering Foundation course is offered
                   in the first mini semester followed by domain specializations.
                   Last three mini semesters are catered for practicum.
                 </p>
-                <ul className="paragraph">
+                <ul className="general-text">
                   <li>Software Engineering Domain</li>
                   <li>Computer Networks Domain</li>
                   <li>E- Business Technologies</li>

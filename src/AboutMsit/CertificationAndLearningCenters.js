@@ -70,8 +70,8 @@ class App extends React.Component {
               className="shadows-courses p-4 mb-3"
               style={{ height: "auto" }}
             >
-              <h3>Certification</h3>
-              <p>
+              <h3 className="title-text">Certification</h3>
+              <p className="general-text">
                 MSIT is a 2 year Postgraduate program offered by a consortium of
                 universities. Each university offers the course in its learning
                 centers with the state of the art infrastructure and similar
@@ -88,8 +88,8 @@ class App extends React.Component {
               className="shadows-courses  p-4 mb-3"
               style={{ height: "auto" }}
             >
-              <h3>Learning Centers</h3>
-              <p>
+              <h3 className="title-text">Learning Centers</h3>
+              <p className="general-text">
                 The Learning Centers where this programme is being offered are
                 shown below in the table along with the progammes that they
                 offer and the number of seats available.

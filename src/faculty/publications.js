@@ -8,7 +8,7 @@ function app() {
       <HeaderTitle name="Publications" />
       <div className="main-body pt-3">
         <h5 className="year">2012</h5>
-        <div className="pub-text">
+        <div className="pub-text general-text">
           <ul>
             <li>
               Manjunath Mattam: Protocol for secure submissions into Learning
@@ -45,7 +45,7 @@ function app() {
           </ul>
         </div>
         <h5 className="year">2011</h5>
-        <div className="pub-text">
+        <div className="pub-text general-text">
           <ul>
             <li>
               {" "}
@@ -56,7 +56,7 @@ function app() {
           </ul>
         </div>
         <h5 className="year">2010</h5>
-        <div className="pub-text">
+        <div className="pub-text general-text">
           <ul>
             <li>
               V.Anandaswarup, R.R.Patil, C.M.S.Raju, E.V.Raghavendra, V.Ambati,
@@ -85,7 +85,7 @@ function app() {
           </ul>
         </div>
         <h5 className="year">2009</h5>
-        <div className="pub-text">
+        <div className="pub-text general-text">
           <ul>
             <li>
               Padmaja Naraharisetty: Just-in-Time Learning: An Effective &
@@ -115,7 +115,7 @@ function app() {
           </ul>
         </div>
         <h5 className="year">2008</h5>
-        <div className="pub-text">
+        <div className="pub-text general-text">
           <ul>
             <li>
               Padmaja Naraharisetty: The Road to 21st Century Learning: Bridging
@@ -133,7 +133,7 @@ function app() {
           </ul>
         </div>
         <h5 className="year">2007</h5>
-        <div className="pub-text">
+        <div className="pub-text general-text">
           <ul>
             <li>
               Padmaja Naraharisetty: Best practices of HR have been hijacked by
@@ -161,7 +161,7 @@ function app() {
           </ul>
         </div>
         <h5 className="year">2006</h5>
-        <div className="pub-text">
+        <div className="pub-text general-text">
           <ul>
             <li>
               Lavanya Prahallad, Indira Thammishetty, E.Veera Raghavendra and
@@ -181,7 +181,7 @@ function app() {
           </ul>
         </div>
         <h5 className="year">2005</h5>
-        <div className="pub-text">
+        <div className="pub-text general-text">
           <ul>
             <li>
               Lakshmi Pratha Hari: Rapid Integration Tools for Rapid Application
@@ -212,7 +212,7 @@ function app() {
           </ul>
         </div>
         <h5 className="year">2003</h5>
-        <div className="pub-text">
+        <div className="pub-text general-text">
           <ul>
             <li>
               {" "}

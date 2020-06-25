@@ -6,8 +6,10 @@ function LearningCenters(props) {
       className="col shadows-courses  p-4 mb-3"
       style={{ height: "auto", paddingBottom: "0" }}
     >
-      <h3 id="section1">{props.university}</h3>
-      <p>
+      <h3 className="title-text" id="section1">
+        {props.university}
+      </h3>
+      <p className="general-text">
         {props.body}
         <a href={props.link}>
           <span>Here</span>
@@ -20,7 +22,7 @@ function LearningCenters(props) {
           className="links"
           style={{
             //   color: "rgb(6, 44, 59)",
-            fontWeight: "bolder",
+
             fontSize: "larger",
           }}
         >

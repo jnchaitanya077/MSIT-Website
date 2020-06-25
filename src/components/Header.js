@@ -54,7 +54,7 @@ function App() {
               <Link to="/MsitProgram/#MsitProgram" className="dropdown-item">
                 MSIT Program
               </Link>
-              <Link to="/CoursesAndStructure" className="dropdown-item">
+              <Link to="/CoursesAndStructure/#start" className="dropdown-item">
                 Courses and Structure
               </Link>
               <Link to="/Curriculum" className="dropdown-item">

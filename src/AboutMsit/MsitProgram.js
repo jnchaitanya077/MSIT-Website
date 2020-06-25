@@ -14,7 +14,7 @@ class App extends React.Component {
     if (elem) {
       elem.scrollIntoView({
         behavior: "smooth",
-        block: "center",
+        block: "start",
       });
     }
   }
@@ -43,21 +43,21 @@ class App extends React.Component {
             <h2 style={{ paddingBottom: "10px" }} className="title-text">
               MSIT Charter
             </h2>
-            <p>
+            <p className="general-text">
               To prepare very high quality IT professionals for a global market
               by grooming them in IT and Soft Skills.
             </p>
-            <p>
+            <p className="general-text">
               To enable them to accept opportunities in a framework of
               professionally sound and quality conscious organizations, as well
               as to take up entrepreneurial ventures.
             </p>
-            <p>
+            <p className="general-text">
               To develop their sensitivity and capability to continually respond
               to changing technology and working environments, by using an
               'active learning' approach.
             </p>
-            <p>
+            <p className="general-text">
               To provide an opportunity not only to IT professionals but also to
               professionals and experts from non-IT domains to acquire a
               thorough knowledge of IT concepts and the capacity to swiftly
@@ -71,7 +71,7 @@ class App extends React.Component {
               src={MsitAdv}
               style={{ width: "38%", float: "right", paddingLeft: "2%" }}
             />
-            <p>
+            <p className="general-text">
               MSIT program is being offered by “Consortium of Institutions of
               Higher Learning” (CIHL), formed by the universities in Andhra
               Pradesh and Telangana. CIHL has designed the program with inputs
@@ -82,7 +82,7 @@ class App extends React.Component {
               programme:
             </h4>
             <div
-              className="col news"
+              className="col"
               style={{
                 height: "auto",
                 width: "500px",
@@ -98,7 +98,7 @@ class App extends React.Component {
                 <li>SV University, Tirupati (SVU)</li>
               </ul>
             </div>
-            <p>
+            <p className="general-text">
               MSIT aims to produce skilled Professionals who have knowledge of
               the core principles underlying information technology and an
               understanding of emerging industry trends.The MSIT program was
@@ -108,7 +108,7 @@ class App extends React.Component {
               (JNTU), Hyderabad, College of Engineering, Osmania University and
               Regional Engineering College (REC, now NIT), Warangal.
             </p>
-            <p>
+            <p className="general-text">
               The MSIT (MS in IT or Master of Science in Information Technology)
               is a two year post graduate programme in Computer Science. MSIT is
               an innovative multi-university interdisciplinary post-graduate
@@ -116,7 +116,7 @@ class App extends React.Component {
               Institutions of Higher Learning” (CIHL), formed by the
               Universities.
             </p>
-            <p>
+            <p className="general-text">
               In 2004, the Story/Problem Centered Curriculum was introduced and
               the fourth batch of students were admitted to the MSIT division,
               International Institute of Information Technology (IIIT), College
@@ -124,7 +124,7 @@ class App extends React.Component {
               Information Technology (SIT), Jawaharlal Nehru Technological
               University (JNTU).
             </p>
-            <p>
+            <p className="general-text">
               MSIT offers the latest domain specializations on par with
               international universities. Computer Networks and Information
               Security as domain specializations are offered for the first time

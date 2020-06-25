@@ -46,7 +46,7 @@ function App() {
                     <h5 style={{ color: "#0a3dab" }}>
                       <strong>Major Companies that visited MSIT</strong>
                     </h5>
-                    <p>
+                    <p className="general-text">
                       Amazon, Apple India Pvt. Ltd., IBM ISL, Huawei
                       Technologies India Pvt. Ltd., TechMojo, Tata Consultancy
                       Services, Value Momentum, Nutanix Technologies, Johnson
@@ -88,7 +88,7 @@ function App() {
                         </tbody>
                       </table>
                     </div>
-                    <p>
+                    <p className="general-text">
                       MSIT programme adds great value to its students' career
                       path and this is reflected in the placements as it
                       produces "employable students". Students can avail

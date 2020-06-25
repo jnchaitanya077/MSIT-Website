@@ -89,7 +89,7 @@ ReactDOM.render(
       <Route exact path="/Charter" component={Charter} />
       <Route
         exact
-        path="/CoursesAndStructure"
+        path="/CoursesAndStructure/"
         component={CoursesAndStructure}
       />
       <Route exact path="/Curriculum" component={Curriculum} />

@@ -48,7 +48,7 @@ class App extends React.Component {
               <strong>Eligibility</strong>
             </h3>
             <p>B.Tech / B.E(All Branches)</p>
-            <p>
+            <p className="general-text">
               Admissions are based on ranks obtained in the entrance exam called
               Graduate Aptitude Test(GAT).
             </p>
@@ -67,7 +67,7 @@ class App extends React.Component {
               </li>
               <li>Regular GAT Entrance – Exam is conducted on a fixed date.</li>
             </ol>
-            <p>
+            <p className="general-text">
               Due to the COVID-19 situation the Graduate Aptitude Test (GAT),
               both Walk- in Entrance and Regular GAT Entrance are conducted
               online i.e. candidates can take the test from home. Hence
@@ -81,7 +81,7 @@ class App extends React.Component {
               considered for the rankings.
             </p>
 
-            <p>
+            <p className="general-text">
               For every attempt a non-refundable amount of Rs.{gatFee} has to be
               paid online by Credit / Debit card or net banking from our website
               (www.msitprogram.net).
@@ -91,7 +91,7 @@ class App extends React.Component {
             <h5 className="title">
               <strong>Walk-in Entrance Test</strong>
             </h5>
-            <p>
+            <p className="general-text">
               Eligible candidates can apply online for walk-in Entrance Test
               <a href="" className="links ">
                 &nbsp;<strong>Apply</strong>&nbsp;
@@ -118,7 +118,7 @@ class App extends React.Component {
                 </tbody>
               </table>
             </div>
-            <p>
+            <p className="general-text">
               * Please find the URL that has instructions and process that need
               to be followed to take the exam. &nbsp;
               <a
@@ -128,7 +128,7 @@ class App extends React.Component {
                 Exam Instructions
               </a>
             </p>
-            <p>
+            <p className="general-text">
               * Practice Tests :
               <a
                 href=" https://online.cbexams.com/RPS/MSIT/Practice_Instructions.aspx"
@@ -142,7 +142,7 @@ class App extends React.Component {
             <h5 className="title">
               <strong>Regular GAT</strong>
             </h5>
-            <p>
+            <p className="general-text">
               Regular Entrance Test is conducted from {gatExamDate}. Candidates
               can apply for this test online
               <a
@@ -175,7 +175,7 @@ class App extends React.Component {
             <h5 className="title">
               <strong>Entrance test waived</strong>
             </h5>
-            <p>
+            <p className="general-text">
               <strong>GRE:</strong> Candidates who have taken the GRE after July
               2016 are exempted from the entrance test (GAT) if they have a
               score of 301/3.5
@@ -189,7 +189,7 @@ class App extends React.Component {
             <h1 className="pb-4 title">
               <strong>How To Apply?</strong>
             </h1>
-            <p>
+            <p className="general-text">
               Admissions are based on ranks obtained in the entrance exam called
               Graduate Aptitude Test (GAT). Graduate Aptitude Test (GAT) will be
               conducted by CIHL in two ways:
@@ -198,20 +198,22 @@ class App extends React.Component {
             <h5 className="title ">
               <strong>Walk-in Entrance test:</strong>
             </h5>
-            <p>Candidates have the option to choose the date of the exam</p>
+            <p className="general-text">
+              Candidates have the option to choose the date of the exam
+            </p>
 
             <h5 className="title ">
               <strong>Regular GAT Entrance test:</strong>
             </h5>
-            <p>Exam is conducted on a fixed date.</p>
+            <p className="general-text">Exam is conducted on a fixed date.</p>
 
-            <p>
+            <p className="general-text">
               Due to the COVID-19 situation the Graduate Aptitude Test (GAT),
               both Walk- in Entrance and Regular GAT Entrance are conducted
               online i.e. candidates can take the test from home. Hence
               candidates can stay home and stay safe.
             </p>
-            <p>
+            <p className="general-text">
               After applying online, pay Rs.1000/- by using Credit / Debit card
               or net banking from our website ( www.msitprogram.net ). The fee
               paid is not refundable.
@@ -224,7 +226,7 @@ class App extends React.Component {
             <h1 className="pb-4 title">
               <strong>Walk in Process</strong>
             </h1>
-            <p>
+            <p className="general-text">
               From 2006 admissions onwards, MSIT has introduced the "Walk-in
               Entrance" (now from home itself). This is planned for the
               convenience of the students where the students have an opportunity
@@ -236,7 +238,7 @@ class App extends React.Component {
                 Walk-in Entrance Test (now online and from home itself):
               </strong>
             </h5>
-            <p>
+            <p className="general-text">
               Candidates have the option to choose the date of the exam. Walk-in
               entrance test can be taken on your convenient date and time
               between May 15<sup>th</sup> to June 26<sup>th</sup>. But only

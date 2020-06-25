@@ -184,15 +184,24 @@ const Specializations = [
 
 class courses extends React.Component {
   componentDidUpdate() {
-    console.log("mount");
-    const myId = window.location.hash.slice(1);
-    const elem = document.getElementById(myId);
-    if (elem) {
-      elem.scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-      });
-    }
+    const id = window.location.hash.slice(1);
+    const yOffset = -100;
+    const element = document.getElementById(id);
+    const y =
+      element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
+    // console.log("mount");
+    // const myId = window.location.hash.slice(1);
+    // const elem = document.getElementById(myId);
+
+    // if (elem) {
+    //   elem.scrollIntoView({
+    //     behavior: "smooth",
+    //     block: "start",
+    //     inline: "nearest",
+    //   });
+    // }
   }
 
   componentDidMount() {
@@ -209,7 +218,7 @@ class courses extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="start">
         <HeaderTitle name="Courses And Structure" />
         <div className="newsLayout Courses-overview">
           <div
@@ -258,7 +267,7 @@ class courses extends React.Component {
                     }}
                   >
                     <Link to="/CoursesAndStructure/#ITCore" className="links">
-                      <h3>IT Core</h3>
+                      <h3 className="title-text">IT Core</h3>
                     </Link>
                   </div>
                   <div
@@ -274,7 +283,7 @@ class courses extends React.Component {
                       to="/CoursesAndStructure/#ITElectives"
                       className="links"
                     >
-                      <h3>IT Electives</h3>
+                      <h3 className="title-text">IT Electives</h3>
                     </Link>
                   </div>
                   <div
@@ -290,7 +299,7 @@ class courses extends React.Component {
                       to="/CoursesAndStructure/#SSCourses"
                       className="links"
                     >
-                      <h3>SS Courses</h3>
+                      <h3 className="title-text">SS Courses</h3>
                     </Link>
                   </div>
                   <div
@@ -306,7 +315,7 @@ class courses extends React.Component {
                       to="/CoursesAndStructure/#specializations"
                       className="links"
                     >
-                      <h3>Specializations</h3>
+                      <h3 className="title-text">Specializations</h3>
                     </Link>
                   </div>
                 </div>
@@ -320,7 +329,11 @@ class courses extends React.Component {
                   marginTop: "15px",
                 }}
               >
-                <h2 style={{ color: "rgb(119, 11, 11)" }} id="ITCore">
+                <h2
+                  className="title-text"
+                  style={{ color: "rgb(119, 11, 11)" }}
+                  id="ITCore"
+                >
                   IT Core
                 </h2>
                 {ITCore.map((info) => {
@@ -357,7 +370,11 @@ class courses extends React.Component {
                   marginTop: "15px",
                 }}
               >
-                <h2 style={{ color: "rgb(119, 11, 11)" }} id="ITElectives">
+                <h2
+                  className="title-text"
+                  style={{ color: "rgb(119, 11, 11)" }}
+                  id="ITElectives"
+                >
                   IT Electives
                 </h2>
 
@@ -392,7 +409,11 @@ class courses extends React.Component {
                   marginTop: "15px",
                 }}
               >
-                <h2 style={{ color: "rgb(119, 11, 11)" }} id="SSCourses">
+                <h2
+                  className="title-text"
+                  style={{ color: "rgb(119, 11, 11)" }}
+                  id="SSCourses"
+                >
                   Soft Skills
                 </h2>
                 {SSCourses.map((info) => {
@@ -426,7 +447,11 @@ class courses extends React.Component {
                   marginTop: "15px",
                 }}
               >
-                <h2 id="specializations" style={{ color: "rgb(119, 11, 11)" }}>
+                <h2
+                  className="title-text"
+                  id="specializations"
+                  style={{ color: "rgb(119, 11, 11)" }}
+                >
                   Domain Specializations
                 </h2>
                 {Specializations.map((info) => {

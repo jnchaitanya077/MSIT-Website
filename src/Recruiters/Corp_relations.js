@@ -23,7 +23,7 @@ function App() {
             <h2 className="Left-title">
               <strong>Microsoft</strong>
             </h2>
-            <p className="sub-para">
+            <p className="general-text">
               Microsoft has offered to conduct .NET courses for MSITians based
               on real world case studies.
             </p>
@@ -39,7 +39,7 @@ function App() {
             <h2 className="Left-title">
               <strong>Computer Associates</strong>
             </h2>
-            <p className="sub-para">
+            <p className="general-text">
               Computer Associates conduct monthly technical talks on topics like
               security, storage, IT Infrastructure management etc. Also CA has
               offered internships for students during their practicum period.
@@ -60,7 +60,7 @@ function App() {
             <h2 className="Left-title">
               <strong>JP Morgan</strong>
             </h2>
-            <p className="sub-para">
+            <p className="general-text">
               CIHL/MSIT and JP Morgan Chase Hyderabad have MOU relating to
               internships, recruitment and collaboration towards providing
               industry perspective for university programs.
@@ -77,7 +77,7 @@ function App() {
             <h2 className="Left-title">
               <strong>Gramener - A Data Science company.</strong>
             </h2>
-            <p className="sub-para">
+            <p className="general-text">
               Gramener offering Data Visualisation course at IIIT Hyderabad and
               JNTU Hyderabad as part of the Master of Science in Information
               Technology (MSIT) outreach programme. This programme is offered by
@@ -100,7 +100,7 @@ function App() {
             <h2 className="Left-title">
               <strong>3com</strong>
             </h2>
-            <p className="sub-para">
+            <p className="general-text">
               3COM has opened up a computer networks research laboratory on
               campus and is offering internship to a number of MSITians. The
               company is also offering practicum to the students that involves
@@ -118,7 +118,7 @@ function App() {
             <h2 className="Left-title">
               <strong>GATI</strong>
             </h2>
-            <p className="sub-para">
+            <p className="general-text">
               GATI has offered practicum to MSITians to improve the in-transit
               visibility of packages and develop a vehicle tracking system.
             </p>
@@ -134,7 +134,7 @@ function App() {
             <h2 className="Left-title">
               <strong>Mutual Mobile</strong>
             </h2>
-            <p className="sub-para">
+            <p className="general-text">
               CIHL/MSIT and mutual mobile have MOU in offering course work on
               ecommerce, mobile technologies and latest industry trends. This
               also includes internship programs and recruitment.

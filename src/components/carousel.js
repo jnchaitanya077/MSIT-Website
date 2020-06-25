@@ -4,6 +4,7 @@ import slider1 from "../images/slider/slider1.jpg";
 import slider_2 from "../images/slider/slider_2.jpg";
 import slider_3 from "../images/slider/slider_6.jpg";
 import slider_4 from "../images/slider/slider_4.jpg";
+import slider_5 from "../images/slider/slider_7.jpg";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </div>
           <div className="carousel-item c-item">
             <img src={slider_4} className="d-block w-100" alt="slider-image" />
+          </div>
+          <div className="carousel-item c-item">
+            <img src={slider_5} className="d-block w-100" alt="slider-image" />
           </div>
         </div>
         <a

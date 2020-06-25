@@ -12,13 +12,13 @@ class Images extends Component {
       //imageUrlArray : has URL's to all the images to be displayed
       //`${process.env.PUBLIC_URL}` is given to acess the images in public environment
       imageUrlArray: [
-        "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80",
-        "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80",
-        "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80",
-        "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80",
-        "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80",
-        "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80",
-        "https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80",
+        require("../images/gallery/one.JPG"),
+        require("../images/gallery/two.jpg"),
+        require("../images/gallery/three.jpg"),
+        require("../images/gallery/four.jpg"),
+        require("../images/gallery/five.jpg"),
+        require("../images/gallery/six.jpg"),
+        require("../images/gallery/seven.jpg"),
 
         // `${process.env.PUBLIC_URL}` + "/images/slider_3.jpg",
         // `${process.env.PUBLIC_URL}` + "/images/logo192.png",
