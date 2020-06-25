@@ -15,7 +15,9 @@ h1,h2,h3,h4,h5{
     background-color: yellow;
     color: black;
 } */
-
+ul {
+  list-style-position: initial;
+}
 .Collapsible__trigger {
   color: rgb(0, 0, 0);
   cursor: pointer;

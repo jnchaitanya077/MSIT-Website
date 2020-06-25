@@ -4,7 +4,7 @@ import Collapsible from "react-collapsible";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import "../css/quickLinks.css";
+// import "../css/quickLinks.css";
 import "../css/AboutMsit.css";
 
 const ITCore = [
@@ -325,8 +325,11 @@ class courses extends React.Component {
                 </h2>
                 {ITCore.map((info) => {
                   return (
-                    <ul className="list-items">
-                      <li>
+                    <ul
+                      className="list-items"
+                      style={{ listStylePosition: "initial" }}
+                    >
+                      <li style={{ margin: "8px" }}>
                         <Jumbotron
                           fluid
                           style={{
@@ -360,8 +363,8 @@ class courses extends React.Component {
 
                 {ITElectives.map((info) => {
                   return (
-                    <ul>
-                      <li>
+                    <ul style={{ listStylePosition: "initial" }}>
+                      <li style={{ margin: "8px" }}>
                         <Jumbotron
                           fluid
                           style={{
@@ -394,8 +397,8 @@ class courses extends React.Component {
                 </h2>
                 {SSCourses.map((info) => {
                   return (
-                    <ul>
-                      <li>
+                    <ul style={{ listStylePosition: "initial" }}>
+                      <li style={{ margin: "8px" }}>
                         <Jumbotron
                           fluid
                           style={{
@@ -428,8 +431,8 @@ class courses extends React.Component {
                 </h2>
                 {Specializations.map((info) => {
                   return (
-                    <ul>
-                      <li>
+                    <ul style={{ listStylePosition: "initial" }}>
+                      <li style={{ margin: "8px" }}>
                         <Jumbotron
                           fluid
                           style={{

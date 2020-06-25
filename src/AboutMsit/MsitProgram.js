@@ -25,7 +25,7 @@ class App extends React.Component {
     if (elem) {
       elem.scrollIntoView({
         behavior: "smooth",
-        block: "center",
+        block: "start",
       });
     }
   }
@@ -63,7 +63,8 @@ class App extends React.Component {
               domains.
             </p>
           </div>
-          <div className="content-overview shadows" id="MsitProgram">
+          <p id="MsitProgram"></p>
+          <div className="content-overview shadows">
             <h1>MSIT Program</h1>
             <img
               src={MsitAdv}
