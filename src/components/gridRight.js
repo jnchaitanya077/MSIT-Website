@@ -13,7 +13,10 @@ function App(props) {
         </h2>
         <h6 className="sub-title right">{props.subtitle}</h6>
         <blockquote className="sub-para general-text">
-          <q className="general-text">{props.body}</q>
+          <q className="general-text">
+            {props.body}
+            <a href={props.link}>{props.text}</a>
+          </q>
         </blockquote>
       </div>
       <div className="col-lg-3 order-1 order-md-1 order-lg-2 ml-4 Head-img">

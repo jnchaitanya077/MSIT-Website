@@ -18,7 +18,10 @@ function App(props) {
         <h6 className="sub-title">{props.subtitle}</h6>
 
         <blockquote className="sub-para general-text">
-          <q className="general-text">{props.body}</q>
+          <q className="general-text">
+            {props.body}
+            <a href={props.link}>{props.text}</a>
+          </q>
         </blockquote>
       </div>
     </div>
