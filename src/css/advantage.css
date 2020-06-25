@@ -1,13 +1,8 @@
-.test {
-  display: inline !important;
+span {
+  font-weight: large;
 }
 
-.test span {
-  color: red;
+.readMoreText {
+  color: red !important;
   font-weight: bold;
-  padding-left: 1%;
-}
-
-.test .Collapsible__contentInner {
-  padding: 0% !important;
 }

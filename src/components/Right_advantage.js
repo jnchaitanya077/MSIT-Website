@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/staff.css";
-import Collapsible from "react-collapsible";
+import ReadMoreAndLess from "react-read-more-less";
 
 function App(props) {
   return (
@@ -14,14 +14,22 @@ function App(props) {
         </h2>
         <h6 className="sub-title right">{props.subtitle}</h6>
         <blockquote className="sub-para general-text">
-          <q>{props.body}</q>
-          <Collapsible
+          <ReadMoreAndLess
+            ref={props.ReadMore}
+            className="read-more-content"
+            charLimit={456}
+            readMoreText="Read more"
+            readLessText="Read less"
+          >
+            {props.body}
+          </ReadMoreAndLess>
+          {/* <Collapsible
             trigger="See More"
             className="test"
             style={{ display: "inline", color: "red" }}
           >
             {props.sub}
-          </Collapsible>
+          </Collapsible> */}
         </blockquote>
       </div>
       <div className="col-lg-3 order-1 order-md-1 order-lg-2 ml-4 Head-img">
