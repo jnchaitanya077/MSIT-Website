@@ -60,7 +60,7 @@ class App extends React.Component {
     return (
       <div>
         {/* Header Title */}
-        <HeaderTitle name="Certification &Learning Centers" />
+        <HeaderTitle name="Certification & Learning Centers" />
         {/* <!-- blog-single  --> */}
         <div className="newsLayout">
           {/* <!-- text column--> */}

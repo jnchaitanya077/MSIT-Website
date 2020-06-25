@@ -5,51 +5,79 @@
 
 .outer-spacing {
   padding-top: 2.5%;
+  position: absolute;
 }
 
 .header-title-outer {
   background-color: #ffc107;
-  width: 20%;
+  width: 20vw;
+  position: relative;
+  padding: 3%;
 }
 
 .header-title {
-  font-weight: 900;
-  font-size: 2vw;
-  color: #0a397a;
   text-align: center;
+  font-weight: bold !important;
 }
 
-/* for mobile and tablet screens */
-@media only screen and (max-width: 1200px) {
-  /* spacing for logo */
-  .outer-spacing {
-    padding-top: 4vh;
-  }
-
-  .header-title-outer {
-    width: 20vw;
-    height: 60px;
-  }
-
-  /* label text */
-  .header-title {
-    font-size: 3vw;
-  }
-}
-
-/* for mobile phones */
-@media only screen and (max-width: 1024px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .header-image {
-    background-color: #0a397a;
-    height: 20vh;
+    height: 25vw;
   }
-
   .header-title-outer {
     width: 20vh;
-    height: 60px;
   }
+  .outer-spacing {
+    padding-top: 4%;
+  }
+}
 
-  .header-title {
-    padding-top: 10%;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .header-image {
+    height: 20vw;
+  }
+  .header-title-outer {
+    width: 35vw;
+  }
+  .outer-spacing {
+    padding-top: 5%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .header-image {
+    height: 20vw;
+  }
+  .header-title-outer {
+    width: 30vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .header-image {
+    height: 13vw;
+  }
+  .header-title-outer {
+    width: 25vw;
+  }
+  .outer-spacing {
+    padding-top: 3%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .header-image {
+    height: 11vw;
+  }
+  .header-title-outer {
+    width: 20vw;
+  }
+  .outer-spacing {
+    padding-top: 3%;
   }
 }

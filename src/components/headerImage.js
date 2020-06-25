@@ -6,7 +6,9 @@ function App(props) {
     <div className=".container-fluid header-image">
       <div className="outer-spacing">
         <div className="header-title-outer box">
-          <h1 className="header-title">{props.name}</h1>
+          <strong>
+            <h5 className="header-title">{props.name}</h5>
+          </strong>
         </div>
       </div>
     </div>
