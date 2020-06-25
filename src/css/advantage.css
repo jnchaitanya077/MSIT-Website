@@ -4,6 +4,8 @@
 
 .test span {
   color: red;
+  font-weight: bold;
+  padding-left: 1%;
 }
 
 .test .Collapsible__contentInner {

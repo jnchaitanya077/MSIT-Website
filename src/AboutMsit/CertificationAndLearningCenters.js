@@ -96,14 +96,17 @@ class App extends React.Component {
               </p>
 
               <table>
-                <tr style={{ backgroundColor: "#757070", color: "white" }}>
+                <tr
+                  className="table-color"
+                  style={{ backgroundColor: "#757070", color: "white" }}
+                >
                   <th>S.No</th>
                   <th>Learning Center</th>
                   <th>University</th>
                   <th>Intake</th>
                 </tr>
 
-                <tr>
+                <tr className="table-color">
                   <td>1</td>
                   <td>
                     <Link
@@ -120,7 +123,7 @@ class App extends React.Component {
                   <td>110</td>
                 </tr>
 
-                <tr>
+                <tr className="table-color">
                   <td>2</td>
                   <td>
                     <Link
@@ -137,7 +140,7 @@ class App extends React.Component {
                   <td>100</td>
                 </tr>
 
-                <tr>
+                <tr className="table-color">
                   <td>3</td>
                   <td>
                     <Link
@@ -154,7 +157,7 @@ class App extends React.Component {
                   <td>50</td>
                 </tr>
 
-                <tr>
+                <tr className="table-color">
                   <td>4</td>
                   <td>
                     <Link
@@ -171,7 +174,7 @@ class App extends React.Component {
                   <td>50</td>
                 </tr>
 
-                <tr>
+                <tr className="table-color">
                   <td>5</td>
                   <td>
                     <Link

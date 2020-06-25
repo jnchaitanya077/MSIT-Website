@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/staff.css";
 import HeaderTitle from "../components/headerImage";
-import avatar from "../images/faculty/IT/images.png";
+import avatar from "../images/faculty/IT/6702.1091.noimage.jpg";
 import Info from "../components/Infocard.js";
 
 // Can import images in two ways
@@ -28,7 +28,7 @@ const SSstaff = [
   {
     id: 3,
     name: "T.V.Devi Prasad",
-    image: avatar,
+    image: require("../images/faculty/IT/devi_prasad.jpg"),
     position: "Placement Manager",
     email: "testname123@msitprogram.net",
   },

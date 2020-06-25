@@ -25,7 +25,7 @@ function App(props) {
             className="test"
             style={{ display: "inline", color: "red" }}
           >
-            {props.body}
+            {props.sub}
           </Collapsible>
         </blockquote>
       </div>

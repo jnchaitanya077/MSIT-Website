@@ -54,7 +54,7 @@ class Images extends Component {
     return (
       //we call Popup page here by sending the url and a link to close the Popup
 
-      <div className="Images" style={{ backgroundColor: "#4f5b66" }}>
+      <div className="Images" style={{ backgroundColor: "whitesmoke" }}>
         {images}
 
         {this.state.showModal ? (

@@ -154,10 +154,16 @@ function App() {
                 Walk-in Process
               </Link>
 
-              <a className="dropdown-item" href="#">
+              <a
+                className="dropdown-item"
+                href="https://online.cbexams.com/RPS/MSIT/Practice_Instructions.aspx"
+              >
                 Mock-Test
               </a>
-              <a className="dropdown-item" href="#">
+              <a
+                className="dropdown-item"
+                href="https://www.msitprogram.net/admissions/"
+              >
                 Apply Online
               </a>
               <Link to="/schedule" className="dropdown-item">
@@ -198,7 +204,10 @@ function App() {
                 Placements
               </Link>
 
-              <a className="dropdown-item" href="#">
+              <a
+                className="dropdown-item"
+                href="https://www.msitprogram.net/Placementhistory.php"
+              >
                 Placements History
               </a>
 

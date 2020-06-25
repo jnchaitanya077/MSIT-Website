@@ -37,7 +37,7 @@ function App() {
 
           <div className="col-lg-8 ml-4">
             <h2 className="Left-title">
-              <strong>Computer Assosciates</strong>
+              <strong>Computer Associates</strong>
             </h2>
             <p className="sub-para">
               Computer Associates conduct monthly technical talks on topics like
@@ -116,7 +116,7 @@ function App() {
 
           <div className="col-lg-8 ml-4">
             <h2 className="Left-title">
-              <strong>Gati</strong>
+              <strong>GATI</strong>
             </h2>
             <p className="sub-para">
               GATI has offered practicum to MSITians to improve the in-transit

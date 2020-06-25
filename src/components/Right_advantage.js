@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/staff.css";
+import Collapsible from "react-collapsible";
 
 function App(props) {
   return (
@@ -14,6 +15,13 @@ function App(props) {
         <h6 className="sub-title right">{props.subtitle}</h6>
         <blockquote className="sub-para general-text">
           <q>{props.body}</q>
+          <Collapsible
+            trigger="See More"
+            className="test"
+            style={{ display: "inline", color: "red" }}
+          >
+            {props.sub}
+          </Collapsible>
         </blockquote>
       </div>
       <div className="col-lg-3 order-1 order-md-1 order-lg-2 ml-4 Head-img">

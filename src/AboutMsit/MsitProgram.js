@@ -40,7 +40,9 @@ class App extends React.Component {
             id="charter"
             //   style={{ paddingBottom: 0 }}
           >
-            <h1 style={{ paddingBottom: "10px" }}>MSIT Charter</h1>
+            <h2 style={{ paddingBottom: "10px" }} className="title-text">
+              MSIT Charter
+            </h2>
             <p>
               To prepare very high quality IT professionals for a global market
               by grooming them in IT and Soft Skills.
@@ -63,9 +65,8 @@ class App extends React.Component {
               domains.
             </p>
           </div>
-          <p id="MsitProgram"></p>
-          <div className="content-overview shadows">
-            <h1>MSIT Program</h1>
+          <div className="content-overview shadows" id="MsitProgram">
+            <h2 className="title-text">MSIT Program</h2>
             <img
               src={MsitAdv}
               style={{ width: "38%", float: "right", paddingLeft: "2%" }}

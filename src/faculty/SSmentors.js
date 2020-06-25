@@ -28,7 +28,7 @@ const SSstaff = [
   {
     id: 3,
     name: "Poolla Vaidehi",
-    image: require("../images/faculty/IT/6702.1091.noimage.jpg"),
+    image: require("../images/faculty/IT/Vydehi.jpg"),
     position: "Soft Skills Mentor",
     email: "vydehi@msitprogram.net",
   },
@@ -55,15 +55,15 @@ const SSstaff = [
   },
   {
     id: 7,
-    name: "Amrita Paul",
-    image: require("../images/faculty/IT/6702.1091.noimage.jpg"),
+    name: "Savitha Menon",
+    image: require("../images/faculty/IT/savitha (1).jpg"),
     position: "Soft Skills Mentor",
-    email: "amritapaul@msitprogram.net",
+    email: "savitha.menon@msitprogram.net",
   },
   {
     id: 8,
     name: "G Srujana",
-    image: require("../images/faculty/IT/6702.1091.noimage.jpg"),
+    image: require("../images/faculty/IT/Srujana.jpg"),
     position: "Soft Skills Mentor",
     email: "srujana.gankidi@msitprogram.net",
   },

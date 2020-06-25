@@ -15,10 +15,10 @@ function App() {
   return (
     <div>
       <HeaderImage name="Schedule" />
-      <div class="card-body mt-5 mb-5 pr-2 author-block">
+      <div class="container author-block mt-5">
         <div>
           <p>
-          <h1 className="preview">Admission-Schedule</h1>
+            <h1 className="preview">Admission-Schedule</h1>
             <strong>
               Due to the COVID-19 situation, the Entrance Exam Graduate Aptitude
               Test (GAT) is conducted online i.e. candidate can take the test
