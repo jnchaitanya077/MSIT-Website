@@ -24,14 +24,14 @@ function App() {
         </Link>
       </div>
       <div className="col-md-6 col-lg links-alignment">
-        <Link to="#" className="links">
+        <Link to="/CoursesAndStructure#specializations" className="links">
           <FontAwesomeIcon
             icon={faBookmark}
             size="3x"
             className="quick-icons"
           />
         </Link>
-        <Link to="#" className="links">
+        <Link to="/CoursesAndStructure#specializations" className="links">
           <h3 className="Quick-Links-HomePage">
             <strong>Specializations</strong>
           </h3>
@@ -52,14 +52,14 @@ function App() {
         </Link>
       </div>
       <div className="col-md-6 col-lg links-alignment">
-        <Link to="#" className="links">
+        <Link to="/placements" className="links">
           <FontAwesomeIcon
             icon={faIndustry}
             size="3x"
             className="quick-icons"
           />
         </Link>
-        <Link to="#" className="links">
+        <Link to="/placements" className="links">
           <h3 className="Quick-Links-HomePage">
             <strong>Placements</strong>
           </h3>
