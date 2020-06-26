@@ -33,51 +33,48 @@ class App extends React.Component {
       <div id="top">
         <HeaderTitle name="Entrance Test Syllabus" />
         {/* <div class="content"> */}
-        <div class="newsLayout">
+        <div class="container mt-5 mb-5">
           <div class="row ">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-              <div class="post-holder">
-                <div class="author-block">
-                  <div class="author-content">
-                    <div class="author-header p">
-                      <div>
-                        <img src={Gat} className="box2" className="center" />
-                        <br />
-                        <br />
-                      </div>
-                      <h4 style={{ color: "#0a3dab" }}>
-                        <strong>What is GAT?</strong>
-                      </h4>
-                      <p>
-                        GAT is the acronym for Graduate Aptitude Test. A good
-                        score in GAT is a part- requirement for admission to The
-                        Master of Science in Information Technology (MSIT)
-                        Program, which is a two year post graduate program in
-                        Computer Science. MSIT program is offered by “Consortium
-                        of Institutions of Higher Learning” (CIHL), formed by
-                        the Universities. MSIT is currently offered at
-                        International Institute of Information Technology
-                        (IIIT-H), Hyderabad, School of IT, Jawaharlal Nehru
-                        Technological University Hyderabad (JNTUH), College of
-                        Engineering, Jawaharlal Nehru Technological niversity
-                        Kakinada (JNTUK) and College of Engineering, Jawaharlal
-                        Nehru Technological University Anantapur (JNTUA) and Sri
-                        Venkateswara University Tirupati (SVU). GAT is typically
-                        taken by Graduates in Engineering of any branch
-                        (B.Tech/B.E) or final year students. GAT measures
-                        Literacy, Quantitative and Writing skills that are
-                        needed for academic success in higher learning. GAT
-                        assesses problem – solving skills under a strict time
-                        limit. GAT is administered online and is a
-                        Computer-based Test. GAT has been eveloped, administered
-                        and scored by Eduquity Career Technologies (P) Ltd, a
-                        Bangalore-based Human Resources Assessment Company.
-                      </p>
-                    </div>
+              <div>
+                <div>
+                  <div class="shadows-courses box-styles">
+                    {/* <div>
+                    <img src={Gat} className="box2" className="center" />
+                    <br />
+                    <br />
+                  </div> */}
+                    <h4>
+                      <strong>What is GAT?</strong>
+                    </h4>
+                    <p>
+                      GAT is the acronym for Graduate Aptitude Test. A good
+                      score in GAT is a part- requirement for admission to The
+                      Master of Science in Information Technology (MSIT)
+                      Program, which is a two year post graduate program in
+                      Computer Science. MSIT program is offered by “Consortium
+                      of Institutions of Higher Learning” (CIHL), formed by the
+                      Universities. MSIT is currently offered at International
+                      Institute of Information Technology (IIIT-H), Hyderabad,
+                      School of IT, Jawaharlal Nehru Technological University
+                      Hyderabad (JNTUH), College of Engineering, Jawaharlal
+                      Nehru Technological niversity Kakinada (JNTUK) and College
+                      of Engineering, Jawaharlal Nehru Technological University
+                      Anantapur (JNTUA) and Sri Venkateswara University Tirupati
+                      (SVU). GAT is typically taken by Graduates in Engineering
+                      of any branch (B.Tech/B.E) or final year students. GAT
+                      measures Literacy, Quantitative and Writing skills that
+                      are needed for academic success in higher learning. GAT
+                      assesses problem – solving skills under a strict time
+                      limit. GAT is administered online and is a Computer-based
+                      Test. GAT has been eveloped, administered and scored by
+                      Eduquity Career Technologies (P) Ltd, a Bangalore-based
+                      Human Resources Assessment Company.
+                    </p>
                   </div>
-                  <div class="author-content">
-                    <div class="author-header p">
-                      <h4 style={{ color: "#0a3dab" }}>
+                  <div class="shadows-courses box-styles">
+                    <div class="">
+                      <h4>
                         <strong>STRUCTURE OF GAT</strong>
                       </h4>
                       <p>
@@ -93,9 +90,9 @@ class App extends React.Component {
                       </p>
                     </div>
                   </div>
-                  <div class="author-content">
-                    <div class="author-header p">
-                      <h4 style={{ color: "#0a3dab" }}>
+                  <div class="shadows-courses box-styles">
+                    <div class="">
+                      <h4>
                         <strong>SCORING In GAT</strong>
                       </h4>
                       <p>
@@ -108,9 +105,9 @@ class App extends React.Component {
                       </p>
                     </div>
                   </div>
-                  <div class="author-content">
-                    <div class="author-header p">
-                      <h4 style={{ color: "#0a3dab" }}>
+                  <div class="shadows-courses box-styles">
+                    <div class="">
+                      <h4>
                         <strong>PREPARATION FOR GAT</strong>
                       </h4>
                       <p>
@@ -124,11 +121,11 @@ class App extends React.Component {
                         <br />
                       </p>
                       <p>
-                        <strong style={{ color: "#0a3dab" }}>WEBLINKS:</strong>{" "}
-                        Here students can find Aptitude Questions and Answers
-                        with explanations for Quantitative Aptitude, Logical
-                        Reasoning, Verbal Ability & Data Interpretation so that
-                        they can learn, practise & improve their skills.
+                        <strong>WEBLINKS:</strong> Here students can find
+                        Aptitude Questions and Answers with explanations for
+                        Quantitative Aptitude, Logical Reasoning, Verbal Ability
+                        & Data Interpretation so that they can learn, practise &
+                        improve their skills.
                       </p>
                       <p>
                         &emsp;&emsp;
@@ -162,7 +159,7 @@ class App extends React.Component {
                         Their queries would be duly answered.
                         <br />
                       </p>
-                      <h5 style={{ color: "#0a3dab" }}>Reference Books</h5>
+                      <h5>Reference Books</h5>
                       <p>
                         Here you can practise any number of test papers and in
                         many cases the working principles are also stated.
@@ -189,15 +186,15 @@ class App extends React.Component {
                     </div>
                   </div>
 
-                  <div class="author-content">
-                    <div class="author-header p">
-                      <h4 style={{ color: "#0a3dab" }}>
+                  <div class="shadows-courses box-styles">
+                    <div class="">
+                      <h4>
                         <strong>
                           MSIT GAT 2019 Instructions to candidates:
                         </strong>
                       </h4>
                       <br />
-                      <h5 style={{ color: "#0a3dab" }}>Test Regulations</h5>
+                      <h5>Test Regulations</h5>
                       <p>
                         Take a Practice Online test{" "}
                         <a href="https://online.cbexams.com/RPS/MSIT/Practice_Instructions.aspx">
@@ -206,7 +203,7 @@ class App extends React.Component {
                         to get familiarity with rules and regulations.
                       </p>
                       <br />
-                      <h5 style={{ color: "#0a3dab" }}>Timing and Breaks</h5>
+                      <h5>Timing and Breaks</h5>
                       <ol list-type-position="inside">
                         <li>
                           The test you are taking is the Online GAT and the
@@ -218,9 +215,7 @@ class App extends React.Component {
                         </li>
                       </ol>
 
-                      <h5 style={{ color: "#0a3dab" }}>
-                        TESTING PROCEDURE: ONLINE GAT
-                      </h5>
+                      <h5>TESTING PROCEDURE: ONLINE GAT</h5>
                       <ol list-type-position="inside">
                         <li>
                           The online MSIT will consist of 50 multiple choice

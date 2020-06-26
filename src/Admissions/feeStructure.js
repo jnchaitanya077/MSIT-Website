@@ -29,10 +29,10 @@ class App extends React.Component {
     return (
       <div id="top">
         <HeaderImage name="Fee" />
-        <div className=" container author-block mt-5 mb-5">
-          <h2 className="title title-text">Fees & Tuition</h2>
+        <div className=" container shadows-courses box-styles mt-5 mb-5">
+          <h1>Fees & Tuition</h1>
           <div className="container">
-            <table className="table" style={{ backgroundColor: "#e3f2fd" }}>
+            <table className="table" style={{ backgroundColor: "#e9ecef" }}>
               <thead>
                 <tr>
                   <th>Learning Center</th>
@@ -55,7 +55,7 @@ class App extends React.Component {
               </tbody>
             </table>
             <div className="border mt-5 mb-5 pr-2 pl-3 bg-light">
-              <h3 className="title">Admission Fee</h3>
+              <h3>Admission Fee</h3>
               <p className="general-text">
                 Those who get direct admission into the MSIT main program should
                 pay a non- refundable admission fee of Rs. 30,000/- (part of the
