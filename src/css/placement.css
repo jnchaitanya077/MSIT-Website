@@ -40,19 +40,8 @@
     opacity: 0.3;
     z-index: -1;
   } */
-  .image {
-    background-image: url("../images/placements/placement_UPDATED.jpg");
-    height: 500px;
-  }
-
-  .placement-body {
-    color: black !important;
-    font-weight: bold;
-  }
   .placement {
-    background: rgb(60, 87, 176);
-    padding-top: 10%;
-    /* color: black !important; */
-    font-weight: bold;
+    background-image: url("../images/placements/placement-md.jpg");
+    margin-top: 5%;
   }
 }
