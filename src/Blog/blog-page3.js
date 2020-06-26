@@ -5,6 +5,14 @@ import Blog_Component from "../components/blog_page_comp.js";
 import apex2 from "../images/blog/apex2.png";
 import apex3 from "../images/blog/apex3.jpg";
 import apex4 from "../images/blog/apex4.jpg";
+import apex5 from "../images/blog/apex5.jpg";
+import apex6 from "../images/blog/apex6.jpg";
+import apex7 from "../images/blog/apex7.jpg";
+import apex8 from "../images/blog/apex8.jpg";
+
+
+
+
 
 
 function App() {
@@ -14,12 +22,13 @@ function App() {
       <Blog_Component
         id="Blog_Page1"
         image={apex2}
+
         name="By: Saritha Chebbi"
         
         bodyPara1="In the pursuit of higher education, the transition from high school to college can be pretty daunting for students. For a vast majority, it is their first ever move away from home. To combat turbulence of any kind during this phase, at IIITH we have the student Apex body. From welcoming parents and their wards on campus to handholding them throughout the registration and induction process, this group goes the extra mile to make freshers comfortable in their first year on campus."
 
         bodyPara2="Are there any Western-style toilets in Bakul?” Himanshu Maheshwari, a (then) 3rd year Dual Degree student didn’t see this coming. As one of the members of the undergraduate student Apex committee, he was used to fielding queries about campus activities, course work, the diverse clubs that exist, hostels and messes and more. But this was a first! Newbies are welcomed with a Student Kit that contains much of the city and campus-based information. But Himanshu soon discovered that there are other pressing concerns not covered by any officialese that only a familiar senior can address."
-
+        image2={apex5}
         sub_head1 = "What is the Apex?"
         bodyPara3="It was primarily in response to the growing incidences of ragging on campus that a student body working in conjunction with faculty and the administrative staff was formally constituted. The group titled Apex is an off-shoot of the Student Life Committee (SLC), the official body responsible for conducting all activities and events related to student life. Prof. Abhijit Mitra, who was the SLC chair at the inception of the Apex terms the student induction process as undergoing a paradigm shift. “It was either 2005 or 2006, my first admissions handling (as SLC chair),” he says. In a previously published interview, he said, ”We could change it (..ragging) within a couple of years into a paradigm of red carpet welcoming.” The group contacts new joinees at least a month before the actual admission process takes place on campus. According to Prof. Dipti Sarma, a former chair of SLC herself, ”The idea was to involve senior students in welcoming the new students, engaging with them and making them feel comfortable. This was an approach towards building interbatch relationships and making students feel responsible towards new students, thus addressing ragging as well – though the latter was not the only goal.” Newcomers officially shed their ‘fresher’ tag at the culmination of the Freshers Night, typically a month after setting foot on campus. But they continue to be mentored and supported through teething troubles of any kind over the course of the entire year by the Apex body."
         
@@ -30,7 +39,7 @@ function App() {
 
         bodyPara5="Freshers on campus are assigned to a cluster, each consisting of 15 newbies headed by an Apex member and ably supported by 5 mentors and 1 Faculty mentor.. In this manner, there are 15 such clusters of students. A ‘Buddy’ system that was kicked off last year finds one mentor assigned to every 3 freshers. As the name suggests, the mentor doubles up as a ‘buddy’ to the students. The criteria for selecting mentors is very similar to that followed for the Apex members. “Once the Apex members are selected, we invite applications from potential mentors,” says Himanshu. The mentors are selected by the body after a round of interviews. The idea behind smaller groups is to help new entrants open up, voice concerns if any, and eventually help them in easing into the IIITH ‘family’. To stay in touch, WhatsApp groups are created, meets are held, city tours are conducted and talks by faculty and other seniors are organized. While no formal reservation for girls exists in the Apex body, a conscious effort is made to ensure a fair and equitable representation of the fairer sex in accordance with the gender ratio on campus."
                 
-        
+        image5={apex6}
         sub_head4 ="What They Do"
         bodyPara6="The Apex body typically swings into action at the end of the Spring semester. Its work can be witnessed in 2 major parts – before Registration (of new entrants) and after Registration. “Before Registration, we coordinate with faculty to design the induction schedule, the logistics of how to welcome freshers and help in creating the Student Kit,” says Himanshu. The pre-registration process also involves coordination with parents who sometimes reach out in case of queries and concerns. When students and parents arrive on campus, the actual registration process begins. This is coordinated between the Admissions Department and the Apex. “The Admissions Dept and the staff handle the logistic part of registration such as biometrics, and so on. We in turn, welcome parents and students, and give them a tour of the campus,” says Himanshu. The effort involved in this endeavour is huge and support of other student volunteers is often enlisted. The academic induction process itself is a 2- to 3-week long one and its culmination coincides with the conclusion of Freshers Night. There are other events too such as Karaoke Night which doubles up as a DJ Night and a Talent Showcase Night."
         
@@ -44,9 +53,10 @@ function App() {
         
         sub_head7="Giving Back"
          bodyPara9="Ask any of these Apex members what their motivation to join the student body was, and they almost reply in unison about giving back all that they learned from their seniors. “When I joined, I had so many basic doubts and I kept bugging my seniors with questions on so many aspects. They were so helpful and patient with me. We want to pass it on to our juniors,” says Himanshu. For Tarpit who, as a day scholar in his BTech years, didn’t participate in too many extracurricular activities, the Apex has opened up many opportunities. “I like to interact with people and Apex was a perfect fit where I could interact with students and their families, help them in the best way I can and develop a social network both inside and outside college boundaries,” he says."
-        
+        image6={apex7}
 
          bodyPara10="Himanshu sums it up well with,“A lot of people have the misconception that the work of the Apex is over after the first few weeks. But ideally we want people who will actively continue to engage with students and be approachable. The fresher should be comfy in the knowledge that certain seniors can be approached even after the 1st year or 2nd year"
+         image3={apex8}
       />
     </div>
   );
