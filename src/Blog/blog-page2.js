@@ -7,6 +7,10 @@ import article23 from "../images/blog/article23.png";
 import article24 from "../images/blog/article24.png";
 import article25 from "../images/blog/article25.png";
 import article26 from "../images/blog/article26.png";
+import article27 from "../images/blog/article27.png";
+import article28 from "../images/blog/article28.png";
+
+
 
 function App() {
   return (
@@ -40,6 +44,8 @@ function App() {
         bodyPara7="Drawing a parallel with the ‘Freeze’ game children play, Murtuza Bohara, an MS by Research final year student says, “In the initial days post-announcement of the lockdown, everything was suddenly put on hold.” Being moved by the plight of the homeless and the starving, he discovered the opportunity to do something when there was an institute-wide call for volunteers. Starting off hesitantly with the chopping of vegetables, he eventually became a part of the core team, deftly managing several aspects, and even pitching in at times with the packaging when there was a sudden shortage of helping hands. He says,”Not only did I sustain my enthusiasm throughout the month of Ramzan but I also picked up some neat knife skills."
         
          bodyPara8="An individual can help one or two people, whereas the collective efforts of a group can reach out to help thousands of people. These are the reflections of Krishna Gurugubelli who says, “I got a chance to observe this at work in the community kitchen.” Labelling the entire experience as a ‘journey’, he says that it introduced him to the vibrant IIITH community that includes faculty, staff, students, friends and mess workers. Some things from the initiative that will last forever with him are picking up much-needed knife skills from Murtaza while dicing, mincing and chopping onions."
+         image3={article27}
+         image7={article28}
         bodyPara9="Rashmi Kalishetty is no stranger to volunteering, having stepped up to assist at countless events over the years. However she says this was “a completely different experience working with Aniket sir and Radhika ma’am”, who she calls the ‘pillars’ of the enterprise. Recollecting the positive feedback they received after the first attempt when they packed rajma-chawal, she says,”It gave so much happiness!”. When the community kitchen had to be temporarily suspended because some of the mess workers chose to return to their hometowns through the special trains arranged by Indian Railways, the volunteers thought it was curtains on the initiative. “I felt so restless. But when we resumed it after exactly 10 days, I felt as if I got my lungs back!”, she exclaims with a laugh."
         image6={article26}
 

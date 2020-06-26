@@ -5,6 +5,14 @@ import Blog_Component from "../components/blog_page_comp.js";
 import wiki2 from "../images/blog/wiki2.png";
 import wiki3 from "../images/blog/wiki3.png";
 import wiki4 from "../images/blog/wiki4.png";
+import wiki5 from "../images/blog/wiki5.png";
+import wiki6 from "../images/blog/wiki6.png";
+import wiki7 from "../images/blog/wiki7.png";
+import wiki8 from "../images/blog/wiki8.PNG";
+
+
+
+
 
 
 function App() {
@@ -18,6 +26,10 @@ function App() {
         qualification=""
         image2={wiki3}
         image3={wiki4}
+        image4={wiki5}
+        image5={wiki6}
+        image6={wiki7}
+        image7={wiki8}
         sub_head1 = "Knowledge Banks"
         sub_head2 = "Taking A Leaf Out Of Other Wikis"
         sub_head3 = "Focus Groups"
