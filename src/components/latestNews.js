@@ -144,8 +144,8 @@ function App() {
                 </h5>
               </a>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                ind
+                Admissions for MSIT programme have started for the year 2020. Students who would like to pursue
+                a career in Information Technology can check out the Admissions section.
               </p>
             </div>
             <div>
@@ -158,8 +158,8 @@ function App() {
                 </h5>
               </a>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                All the students who had appeared for GAT Exam 2020 can check their scorecard here. Please do
+                give your credentials to get your scorecard.
               </p>
             </div>
             <div>
@@ -180,8 +180,8 @@ function App() {
                 </h5>
               </Link>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                MSIT has started a 2-day workshop programme in Python for the upcoming students.
+
               </p>
             </div>
             <div>
@@ -191,8 +191,8 @@ function App() {
                 </h5>
               </Link>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                MSIT has started Alumni Engagements in 2019 inviting alumni. They had visited the campus
+                and provided key insights on how the corporate world go about things.
               </p>
             </div>
             <div>
@@ -202,8 +202,8 @@ function App() {
                 </h5>
               </Link>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                MSIT Premier League is a Cricket tournament that was started in 2019 and was greatly successful. The main aim
+                was to enhance student-mentor engagement.  
               </p>
             </div>
 
