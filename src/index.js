@@ -49,6 +49,12 @@ import TermsAndConditions from "./FooterLinks/TermsAndConditions.js";
 import PrivacyPolicy from "./FooterLinks/PrivacyPolicy.js";
 import RefundCancellation from "./FooterLinks/RefundCancellation.js";
 
+// Blog
+import Blog from "./Blog/blog.js";
+import Blog_page from "./Blog/blog-page1.js";
+import Blog_page2 from "./Blog/blog-page2.js";
+import Blog_page3 from "./Blog/blog-page3.js";
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -105,6 +111,11 @@ ReactDOM.render(
       <Route exact path="/TermsAndConditions" component={TermsAndConditions} />
       <Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />
       <Route exact path="/RefundCancellation" component={RefundCancellation} />
+      {/* Blog */}
+      <Route exact path="/blog" component={Blog} />
+      <Route exact path="/blog-page" component={Blog_page} />
+      <Route exact path="/blog-page2" component={Blog_page2} />
+      <Route exact path="/blog-page3" component={Blog_page3} />
 
       <Footer />
     </BrowserRouter>
