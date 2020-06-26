@@ -28,17 +28,17 @@ function App() {
               <h3 className="heading footer-links">Quick Links</h3>
             </li>
             <li className="footer-links">
-              <Link to="/TermsAndConditions">Terms & Conditions</Link>
+              <Link to="/TermsAndConditions/#top">Terms & Conditions</Link>
             </li>
             <li className="footer-links">
-              <Link to="/PrivacyPolicy">Privacy Policy</Link>
+              <Link to="/PrivacyPolicy/#top">Privacy Policy</Link>
             </li>
             <li className="footer-links">
-              <Link to="/RefundCancellation">Refund / Cancellation</Link>
+              <Link to="/RefundCancellation/#top">Refund / Cancellation</Link>
             </li>
             <li className="footer-links">
               <Link
-                to="/faq"
+                to="/faq/#top"
                 className="footer-links"
                 style={{ marginLeft: "0px" }}
               >

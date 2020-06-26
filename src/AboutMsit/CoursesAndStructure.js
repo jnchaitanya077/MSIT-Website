@@ -192,7 +192,7 @@ class courses extends React.Component {
       elem.scrollIntoView({
         behavior: "smooth",
         block: "start",
-        inline: "nearest",
+        // inline: "nearest",
       });
     }
   }
@@ -204,7 +204,7 @@ class courses extends React.Component {
     if (elem) {
       elem.scrollIntoView({
         behavior: "smooth",
-        block: "center",
+        block: "start",
       });
     }
   }
@@ -313,7 +313,7 @@ class courses extends React.Component {
                   </div>
                 </div>
               </div>
-
+      
               <div
                 className="shadows-courses p-5"
                 style={{
@@ -325,7 +325,7 @@ class courses extends React.Component {
                 <h2
                   className="title-text"
                   style={{ color: "rgb(119, 11, 11)" }}
-                  id="ITCore"
+                  id ="ITCore"
                 >
                   IT Core
                 </h2>
@@ -354,7 +354,7 @@ class courses extends React.Component {
                   );
                 })}
               </div>
-
+            
               <div
                 className="shadows-courses p-5"
                 style={{
@@ -366,7 +366,7 @@ class courses extends React.Component {
                 <h2
                   className="title-text"
                   style={{ color: "rgb(119, 11, 11)" }}
-                  id="ITElectives"
+                  id = "ITElectives"
                 >
                   IT Electives
                 </h2>

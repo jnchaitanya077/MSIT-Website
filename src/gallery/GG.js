@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Images from "./Images.js";
 import HeaderTitle from "../components/headerImage.js";
-import "../css/GG.css";
+import "../css/Gallery.css";
 
 //Gallery page
 //This page routes to Images page

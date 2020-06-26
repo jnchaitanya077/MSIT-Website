@@ -4,9 +4,32 @@ import HeaderTitle from "../components/headerImage.js";
 // import Gat from "../images/logos/gat.PNG";
 // import Syllabus from "../images/logos/syllabus_table.jpg";
 
-function App() {
+class App extends React.Component {
+  componentDidMount() {
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
+  componentDidUpdate() {
+      console.log("mount");
+      const myId = window.location.hash.slice(1);
+      const elem = document.getElementById(myId);
+      if (elem) {
+        elem.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    }
+  render()  { 
   return (
-    <div>
+    <div id ="top">
       <HeaderTitle name="FAQ's" />
       <div class="newsLayout">
         {/* <div class="row ">
@@ -166,6 +189,7 @@ function App() {
     // </div>
     // </div>
   );
+}
 }
 
 export default App;

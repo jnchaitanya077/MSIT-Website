@@ -36,7 +36,7 @@ const ITstaff = [
   },
   {
     id: 4,
-    name: "Dr. Arun Kumar Parayatham",
+    name: "Dr. P. Arun Kumar",
     image: require("../images/faculty/IT/420899957.arunk.jpg"),
     position: "Resource Principal Mentor",
     email: "arunkparayatham@yahoo.com",

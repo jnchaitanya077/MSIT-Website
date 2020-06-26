@@ -11,9 +11,7 @@ function LearningCenters(props) {
       </h3>
       <p className="general-text">
         {props.body}
-        <a href={props.link}>
-          <span>Here</span>
-        </a>
+        
       </p>
       <div className="" style={{ height: "50px", padding: "1%" }}>
         <a

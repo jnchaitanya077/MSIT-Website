@@ -85,11 +85,11 @@
 }
 
 /* for mobile phone and tablets screens*/
-@media only screen and (min-width: 1000px) {
+/* @media only screen and (min-width: 1000px) {
   .title1 {
-    padding-top: 15%;
+    padding-top: 2%;
   }
-}
+} */
 
 @media only screen and (max-width: 1000px) {
   .Head-img,

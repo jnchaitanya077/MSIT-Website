@@ -104,8 +104,8 @@ hr {
 }
 
 .img-size {
-  height: 180px;
-  width: 220px;
+  height: 180px!important;
+  width: 220px !important;
 }
 .main-body-adv {
   /* TRBL */
