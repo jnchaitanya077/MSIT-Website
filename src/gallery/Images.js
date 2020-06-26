@@ -28,6 +28,7 @@ class Images extends Component {
       popImageUrl: "",
     };
   }
+
   //This function handlePopup is used to send the selected image url to Popup page
 
   handlePopup = (url) => {

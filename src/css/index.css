@@ -4,6 +4,8 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   /* font-family: "Open Sans", Helvetica, Arial, sans-serif; */
+  font-family: "Nunito", sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   background-color: white !important;
   /* font-family: "Raleway", sans-serif; */
   line-height: 2em;

@@ -32,7 +32,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "whitesmoke" }}>
+      <div style={{ backgroundColor: "whitesmoke" }} id="top">
         <HeaderTitle name="Overview" />
         <div className="newsLayout" style={{ paddingTop: 0 }}>
           <div

@@ -93,6 +93,17 @@ class curriculum extends React.Component {
     if (elem) {
       elem.scrollIntoView({
         behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
+  componentDidUpdate() {
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
         block: "center",
       });
     }
@@ -100,7 +111,7 @@ class curriculum extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="top">
         <HeaderTitle name="Curriculum" />
         <div
           className="newsLayout"

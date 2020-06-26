@@ -45,6 +45,17 @@ const learningCenters = [
 ];
 
 class App extends React.Component {
+  componentDidMount() {
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
   componentDidUpdate() {
     console.log("mount");
     const myId = window.location.hash.slice(1);
@@ -52,13 +63,13 @@ class App extends React.Component {
     if (elem) {
       elem.scrollIntoView({
         behavior: "smooth",
-        block: "center",
+        block: "start",
       });
     }
   }
   render() {
     return (
-      <div>
+      <div id="top">
         {/* Header Title */}
         <HeaderTitle name="Certification & Learning Centers" />
         {/* <!-- blog-single  --> */}

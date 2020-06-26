@@ -184,24 +184,17 @@ const Specializations = [
 
 class courses extends React.Component {
   componentDidUpdate() {
-    const id = window.location.hash.slice(1);
-    const yOffset = -100;
-    const element = document.getElementById(id);
-    const y =
-      element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
 
-    window.scrollTo({ top: y, behavior: "smooth" });
-    // console.log("mount");
-    // const myId = window.location.hash.slice(1);
-    // const elem = document.getElementById(myId);
-
-    // if (elem) {
-    //   elem.scrollIntoView({
-    //     behavior: "smooth",
-    //     block: "start",
-    //     inline: "nearest",
-    //   });
-    // }
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+    }
   }
 
   componentDidMount() {
@@ -218,7 +211,7 @@ class courses extends React.Component {
 
   render() {
     return (
-      <div id="start">
+      <div id="top">
         <HeaderTitle name="Courses And Structure" />
         <div className="newsLayout Courses-overview">
           <div

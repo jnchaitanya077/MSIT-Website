@@ -6,9 +6,31 @@ import "../css/GG.css";
 //Gallery page
 //This page routes to Images page
 class Gallery extends Component {
+  componentDidMount() {
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
+  componentDidUpdate() {
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
   render() {
     return (
-      <div className="App">
+      <div className="App" id="top">
         <HeaderTitle name="Gallery" />
         <Images />
       </div>

@@ -150,9 +150,31 @@ const ITstaff = [
 ];
 
 class person extends React.Component {
+  componentDidMount() {
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
+  componentDidUpdate() {
+    console.log("mount");
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
   render() {
     return (
-      <div>
+      <div id="top">
         <HeaderTitle name="IT-Staff" />
         <div className="row main-body pt-5">
           <p className="general-text">
