@@ -279,7 +279,11 @@ class App extends React.Component {
                 </Link>
               </div>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <Link className="nav-link" to="/gallery/#top">
                 Gallery
               </Link>
