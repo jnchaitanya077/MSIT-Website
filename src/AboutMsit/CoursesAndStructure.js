@@ -242,6 +242,7 @@ class courses extends React.Component {
 
               <div
                 className="shadows-courses"
+                id = "ITCore"
                 style={{
                   height: "auto",
                   paddingTop: "10px",
@@ -325,7 +326,6 @@ class courses extends React.Component {
                 <h2
                   className="title-text"
                   style={{ color: "rgb(119, 11, 11)" }}
-                  id ="ITCore"
                 >
                   IT Core
                 </h2>
@@ -349,12 +349,15 @@ class courses extends React.Component {
                             <p>{info.description}</p>
                           </Collapsible>
                         </Jumbotron>
+                        
                       </li>
+                      <div id = "ITElectives"></div>
                     </ul>
+                    
                   );
                 })}
               </div>
-            
+              
               <div
                 className="shadows-courses p-5"
                 style={{
@@ -366,7 +369,7 @@ class courses extends React.Component {
                 <h2
                   className="title-text"
                   style={{ color: "rgb(119, 11, 11)" }}
-                  id = "ITElectives"
+                  id = "SSCourses"
                 >
                   IT Electives
                 </h2>
@@ -405,7 +408,7 @@ class courses extends React.Component {
                 <h2
                   className="title-text"
                   style={{ color: "rgb(119, 11, 11)" }}
-                  id="SSCourses"
+                  id="specializations"
                 >
                   Soft Skills
                 </h2>
@@ -442,7 +445,7 @@ class courses extends React.Component {
               >
                 <h2
                   className="title-text"
-                  id="specializations"
+                  id=""
                   style={{ color: "rgb(119, 11, 11)" }}
                 >
                   Domain Specializations
