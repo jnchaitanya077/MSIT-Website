@@ -1,21 +1,23 @@
 nav {
   background-color: #001340;
-  /* font-family: "Quicksand", sans-serif; */
-  font-weight: 700;
-  font-size: 4rem;
+  font-weight: 600;
+  font-size: 3rem;
+  position: fixed;
+  top: 0;
 }
+
 /* navigation bar links color */
 .nav-link {
-  /* color: #e1e6e2 !important; */
   color: white !important;
 }
 
 /*color changes to yellow when hover on each dropdown*/
-nav li:hover {
-  /* background-color: #ffc107; */
+/* nav li:hover {
   background-color: rgb(235, 195, 52);
+  transition: background-color 0.4s;
 }
 
+*/
 nav a {
   /* color: white; */
   font-size: 16px;
@@ -32,6 +34,7 @@ nav a {
   background-color: rgb(235, 195, 52);
   color: black;
 }
+
 .dropdown-item {
   color: whitesmoke;
   background-color: #001340;
@@ -55,37 +58,18 @@ nav a {
   left: 0;
   min-height: 30vw;
 }
-/*---------------for smaller devices------------ */
-@media only screen and (max-width: 350px) {
-  body {
-    padding-top: 20%;
-  }
-}
 
-/* mobile devices css */
-@media only screen and (max-width: 455px) {
-  .header-logo {
-    width: 100%;
-  }
-  .navbar-brand {
-    width: 70%;
-  }
-  body {
-    padding-top: 16%;
-  }
-}
+/*---------------for Medium devices------------ */
 
-@media only screen and (min-width: 456px) and (max-width: 998px) {
-  body {
-    padding-top: 80px;
-  }
-}
 
 @media only screen and (max-width: 990px) {
+
+
   .dropdown-menu {
     background-color: white;
     margin-top: 0px;
   }
+
   .dropdown-item {
     color: black;
     background-color: whitesmoke;
@@ -93,26 +77,27 @@ nav a {
 
   nav li:hover .dropdown-menu {
     display: block;
+    transition: display 0.3s;
   }
+
   .c-item {
     height: 32vw;
   }
 }
 
-/* If the screen size is 1000px wide or more, display elements by hover */
-@media only screen and (min-width: 1000px) {
-  nav {
-    height: 13vh;
-  }
+/* If the screen size is 991px wide or more, display elements by hover */
+@media only screen and (min-width: 991px) {
 
-  body {
-    padding-top: 13vh;
+  /*color changes to yellow when hover on each dropdown*/
+  nav li:hover {
+    background-color: rgb(235, 195, 52);
+    transition: background-color 0.4s;
   }
 
   .nav-item:hover .dropdown-menu {
     display: block;
-    /* color: "white"; */
   }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.6rem;
     padding-left: 0.6rem;
@@ -122,41 +107,31 @@ nav a {
     padding-left: 10px;
     padding-right: 10px;
   }
+
   /* navbar inside spacing */
-  .navbar {
-    padding-left: 10%;
-    padding-right: 8%;
-  }
 
   .c-item {
     height: 60vh;
   }
 
   .c-item img {
-    /* position: absolute;
-    top: 0;
-    left: 0; */
     min-height: 40vw;
   }
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
-  .navbar {
-    padding-right: 5%;
-    padding-left: 5%;
-  }
+
   .navbar-brand {
     width: 25%;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  body {
-    padding-top: 10vh;
-  }
+
   nav {
-    height: 10vh;
+    height: 8vh;
   }
+
   .c-item {
     height: 32vw;
   }
@@ -166,18 +141,3 @@ nav a {
     padding-right: 10%;
   }
 }
-
-/*color changes to yellow when hover on each dropdown*/
-/* nav li:hover {
-  background-color: #ffc107;
-  color: "white";
-}
-
-nav a {
-  color: #c1c4c6;
-  font-size: 16px;
-}
-
-.dropdown-menu a:hover {
-  background-color: #007bff;
-} */

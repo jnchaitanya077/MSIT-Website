@@ -16,19 +16,19 @@ function App() {
       >
         <div className="carousel-inner">
           <div className="carousel-item active c-item" data-pause="hover">
-            <img src={slider1} className="d-block w-100 " alt="slider-image" />
+            <img src={slider1} className="d-block w-100 " alt="slider-pic" />
           </div>
           <div className="carousel-item c-item">
-            <img src={slider_2} className="d-block w-100" alt="slider-image" />
+            <img src={slider_2} className="d-block w-100" alt="slider-pic" />
           </div>
           <div className="carousel-item c-item">
-            <img src={slider_3} className="d-block w-100" alt="slider-image" />
+            <img src={slider_3} className="d-block w-100" alt="slider-pic" />
           </div>
           <div className="carousel-item c-item">
-            <img src={slider_4} className="d-block w-100" alt="slider-image" />
+            <img src={slider_4} className="d-block w-100" alt="slider-pic" />
           </div>
           <div className="carousel-item c-item">
-            <img src={slider_5} className="d-block w-100" alt="slider-image" />
+            <img src={slider_5} className="d-block w-100" alt="slider-pic" />
           </div>
         </div>
         <a

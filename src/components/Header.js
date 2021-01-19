@@ -30,40 +30,37 @@ class App extends React.Component {
   }
   render() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
-        <Link className="navbar-brand" to="/#top">
-          <img
-            src={Logo}
-            className="img-fluid header-logo"
-            alt="MSIT-Logo"
-            loading="lazy"
-          />
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <Link class="navbar-brand col-md-3 col-8" to="/">
+          <img src={Logo} alt="logo" className="img-fluid" />
         </Link>
         <button
-          className="navbar-toggler"
+          class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto">
+        <div
+          class="collapse navbar-collapse d-lg-flex flex-lg-row-reverse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link"
-                href="#"
+                href=".."
                 id="navbarDropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 About MSIT
                 <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
-              </a>
+              </Link>
 
               <div
                 className="dropdown-menu"
@@ -151,16 +148,16 @@ class App extends React.Component {
               </div>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link"
-                href="#"
+                href=".."
                 id="navbarDropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Admissions
                 <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
-              </a>
+              </Link>
               <div
                 className="dropdown-menu"
                 data-toggle="collapse"
@@ -180,18 +177,18 @@ class App extends React.Component {
                   Walk-in Process
                 </Link>
 
-                <a
+                <Link
                   className="dropdown-item"
                   href="https://online.cbexams.com/RPS/MSIT/Practice_Instructions.aspx"
                 >
                   Mock-Test
-                </a>
-                <a
+                </Link>
+                <Link
                   className="dropdown-item"
                   href="https://www.msitprogram.net/admissions/"
                 >
                   Apply Online
-                </a>
+                </Link>
                 <Link to="/schedule/#top" className="dropdown-item">
                   Schedule
                 </Link>
@@ -213,16 +210,16 @@ class App extends React.Component {
             </li>
 
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link"
-                href="#"
+                href=".."
                 id="navbarDropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Recruiters
                 <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
-              </a>
+              </Link>
               <div
                 className="dropdown-menu"
                 data-toggle="collapse"
@@ -233,12 +230,12 @@ class App extends React.Component {
                   Placements
                 </Link>
 
-                <a
+                <Link
                   className="dropdown-item"
                   href="https://www.msitprogram.net/Placementhistory.php"
                 >
                   Placements History
-                </a>
+                </Link>
 
                 <Link to="/corp_relations/#top" className="dropdown-item">
                   Corporate Relationships
@@ -246,16 +243,16 @@ class App extends React.Component {
               </div>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link"
-                href="#"
+                href=".."
                 id="navbarDropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Faculty
                 <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
-              </a>
+              </Link>
               <div
                 className="dropdown-menu"
                 data-toggle="collapse"
