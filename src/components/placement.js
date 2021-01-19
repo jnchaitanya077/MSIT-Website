@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/placement.css";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
           Year 2018 – 11 students placed with a salary package in excess
           <br /> of 20 Lakhs Per Annum
           <br />
-          <button type="button" className="btn btn-success .btn-sm mt-3">
+          <Link to="/placements/#top" className="btn btn-success .btn-sm mt-3">
             View More
-          </button>
+          </Link>
         </p>
       </div>
     </div>

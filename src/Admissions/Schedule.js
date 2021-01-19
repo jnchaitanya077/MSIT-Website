@@ -39,21 +39,19 @@ class App extends React.Component {
     return (
       <div id="top">
         <HeaderImage name="Schedule" />
-        <div class="container author-block mt-5">
+        <div class="container shadows-courses box-styles mt-5 mb-5">
           <div>
             <p>
-              <h1 className="preview">Admission-Schedule</h1>
-              <strong>
-                Due to the COVID-19 situation, the Entrance Exam Graduate
-                Aptitude Test (GAT) is conducted online i.e. candidate can take
-                the test from home.
-              </strong>
+              <h1 style={{ textAlign: "center" }}>Admission-Schedule</h1>
+              Due to the COVID-19 situation, the Entrance Exam Graduate Aptitude
+              Test (GAT) is conducted online i.e. candidate can take the test
+              from home.
             </p>
-            <h2 className="title">
+            <h4>
               The following are the important dates for the 2020 admissions:
-            </h2>
-            <div className="container">
-              <table className="table" style={{ backgroundColor: "#e3f2fd" }}>
+            </h4>
+            <div className="container p-0">
+              <table className="table" style={{ backgroundColor: "#e9ecef" }}>
                 <tr>
                   <td>Walk-In Entrance started from</td>
                   <td>{walkInStarted}</td>
