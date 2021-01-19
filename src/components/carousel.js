@@ -30,6 +30,9 @@ function App() {
           <div className="carousel-item c-item">
             <img src={slider_5} className="d-block w-100" alt="slider-pic" />
           </div>
+          <div className="carousel-item c-item">
+            <img src={slider_5} className="d-block w-100" alt="slider-pic" />
+          </div>
         </div>
         <a
           className="carousel-control-prev"

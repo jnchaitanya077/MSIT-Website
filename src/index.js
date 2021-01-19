@@ -1,14 +1,10 @@
 import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import ReactDOM from "react-dom";
 // alert
 import Alert from "./components/info";
 //Bootstrap imports
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-// import "bootstrap/dist/css/bootstrap.css";
-// import "bootstrap/dist/css/bootstrap.min.css";
-import $ from "jquery";
-import Popper from "popper.js";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./css/index.css";
 //About Msit imports
@@ -56,7 +52,6 @@ import Blog from "./Blog/blog.js";
 import Blog_page from "./Blog/blog-page1.js";
 import Blog_page2 from "./Blog/blog-page2.js";
 import Blog_page3 from "./Blog/blog-page3.js";
-import info from "./components/info";
 
 ReactDOM.render(
   <React.StrictMode>
