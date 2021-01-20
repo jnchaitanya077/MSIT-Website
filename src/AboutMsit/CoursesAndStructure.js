@@ -7,181 +7,6 @@ import { Link } from "react-router-dom";
 // import "../css/quickLinks.css";
 import "../css/AboutMsit.css";
 
-const ITCore = [
-  {
-    id: 1,
-    courseName: "Digital Literacy (Prerequisite)",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 2,
-    courseName: "Computer Science programming and principles",
-    description:
-      "Most students who start the MSIT program are not from Computer Science or Information Technology branches of engineering. Independent of that, almost all the students do not have the necessary CS background knowledge when they join MSIT. So, in CSPP1 the fundamental concepts in computer science are covered along with a very popular introductory programming language called python. Upon successful completion of this course, students will be able to read and write python programs.",
-  },
-  {
-    id: 3,
-    courseName: "Introduction to Data science",
-    description:
-      "Learning from data in order to gain useful predictions and insights. This course introduces methods for five key facets of an investigation: data wrangling, cleaning, and sampling to get a suitable data set; data management to be able to access big data quickly and reliably; exploratory data analysis to generate hypotheses and intuition; prediction based on statistical methods such as regression and classification; and communication of results through visualization, stories, and interpretable summaries.",
-  },
-  {
-    id: 4,
-    courseName: "Object oriented programming",
-    description:
-      "This course will give you a foundation in Java syntax that will start your journey towards becoming a successful Java developer. Intensive and hands-on, the course emphasizes more on becoming productive quickly as a Java developer. This course quickly covers the Java language syntax and then moves into the object-oriented features of the language. Students will then learn the I/O streams and collections API packages. The goal of this course is to introduce techniques used in computer science to solve complex problems.",
-  },
-  {
-    id: 5,
-    courseName: "Algorithms and Data Structures-1",
-    description:
-      "The study of algorithms and data structures is fundamental to any computer- science curriculum, but it is not just for programmers and computer-science students. Everyone who uses a computer wants it to run faster or to solve larger problems. They have become essential tools in engineering; and from database systems to internet search engines, they have become essential parts of modern software systems. And these are but a few examples as the scope of computer applications continues to grow. This course covers the essential information that every serious programmer needs to know about algorithms and data structures, with emphasis on applications and scientific performance analysis of Java implementations which covers elementary data structures, sorting, and searching algorithms.",
-  },
-  {
-    id: 6,
-    courseName: "Database Management Systems",
-    description:
-      "A database is an organized collection of data. A relational database, more restrictively, is a collection of schemas, tables, queries, reports, views, and other elements. Database designers typically organize the data to model aspects of reality in a way that supports processes requiring information, such as (for example) modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.\n A database-management system (DBMS) is a computer-software application that interacts with end-users, other applications, and the database itself to capture and analyze data. A general-purpose DBMS allows the definition, creation, querying, update, and administration of databases.\n A database is not generally portable across different DBMSs, but different DBMSs can interoperate by using standards such as SQL and ODBC or JDBC to allow a single application to work with more than one DBMS.",
-  },
-  {
-    id: 7,
-    courseName: "Software Engineering Foundations",
-    description:
-      "The goal of this course is to lay a solid Software Engineering Foundation for graduate students moving into their final year of studies in the MSIT program. Programming skills are crucial, but producing workable code without industry standards is not sufficient. Professionals in the industry produce workable software products that seamlessly map design into code. A successful software professional must have many skills as well as a wealth of experience in order to predictably deliver quality products on time and within budget.",
-  },
-  {
-    id: 8,
-    courseName: "Algorithms and Data Structures-2",
-    description:
-      "This course is fundamental to any computer science curriculum, but it is not just for programmers and computer-science students. Everyone who uses a computer wants it to run faster or to solve larger problems. The algorithms in this course represent a body of knowledge developed over the last 50 years that has become indispensable. Pairwise connections between items play a critical role in a vast array of computational applications. The relationships implied by these connections lead immediately to a host of natural questions: Is there a way to connect one item to another by following the connections? How many other items are connected to a given item? What is the shortest chain of connections between this item and this other item? To model such situations, we use abstract mathematical objects called graphs. In this course, we examine basic properties of graphs in detail, setting the stage for us to study a variety of algorithms that are useful for answering questions of the type just posed.We communicate by exchanging strings of characters. Accordingly, numerous important and familiar applications are based on processing strings. We consider classic algorithms for addressing the underlying computational challenges surrounding applications.",
-  },
-  {
-    id: 9,
-    courseName: "Introduction to computer systems",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 10,
-    courseName: "Computer Networks",
-    description:
-      "This course aims to introduce the fundamentals concepts of data communication and networking protocols, and routing technologies. Students will learn to design, install and manage networks and develop socket programming",
-  },
-  {
-    id: 11,
-    courseName: "Web programming",
-    description:
-      "This course aims to introduce the fundamentals concepts of data communication and networking protocols, and routing technologies. Students will learn to design, install and manage networks and develop socket programming",
-  },
-  {
-    id: 12,
-    courseName: "Cloud computing",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 13,
-    courseName: "Cyber Security",
-    description:
-      "Introduction to cyber security is a two week course offered to MSIT first year students for 2 credits. This course provides concepts behind security, along with hands on exercises to solve aspects around device level security, network host discovery, human behavioral attacks, privacy on online and social media, network security through pen testing, physical and personal security, and cryptographic primitives. Students are supposed to prepare cyber security awareness posters for their batchmates and society. Students also get to work on cryptography and public key certificates, along with tools that help them defend against most cyber attacks.",
-  },
-  {
-    id: 14,
-    courseName: "Practicum - I",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-];
-
-const ITElectives = [
-  {
-    id: 1,
-    courseName: "Privacy Technologies",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 2,
-    courseName: "Computer Networks",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-];
-
-const SSCourses = [
-  {
-    id: 1,
-    courseName: "Communication Skills",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 2,
-    courseName: "Career Management Course",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 3,
-    courseName: "Effective Relationship Building Course",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 4,
-    courseName: "Interview Facing Skills",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 5,
-    courseName:
-      "General aptitude and mental ability & continuous programming assessment",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-];
-
-const Specializations = [
-  {
-    id: 1,
-    courseName: "Computer Networks and Information Security",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 2,
-    courseName: "E-Business Technologies",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 3,
-    courseName: "Software Engineering",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 4,
-    courseName: "Data Analytics and Data Visualization",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 5,
-    courseName: "Machine Learning",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    id: 6,
-    courseName: "Blockchain Technologies",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-];
-
 class courses extends React.Component {
   componentDidUpdate() {
     console.log("mount");
@@ -388,8 +213,12 @@ class courses extends React.Component {
                           }}
                         >
                           <Collapsible trigger={info.courseName}>
-                            <h5>Course Description</h5>
-                            <p>{info.description}</p>
+                            <h5>{info.courseName + " Electives"}</h5>
+                            <ul>
+                              {info.electives.map((elective) => (
+                                <li>{elective}</li>
+                              ))}
+                            </ul>
                           </Collapsible>
                         </Jumbotron>
                       </li>
@@ -481,3 +310,202 @@ class courses extends React.Component {
   }
 }
 export default courses;
+
+const ITCore = [
+  {
+    id: 1,
+    courseName: "IT Workshop",
+    description:
+      "By the end of the course, students will be able to use digital tools to enhance productivity and collaboration.",
+  },
+  {
+    id: 2,
+    courseName: "Computer Science Principles and Programming",
+    description:
+      "By the end of the course, students will be able to write clear, robust, and efficient code in python and develop programs to effectively solve medium-sized tasks and also able to describe the difference between programming and computer science.",
+  },
+  {
+    id: 3,
+    courseName: "Introduction to Data science",
+    description:
+      "In this course, students will be able to apply the full data science pipeline like collect data from unstructured sources and store them using appropriate structures such as relational databases, graphs, matrices, etc. And also they will learn how to visualize and analyze the data ",
+  },
+  {
+    id: 4,
+    courseName: "Principles of Software Construction",
+    description:
+      "In this course students will be able to learn and apply object oriented concepts using Java. Design medium scale systems with patterns and also learn how to test and analyze software.",
+  },
+  {
+    id: 5,
+    courseName: "Algorithms and Data Structures",
+    description:
+      " In this course students will learn and know how to apply elementary Data Structures (Bags, Queues, Stacks) and also analyze Sorting and Searching Searching algorithms.",
+  },
+  {
+    id: 6,
+    courseName: "Database Management Systems",
+    description:
+      "In this course Students will learn about realtional database model and how to query relational databases using SQL. ",
+  },
+  {
+    id: 7,
+    courseName: "Computer Networks",
+    description:
+      "This course aims to introduce the fundamentals concepts of data communication and networking protocols, and routing technologies and the principles behind the OSI layers.",
+  },
+];
+
+const ITElectives = [
+  {
+    id: 1,
+    courseName: "Computer Science",
+    electives: [
+      "Graph Algorithms (2 credit points)",
+      "String Algorithms (2 credit points)",
+      "Algorithm Design Techniques (2 credit points)",
+      "Computer Systems Programming (2 credit points)",
+      "Network Programming (2 credit points)",
+    ],
+  },
+  {
+    id: 2,
+    courseName: "Software Engineering",
+    electives: ["Software Engineering Foundations (4 credit points)"],
+  },
+  {
+    id: 3,
+    courseName: "Software App Development",
+    electives: [
+      "Microservices (2 credit points)",
+      "Web APIs using Node.js and JavaScript (2 credit points)",
+      "Frontend Web Programming with React (2 credit points)",
+      "Frontend Web Programming with Angular (2 credit points)",
+      "Android Programming with Java/Kotlin (2 credit points)",
+      "Mobile Apps using React Native (2 credit points)",
+      "Mobile Apps using Flutter (2 credit points)",
+      "Continuous Integration and Continuous Delivery (2 credit points)",
+    ],
+  },
+  {
+    id: 4,
+    courseName: "Information Security",
+    electives: [
+      "Introduction to Cyber Security (2 credit points)",
+      "Introduction to Cryptography (4 credit points)",
+      " Vulnerability scanners and penetration testing (2 credit points)",
+      " Web Application Vulnerabilities (4 credit points)",
+      " Privacy in Online and Social Media (2 credit points)",
+      " Introduction to System Administration (2 credit points)",
+      " Crypto Currencies (2 credit points)",
+      " Network Programming (4 credit points)",
+      " Cyber Security - Emergency Response and Incident Management (2 credit points)",
+      "Digital Forensics (2 credit points)",
+      " Malware and system security (4 credit points)",
+    ],
+  },
+  {
+    id: 5,
+    courseName: "Artificial Intelligence",
+    electives: [
+      " Introduction to Artificial Intelligence (2 credit points)",
+      " Computational Foundations for Machine Learning (2 credit points)",
+      " Mathematical Foundations for Machine Learning (2 credit points)",
+      " Supervised Machine Learning (2 credit points)",
+      " Unsupervised Machine Learning (2 credit points)",
+      " Reinforcement Learning (2 credit points)",
+      " Deep Learning (2 credit points)",
+      " Natural Language Processing (2 credit points)",
+      " Computer Vision (2 credit points)",
+      " Speech (2 credit points)",
+    ],
+  },
+  {
+    id: 6,
+    courseName: "Data Science",
+    electives: [
+      "Linear Algebra for Data Scientists (2 credit points)",
+      "Statistics and Probability (2 credit points)",
+      "Data Scraping and Data Analytics (2 credit point)",
+      "Data Visualization (2 credit points)",
+      "Big Data (4 credit points)",
+      "Machine Learning (4 credit points)",
+      "Data Mining (4 credit points)",
+      "Mining Massive Datasets (4 credit points)",
+    ],
+  },
+];
+
+const SSCourses = [
+  {
+    id: 1,
+    courseName: "Learning How to Learn",
+    description:
+      "By the end of the course, student will be able to know how learning works and different techniques for learning like Renaissance learning, chunking and how it works.",
+  },
+  {
+    id: 2,
+    courseName:
+      "Listening, Speaking, Reading and Writing Skill Development(LSRW)",
+    description:
+      "By the end of the course, students will be able to understand the main ideas and explicitly stated important details. Keep track of conceptually complex, sometimes conflicting, information. And also learn how to speak clearly and use intonation to support meaning. And learn how to produce clear, well-developed, and well-organized text.",
+  },
+  {
+    id: 3,
+    courseName: "Professional Communication",
+    description:
+      "By the end of the course, students will be able to apply all the components of a good email message. They will also learn to manage team projects, conduct meetings, and write executive summaries.",
+  },
+  {
+    id: 4,
+    courseName: "Advanced Interview Facing Skills",
+    description:
+      "By the end of the course, students will be able to develop STAR Technique and build a personal brand. Identify essentials of Interview Etiquette",
+  },
+  {
+    id: 5,
+    courseName:
+      "General aptitude and mental ability & continuous programming assessment",
+    description:
+      "By the end of the course, students will be able to co-relate behavioral Profiles and build a social brand.",
+  },
+];
+
+const Specializations = [
+  {
+    id: 1,
+    courseName: "Computer Networks and Information Security",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    id: 2,
+    courseName: "E-Business Technologies",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    id: 3,
+    courseName: "Software Engineering",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    id: 4,
+    courseName: "Data Analytics and Data Visualization",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    id: 5,
+    courseName: "Machine Learning",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    id: 6,
+    courseName: "Blockchain Technologies",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+];

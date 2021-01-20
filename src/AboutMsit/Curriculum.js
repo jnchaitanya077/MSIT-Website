@@ -10,78 +10,120 @@ const ITCredits = [
   {
     id: 1,
     MiniSemister: "I",
-    courseName:
-      "Computation Thinking & Introduction to Problem solving with Python",
-    Credits: "6",
+    courseName: "IT Workshop",
+    Credits: "4",
   },
-  { id: 2, MiniSemister: "", courseName: "Soft skills - I", Credits: "1" },
+  {
+    id: 2,
+    MiniSemister: "",
+    courseName: "Computer Science Principles and Programming",
+    Credits: "4",
+  },
   {
     id: 3,
-    MiniSemister: "II",
-    courseName: "Object Oriented Programming (JAVA)",
-    Credits: "4",
-  },
-  { id: 4, MiniSemister: "", courseName: "Data Structures", Credits: "4" },
-  { id: 5, MiniSemister: "", courseName: "Soft skills - II", Credits: "1" },
-  { id: 6, MiniSemister: "III", courseName: "	Algorithms", Credits: "4" },
-  {
-    id: 7,
     MiniSemister: "",
-    courseName: "Database Management Systems",
-    Credits: "3",
-  },
-  { id: 8, MiniSemister: "", courseName: "Soft skills - III	", Credits: "1" },
-  {
-    id: 9,
-    MiniSemister: "IV",
-    courseName: "Software Systems Design",
-    Credits: "4",
-  },
-  { id: 10, MiniSemister: "", courseName: "Web Programming", Credits: "4" },
-  { id: 11, MiniSemister: "", courseName: "Soft skills - IV", Credits: "1" },
-  {
-    id: 12,
-    MiniSemister: "V",
-    courseName: "Computer Network Foundation Course",
+    courseName: "Soft skills - I (LSRW, Learning how to Learn)",
     Credits: "2",
   },
   {
-    id: 13,
+    id: 4,
+    MiniSemister: "II",
+    courseName: "Introduction to Data Science",
+    Credits: "4",
+  },
+  {
+    id: 5,
     MiniSemister: "",
-    courseName: "Andriod Foundation Course	",
-    Credits: "3",
+    courseName: "Principles of Software Construction",
+    Credits: "4",
+  },
+  {
+    id: 6,
+    MiniSemister: "",
+    courseName: "Algorithms and Data Structures",
+    Credits: "4",
+  },
+  {
+    id: 6,
+    MiniSemister: "",
+    courseName: "Databases",
+    Credits: "2",
+  },
+  {
+    id: 7,
+    MiniSemister: "",
+    courseName: "Computer Networks ",
+    Credits: "2",
+  },
+  {
+    id: 8,
+    MiniSemister: "",
+    courseName: "LSRW & Professional Communication Skills ",
+    Credits: "2",
+  },
+  {
+    id: 9,
+    MiniSemister: "III",
+    courseName: "Computer Science Elective",
+    Credits: "8",
+  },
+  {
+    id: 10,
+    MiniSemister: "",
+    courseName: "Capstone Project",
+    Credits: "8",
+  },
+  {
+    id: 11,
+    MiniSemister: "",
+    courseName:
+      "Soft skills(Placement Preparation, Advanced Interview Facing Skills)	",
+    Credits: "2",
+  },
+];
+
+const secondYear = [
+  {
+    id: 13,
+    MiniSemister: "IV",
+    courseName: "Placement elective course ",
+    Credits: "8",
   },
   {
     id: 14,
     MiniSemister: "",
-    courseName: "Operating Systems with C",
-    Credits: "2",
+    courseName: "Specialization course ",
+    Credits: "8",
   },
-  { id: 15, MiniSemister: "", courseName: "Soft skills - V", Credits: "1" },
+  {
+    id: 15,
+    MiniSemister: "",
+    courseName: "Soft Skills elective",
+    Credits: "1",
+  },
   {
     id: 16,
-    MiniSemister: "VI",
-    courseName: "Introduction to AI",
-    Credits: "2",
+    MiniSemister: "V",
+    courseName: "Specialization course",
+    Credits: "8",
   },
   {
     id: 17,
     MiniSemister: "",
-    courseName: "Introduction to Machine Learning	",
-    Credits: "3",
+    courseName: "Computer Science Elective ",
+    Credits: "8",
   },
-  { id: 18, MiniSemister: "", courseName: "PRACTICUM	", Credits: "6" },
   {
-    id: 19,
+    id: 18,
     MiniSemister: "",
-    courseName: "Soft skills -Continuous Credit -1",
+    courseName: "Soft Skills elective",
     Credits: "1",
   },
   {
-    id: 20,
-    MiniSemister: "",
-    courseName: "Soft skills -Continuous Credit -2	",
-    Credits: "2",
+    id: 19,
+    MiniSemister: "VI",
+    courseName: "Specialization Project/Internship",
+    Credits: "16",
   },
 ];
 
@@ -195,7 +237,36 @@ class curriculum extends React.Component {
                   in the first mini semester followed by domain specializations.
                   Last three mini semesters are catered for practicum.
                 </p>
-                <ul className="general-text">
+                <Jumbotron
+                  fluid
+                  style={{ height: "auto", padding: "10px", margin: "0px" }}
+                >
+                  <Collapsible trigger="Click here for further details">
+                    <Table>
+                      {/* striped bordered hover */}
+                      <thead>
+                        <tr>
+                          <th>Mini Semester</th>
+                          <th>Courses</th>
+                          <th>Credits</th>
+                        </tr>
+                      </thead>
+
+                      {secondYear.map((info) => {
+                        return (
+                          <tbody>
+                            <tr>
+                              <td>{info.MiniSemister}</td>
+                              <td>{info.courseName}</td>
+                              <td>{info.Credits}</td>
+                            </tr>
+                          </tbody>
+                        );
+                      })}
+                    </Table>
+                  </Collapsible>
+                </Jumbotron>
+                <ul className="general-text mt-3">
                   <li>Software Engineering Domain</li>
                   <li>Computer Networks Domain</li>
                   <li>E- Business Technologies</li>
