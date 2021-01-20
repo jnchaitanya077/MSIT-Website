@@ -13,9 +13,13 @@ import { faBlog } from "@fortawesome/free-solid-svg-icons";
 
 import "../css/quickLinks.css";
 
-function App() {
+function App({ element }) {
   return (
-    <div className="row" style={{ marginRight: 0, marginLeft: 0 }}>
+    <div
+      className="row"
+      style={{ marginRight: 0, marginLeft: 0 }}
+      ref={element}
+    >
       <div className="col-sm-6 col-md-6 col-lg links-alignment">
         <Link to="/msit-vision" className="links">
           <FontAwesomeIcon icon={faInfo} size="3x" className="quick-icons" />

@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
-import { Waypoint } from "react-waypoint";
 import Logo from "../images/logos/logo.png";
 import "../css/header.css";
 
-function App() {
+function Navigation({ sticky }) {
   useEffect(() => {
     const myId = window.location.hash.slice(1);
     const elem = document.getElementById(myId);
@@ -19,7 +18,13 @@ function App() {
   });
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav
+      className={
+        sticky
+          ? "navbar navbar-expand-lg navbar-light fixed-top"
+          : "navbar navbar-expand-lg navbar-light"
+      }
+    >
       <Link class="navbar-brand col-md-3 col-8" to="/">
         <img src={Logo} alt="logo" className="img-fluid" />
       </Link>
@@ -270,9 +275,8 @@ function App() {
           </li>
         </ul>
       </div>
-      <Waypoint onLeave={handleOnLeave} />
     </nav>
   );
 }
 
-export default App;
+export default Navigation;
