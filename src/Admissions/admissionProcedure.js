@@ -36,7 +36,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <HeaderTitle name="Admissions" />
+        <HeaderTitle name="Admissions" element={this.props.element} />
         <div className="container " id="AdmissionProcedure">
           {/* Eligibility Section */}
           <div

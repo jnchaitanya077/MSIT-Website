@@ -40,7 +40,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="MSIT Placements " />
+        <HeaderTitle name="MSIT Placements " element={this.props.element} />
         {/* Bootstrap model build */}
         {/* <div class="content"> */}
         <div class="container shadows-courses mt-5 mb-5">
@@ -109,7 +109,7 @@ class App extends React.Component {
                 helps in the placement activity. Major companies that visited
                 MSIT and packages offered from 29 lakhs to 3.5 lakhs per annum.
               </p>
-              <img src={Companies} className="img-fluid" />
+              <img src={Companies} className="img-fluid" alt="placement-img" />
               <br />
               <br />
             </div>

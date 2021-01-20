@@ -102,7 +102,7 @@ class person extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="Admin-Staff" />
+        <HeaderTitle name="Admin-Staff" element={this.props.element} />
 
         <div className="row main-body pt-5">
           <p className="para">

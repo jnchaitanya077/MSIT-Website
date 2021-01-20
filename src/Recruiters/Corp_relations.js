@@ -36,11 +36,18 @@ class App extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="Corporate Relationships" />
+        <HeaderTitle
+          name="Corporate Relationships"
+          element={this.props.element}
+        />
         <div className="">
           <div className="row main-body mt-5 mb-5">
             <div className="col-lg-3 Head-img">
-              <img src={Microsoft} className="box  img-fluid img-size" />
+              <img
+                src={Microsoft}
+                className="box  img-fluid img-size"
+                alt="corporate-img"
+              />
             </div>
 
             <div className="col-lg-8 ml-4">

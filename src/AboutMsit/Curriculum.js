@@ -112,7 +112,7 @@ class curriculum extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="Curriculum" />
+        <HeaderTitle name="Curriculum" element={this.props.element} />
         <div
           className="newsLayout"
           style={{ paddingTop: "40px", paddingBottom: "20px" }}

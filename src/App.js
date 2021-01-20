@@ -30,7 +30,6 @@ import ITmentors from "./faculty/ITmentors.js";
 import SSmentors from "./faculty/SSmentors.js";
 import AdminStaff from "./faculty/AdminStaff.js";
 import Publications from "./faculty/publications.js";
-import * as serviceWorker from "./serviceWorker";
 //Admissions page imports
 import AdmissionInfo from "./Admissions/admissionProcedure.js";
 import Schedule from "./Admissions/Schedule.js";
@@ -40,7 +39,7 @@ import EntranceSyllabus from "./Admissions/entranceSyllabus.js";
 import FAQ from "./Homepage/faq.js";
 // Recruiters page imports
 import Placements from "./Recruiters/placements.js";
-import Corp_relations from "./Recruiters/Corp_relations.js";
+import CorpRelations from "./Recruiters/Corp_relations.js";
 // import Test from "./components/test.js";
 
 //FooterLinks
@@ -56,8 +55,6 @@ import Blog_page3 from "./Blog/blog-page3.js";
 
 function App() {
   const { isSticky, element } = useSticky();
-  console.log(isSticky);
-  console.log(element);
 
   return (
     <React.StrictMode>
@@ -67,62 +64,130 @@ function App() {
         {/* index */}
         <Route exact path="/" render={() => <Hompage element={element} />} />
         {/* MSIT Vision */}
-        <Route exact path="/msit-vision" component={MsitVision} />
+        <Route
+          exact
+          path="/msit-vision"
+          render={() => <MsitVision element={element} />}
+        />
         {/* MSIT Advantage */}
-        <Route exact path="/msit-advantage" component={MSITAdvantage} />
+        <Route
+          exact
+          path="/msit-advantage"
+          render={() => <MSITAdvantage element={element} />}
+        />
         <Route
           exact
           path="/msit-advantage/#LearningByDoing"
-          component={MSITAdvantage}
+          render={() => <MSITAdvantage element={element} />}
         />
         {/* Amissions */}
-        <Route exact path="/admission" component={AdmissionInfo} />
-        <Route exact path="/schedule" component={Schedule} />
-        <Route exact path="/fee-structure" component={Fee} />
-        <Route exact path="/entranceSyllabus" component={EntranceSyllabus} />
+        <Route
+          exact
+          path="/admission"
+          render={() => <AdmissionInfo element={element} />}
+        />
+        <Route
+          exact
+          path="/schedule"
+          render={() => <Schedule element={element} />}
+        />
+        <Route
+          exact
+          path="/fee-structure"
+          render={() => <Fee element={element} />}
+        />
+        <Route
+          exact
+          path="/entranceSyllabus"
+          render={() => <EntranceSyllabus element={element} />}
+        />
         <Route
           exact
           path="/sample-test-questions"
-          component={SampleTestQuestions}
+          render={() => <SampleTestQuestions element={element} />}
         />
         {/* faculty */}
-        <Route exact path="/dean" component={Dean} />
-        <Route exact path="/it-mentors" component={ITmentors} />
-        <Route exact path="/ss-mentors" component={SSmentors} />
-        <Route exact path="/admin-staff" component={AdminStaff} />
-        <Route exact path="/publications" component={Publications} />
+        <Route exact path="/dean" render={() => <Dean element={element} />} />
+        <Route
+          exact
+          path="/it-mentors"
+          render={() => <ITmentors element={element} />}
+        />
+        <Route
+          exact
+          path="/ss-mentors"
+          render={() => <SSmentors element={element} />}
+        />
+        <Route
+          exact
+          path="/admin-staff"
+          render={() => <AdminStaff element={element} />}
+        />
+        <Route
+          exact
+          path="/publications"
+          render={() => <Publications element={element} />}
+        />
         {/* Recruiters */}
-        <Route exact path="/faq" component={FAQ} />
-        <Route exact path="/placements" component={Placements} />
-        <Route exact path="/corp_relations" component={Corp_relations} />
+        <Route exact path="/faq" render={() => <FAQ element={element} />} />
+        <Route
+          exact
+          path="/placements"
+          render={() => <Placements element={element} />}
+        />
+        <Route
+          exact
+          path="/corp-relations"
+          render={() => <CorpRelations element={element} />}
+        />
         {/* About MSIT */}
-        <Route exact path="/MsitProgram" component={MsitProgram} />
-        <Route exact path="/Charter" component={Charter} />
+        <Route
+          exact
+          path="/msit-program"
+          render={() => <MsitProgram element={element} />}
+        />
+        <Route
+          exact
+          path="/Charter"
+          render={() => <Charter element={element} />}
+        />
         <Route
           exact
           path="/CoursesAndStructure/"
-          component={CoursesAndStructure}
+          render={() => <CoursesAndStructure element={element} />}
         />
-        <Route exact path="/Curriculum" component={Curriculum} />
+        <Route
+          exact
+          path="/Curriculum"
+          render={() => <Curriculum element={element} />}
+        />
         <Route
           exact
           path="/CertificationAndLearningCenters"
-          component={Certification}
+          render={() => <Certification element={element} />}
         />
         {/* Gallery */}
-        <Route exact path="/gallery" component={Gallery} />
+        <Route
+          exact
+          path="/gallery"
+          render={() => <Gallery element={element} />}
+        />
 
         {/* FooterLinks */}
         <Route
           exact
           path="/TermsAndConditions"
-          component={TermsAndConditions}
+          render={() => <TermsAndConditions element={element} />}
         />
-        <Route exact path="/PrivacyPolicy" component={PrivacyPolicy} />
+        <Route
+          exact
+          path="/PrivacyPolicy"
+          render={() => <PrivacyPolicy element={element} />}
+        />
         <Route
           exact
           path="/RefundCancellation"
-          component={RefundCancellation}
+          render={() => <RefundCancellation element={element} />}
         />
         {/* Blog */}
         <Route exact path="/blog" component={Blog} />

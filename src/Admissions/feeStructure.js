@@ -28,7 +28,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderImage name="Fee" />
+        <HeaderImage name="Fee" element={this.props.element} />
         <div className=" container shadows-courses box-styles mt-5 mb-5">
           <h1>Fees & Tuition</h1>
           <div className="container">

@@ -6,6 +6,7 @@ function useSticky() {
 
   console.log(element);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const handleScroll = () => {
     window.scrollY > element.current.getBoundingClientRect().bottom
       ? setSticky(true)
@@ -13,6 +14,7 @@ function useSticky() {
   };
 
   // This function handles the scroll performance issue
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const debounce = (func, wait = 20, immediate = true) => {
     let timeOut;
     return () => {

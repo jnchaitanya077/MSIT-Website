@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import HeaderTitle from "../components/headerImage.js";
 import RightGrid from "../components/Right_advantage.js";
 import LeftGrid from "../components/Left_advantage.js";
@@ -9,6 +9,60 @@ import SS from "../images/advantage/ss.jpg";
 import Infrastructure from "../images/advantage/infrastructure1.jpg";
 import Infrastructuretwo from "../images/advantage/infrastructure2.jpg";
 import "../css/advantage.css";
+
+function Advantage({ element }) {
+  useEffect(() => {
+    const myId = window.location.hash.slice(1);
+    const elem = document.getElementById(myId);
+    if (elem) {
+      elem.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  });
+
+  return (
+    <div>
+      <HeaderTitle name="MSIT-Advantage" element={element} />
+      {info.map((post) => {
+        if (post.id % 2 == 0) {
+          return (
+            <Fragment key={post.id}>
+              <hr />
+              <RightGrid
+                id={post.idName}
+                name={post.name}
+                image={post.image}
+                //   qualification={post.qualification}
+                //   subtitle={post.subtitle}
+                body={post.body}
+                sub={post.sub}
+              />
+            </Fragment>
+          );
+        } else {
+          return (
+            <Fragment key={post.id}>
+              <hr />
+              <LeftGrid
+                id={post.idName}
+                name={post.name}
+                image={post.image}
+                //   qualification={post.qualification}
+                //   subtitle={post.subtitle}
+                body={post.body}
+                sub={post.sub}
+              />
+            </Fragment>
+          );
+        }
+      })}
+    </div>
+  );
+}
+
+export default Advantage;
 
 const info = [
   {
@@ -52,77 +106,3 @@ const info = [
       "State of the art infrastructural facilities are provided to the MSIT students at each of the learning centers.The learning centers are located in universities with sprawling campuses marked by awesome buildings and spacious lawns. Every learning center has state-of-art computer laboratories which are open for 24x7 with ultra-modern workstations. All the systems are intra-networked and a high bandwidth Internet connection is given to all the students for 24x7.Library access is given to all the students in the respective learning centers.",
   },
 ];
-
-class App extends React.Component {
-  componentDidMount() {
-    console.log("mount");
-    const myId = window.location.hash.slice(1);
-    const elem = document.getElementById(myId);
-    if (elem) {
-      elem.scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-      });
-    }
-  }
-
-  componentDidUpdate() {
-    console.log("mount");
-    const myId = window.location.hash.slice(1);
-    const elem = document.getElementById(myId);
-    if (elem) {
-      elem.scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-      });
-    }
-  }
-
-  componentWillUnmount() {
-    console.log("unmount");
-    clearInterval();
-  }
-
-  render() {
-    return (
-      <div>
-        <HeaderTitle name="MSIT-Advantage" />
-        {info.map((post) => {
-          if (post.id % 2 == 0) {
-            return (
-              <Fragment key={post.id}>
-                <hr />
-                <RightGrid
-                  id={post.idName}
-                  name={post.name}
-                  image={post.image}
-                  //   qualification={post.qualification}
-                  //   subtitle={post.subtitle}
-                  body={post.body}
-                  sub={post.sub}
-                />
-              </Fragment>
-            );
-          } else {
-            return (
-              <Fragment key={post.id}>
-                <hr />
-                <LeftGrid
-                  id={post.idName}
-                  name={post.name}
-                  image={post.image}
-                  //   qualification={post.qualification}
-                  //   subtitle={post.subtitle}
-                  body={post.body}
-                  sub={post.sub}
-                />
-              </Fragment>
-            );
-          }
-        })}
-      </div>
-    );
-  }
-}
-
-export default App;

@@ -38,7 +38,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderImage name="Schedule" />
+        <HeaderImage name="Schedule" element={this.props.element} />
         <div class="container shadows-courses box-styles mt-5 mb-5">
           <div>
             <p>

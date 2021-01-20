@@ -108,7 +108,7 @@ class person extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="Soft-Skills" />
+        <HeaderTitle name="Soft-Skills" element={this.props.element} />
         <div className="row main-body pt-5">
           <p className="general-text">
             There are Associate Mentors for Soft skills in MSIT who mentor the

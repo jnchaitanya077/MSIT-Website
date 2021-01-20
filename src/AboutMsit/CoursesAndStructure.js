@@ -212,7 +212,10 @@ class courses extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="Courses And Structure" />
+        <HeaderTitle
+          name="Courses And Structure"
+          element={this.props.element}
+        />
         <div className="newsLayout Courses-overview">
           <div
             className="row profile-row"
@@ -242,7 +245,7 @@ class courses extends React.Component {
 
               <div
                 className="shadows-courses"
-                id = "ITCore"
+                id="ITCore"
                 style={{
                   height: "auto",
                   paddingTop: "10px",
@@ -314,7 +317,7 @@ class courses extends React.Component {
                   </div>
                 </div>
               </div>
-      
+
               <div
                 className="shadows-courses p-5"
                 style={{
@@ -349,15 +352,13 @@ class courses extends React.Component {
                             <p>{info.description}</p>
                           </Collapsible>
                         </Jumbotron>
-                        
                       </li>
-                      <div id = "ITElectives"></div>
+                      <div id="ITElectives"></div>
                     </ul>
-                    
                   );
                 })}
               </div>
-              
+
               <div
                 className="shadows-courses p-5"
                 style={{
@@ -369,7 +370,7 @@ class courses extends React.Component {
                 <h2
                   className="title-text"
                   style={{ color: "rgb(119, 11, 11)" }}
-                  id = "SSCourses"
+                  id="SSCourses"
                 >
                   IT Electives
                 </h2>

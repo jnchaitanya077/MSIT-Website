@@ -62,10 +62,10 @@ function Navigation({ sticky }) {
               data-target=".navbar-collapse.show"
               aria-labelledby="navbarDropdown"
             >
-              <Link to="/MsitProgram/#charter" className="dropdown-item">
+              <Link to="/msit-program/#charter" className="dropdown-item">
                 MSIT Charter
               </Link>
-              <Link to="/MsitProgram/#MsitProgram" className="dropdown-item">
+              <Link to="/msit-program/#MsitProgram" className="dropdown-item">
                 MSIT Program
               </Link>
               <Link to="/CoursesAndStructure/#top" className="dropdown-item">
@@ -225,7 +225,7 @@ function Navigation({ sticky }) {
                 Placements History
               </Link>
 
-              <Link to="/corp_relations/#top" className="dropdown-item">
+              <Link to="/corp-relations/#top" className="dropdown-item">
                 Corporate Relationships
               </Link>
             </div>

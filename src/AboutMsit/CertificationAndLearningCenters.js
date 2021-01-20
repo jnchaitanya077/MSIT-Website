@@ -71,7 +71,10 @@ class App extends React.Component {
     return (
       <div id="top">
         {/* Header Title */}
-        <HeaderTitle name="Certification & Learning Centers" />
+        <HeaderTitle
+          name="Certification & Learning Centers"
+          element={this.props.element}
+        />
         {/* <!-- blog-single  --> */}
         <div className="newsLayout">
           {/* <!-- text column--> */}

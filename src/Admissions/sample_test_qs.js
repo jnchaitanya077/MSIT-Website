@@ -30,7 +30,10 @@ class App extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="GAT Sample Test Questions" />
+        <HeaderTitle
+          name="GAT Sample Test Questions"
+          element={this.props.element}
+        />
         {/* Bootstrap model build */}
         <div class="container shadows-courses box-styles mt-5 mb-5">
           {/* <div class="container"> */}

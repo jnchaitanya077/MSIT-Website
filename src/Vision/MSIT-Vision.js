@@ -54,10 +54,10 @@ const info = [
   },
 ];
 
-function App() {
+function App({ element }) {
   return (
     <div>
-      <HeaderTitle name="MSIT-Vision" />
+      <HeaderTitle name="MSIT-Vision" element={element} />
       {/* Founder */}
       {info.map((post) => {
         if (post.id % 2 == 0) {

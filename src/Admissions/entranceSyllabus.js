@@ -31,7 +31,10 @@ class App extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="Entrance Test Syllabus" />
+        <HeaderTitle
+          name="Entrance Test Syllabus"
+          element={this.props.element}
+        />
         {/* <div class="content"> */}
         <div class="container mt-5 mb-5">
           <div class="row ">

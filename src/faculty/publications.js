@@ -29,7 +29,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="Publications" />
+        <HeaderTitle name="Publications" element={this.props.element} />
         <div className="main-body pt-3">
           <h5 className="year">2012</h5>
           <div className="pub-text general-text">

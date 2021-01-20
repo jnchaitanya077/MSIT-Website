@@ -3,7 +3,7 @@ import "../css/headerImage.css";
 
 function App(props) {
   return (
-    <div className=".container-fluid header-image">
+    <div className=".container-fluid header-image" ref={props.element}>
       <div className="outer-spacing">
         <div className="header-title-outer box">
           <strong>

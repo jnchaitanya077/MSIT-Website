@@ -31,7 +31,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="Dean" />
+        <HeaderTitle name="Dean" element={this.props.element} />
         <LeftGrid
           id="DeanPage"
           image={Dean}

@@ -175,7 +175,7 @@ class person extends React.Component {
   render() {
     return (
       <div id="top">
-        <HeaderTitle name="IT-Staff" />
+        <HeaderTitle name="IT-Staff" element={this.props.element} />
         <div className="row main-body pt-5">
           <p className="general-text">
             There are associate mentors, physically available for the students,
