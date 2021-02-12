@@ -9,49 +9,49 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./css/index.css";
 //About Msit imports
-import MsitProgram from "./AboutMsit/MsitProgram.js";
-import Charter from "./AboutMsit/Charter.js";
-import CoursesAndStructure from "./AboutMsit/CoursesAndStructure.js";
-import Curriculum from "./AboutMsit/Curriculum.js";
-import Certification from "./AboutMsit/CertificationAndLearningCenters.js";
+import MsitProgram from "./pages/AboutMsit/MsitProgram.js";
+import Charter from "./pages/AboutMsit/Charter.js";
+import CoursesAndStructure from "./pages/AboutMsit/CoursesAndStructure.js";
+import Curriculum from "./pages/AboutMsit/Curriculum.js";
+import Certification from "./pages/AboutMsit/CertificationAndLearningCenters.js";
 //Homepage imports
 import Navigation from "./components/Header.js";
 import Footer from "./components/footer.js";
-import Hompage from "./Homepage/homepage.js";
+import Hompage from "./pages/Homepage/homepage.js";
 //MSIT Vision imports
-import MsitVision from "./Vision/MSIT-Vision.js";
+import MsitVision from "./pages/Vision/MSIT-Vision.js";
 //MSIT Advantage imports
-import MSITAdvantage from "./Advantage/MSIT-Advantage.js";
+import MSITAdvantage from "./pages/Advantage/MSIT-Advantage.js";
 // Gallery
 import Gallery from "./gallery/GG.js";
 //Faculty page imports
-import Dean from "./faculty/Dean.js";
-import ITmentors from "./faculty/ITmentors.js";
-import SSmentors from "./faculty/SSmentors.js";
-import AdminStaff from "./faculty/AdminStaff.js";
-import Publications from "./faculty/publications.js";
+import Dean from "./pages/Faculty/Dean.js";
+import ITmentors from "./pages/Faculty/ITmentors.js";
+import SSmentors from "./pages/Faculty/SSmentors.js";
+import AdminStaff from "./pages/Faculty/AdminStaff.js";
+import Publications from "./pages/Faculty/publications.js";
 //Admissions page imports
-import AdmissionInfo from "./Admissions/admissionProcedure.js";
-import Schedule from "./Admissions/Schedule.js";
-import Fee from "./Admissions/feeStructure.js";
-import SampleTestQuestions from "./Admissions/sample_test_qs.js";
-import EntranceSyllabus from "./Admissions/entranceSyllabus.js";
-import FAQ from "./Homepage/faq.js";
+import AdmissionInfo from "./pages/Admissions/admissionProcedure.js";
+import Schedule from "./pages/Admissions/Schedule.js";
+import Fee from "./pages/Admissions/feeStructure.js";
+import SampleTestQuestions from "./pages/Admissions/sample_test_qs.js";
+import EntranceSyllabus from "./pages/Admissions/entranceSyllabus.js";
+import FAQ from "./pages/Homepage/faq";
 // Recruiters page imports
-import Placements from "./Recruiters/placements.js";
-import CorpRelations from "./Recruiters/Corp_relations.js";
+import Placements from "./pages/Recruiters/placements.js";
+import CorpRelations from "./pages/Recruiters/Corp_relations.js";
 // import Test from "./components/test.js";
 
 //FooterLinks
-import TermsAndConditions from "./FooterLinks/TermsAndConditions.js";
-import PrivacyPolicy from "./FooterLinks/PrivacyPolicy.js";
-import RefundCancellation from "./FooterLinks/RefundCancellation.js";
+import TermsAndConditions from "./pages/FooterLinks/TermsAndConditions.js";
+import PrivacyPolicy from "./pages/FooterLinks/PrivacyPolicy.js";
+import RefundCancellation from "./pages/FooterLinks/RefundCancellation.js";
 
 // Blog
-import Blog from "./Blog/blog.js";
-import Blog_page from "./Blog/blog-page1.js";
-import Blog_page2 from "./Blog/blog-page2.js";
-import Blog_page3 from "./Blog/blog-page3.js";
+import Blog from "./pages/Blog/blog.js";
+import Blog_page from "./pages/Blog/blog-page1.js";
+import Blog_page2 from "./pages/Blog/blog-page2.js";
+import Blog_page3 from "./pages/Blog/blog-page3.js";
 
 function App() {
   const { isSticky, element } = useSticky();
@@ -153,7 +153,7 @@ function App() {
         />
         <Route
           exact
-          path="/CoursesAndStructure/"
+          path="/CoursesAndStructure"
           render={() => <CoursesAndStructure element={element} />}
         />
         <Route
